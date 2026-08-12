@@ -1,5 +1,5 @@
 {
   "version": "1.0.7",
   "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.0.7/BmanDownloader.exe",
-  "notes": "Fixed error popping up when auto download starts"
+  "notes": "Added UI colour picker"
 }
