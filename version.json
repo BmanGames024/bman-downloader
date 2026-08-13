@@ -1,5 +1,5 @@
 {
-  "version": "1.12",
-  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.12/BmanDownloader.exe",
-  "notes": "FTP added"
+  "version": "1.13",
+  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.13/BmanDownloader.exe",
+  "notes": "Fixed god format games uploading whole folder structor instead of just the title id"
 }
