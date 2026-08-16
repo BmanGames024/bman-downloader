@@ -1,5 +1,5 @@
 {
   "version": "1.15",
   "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.15/BmanDownloader.exe",
-  "notes": "Fixed god format games uploading whole folder structor instead of just the title id"
+  "notes": "Added button to install xefu files automatically to the console"
 }
