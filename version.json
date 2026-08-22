@@ -1,5 +1,5 @@
 {
-  "version": "1.16",
-  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.16/BmanDownloader.exe",
-  "notes": "Added region filter"
+  "version": "1.17",
+  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.17/BmanDownloader.exe",
+  "notes": "Fixed bug with xefu installr"
 }
