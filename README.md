@@ -38,12 +38,6 @@ Bman Downloader takes you from *"I want this game"* to *"it's on my console"* in
 8. If on Chrome, go to the Application tab, cookies, and put the login user and sig, in the settings of the app (this is required to download)
 > **Heads up on antivirus:** Windows Defender may show a false positive. If it does, allow the file or grab it fresh from the official Releases link above.
 
-### Run from source
-```bash
-git clone https://github.com/BmanGames024/bman-downloader.git
-cd bman-downloader
-python temu.py
-```
 ---
 
 ## 🎯 Quick start
