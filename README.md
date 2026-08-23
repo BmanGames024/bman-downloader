@@ -4,8 +4,6 @@
 
 **A one-stop desktop app for finding, converting, and installing Xbox 360 & OG Xbox games straight to your modded console.**
 
-Search a massive library, download at full speed, auto-convert to the format your console wants, and send it over FTP — all without leaving the app.
-
 ![Platform](https://img.shields.io/badge/platform-Windows-0078D6?logo=windows&logoColor=white)
 ![Python](https://img.shields.io/badge/built%20with-Python-3776AB?logo=python&logoColor=white)
 ![Version](https://img.shields.io/github/v/release/BmanGames024/bman-downloader?label=latest)
