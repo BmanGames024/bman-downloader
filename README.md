@@ -24,8 +24,6 @@ Bman Downloader takes you from *"I want this game"* to *"it's on my console"* in
 ---
 
 ## 📥 Installation
-
-### Easiest — grab the release
 1. Head to the [**Releases**](https://github.com/BmanGames024/bman-downloader/releases/latest) page.
 2. Download the latest `BmanDownloader.exe`.
 3. Run it. — no install needed.
