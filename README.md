@@ -25,6 +25,38 @@ Bman Downloader takes you from *"I want this game"* to *"it's on my console"* in
 
 ---
 
+## 📥 Installation
+
+### Easiest — grab the release
+1. Head to the [**Releases**](https://github.com/BmanGames024/bman-downloader/releases/latest) page.
+2. Download the latest `BmanDownloader.exe`.
+3. Run it. That's it — no install needed.
+
+> **Heads up on antivirus:** Windows Defender may show a false positive. If it does, allow the file or grab it fresh from the official Releases link above.
+
+### Run from source
+```bash
+git clone https://github.com/BmanGames024/bman-downloader.git
+cd bman-downloader
+python temu.py
+```
+Dependencies (`customtkinter`, `Pillow`, `curl_cffi`, `rarfile`) install automatically on first run. Python 3.10+ recommended.
+
+---
+
+## 🎯 Quick start
+
+1. **Search** for a game in the Library tab.
+2. Pick your **conversion format** (GOD, XeX, or extract-only).
+3. *(Optional)* Enter your console's FTP details in **Settings** and tick **Upload via FTP**.
+4. Hit **Download** — the app fetches, converts, and (if enabled) sends it to your console automatically.
+5. Watch progress in the **Downloads** tab and the full log in **Logs**.
+
+### Setting up FTP
+Open **Settings → FTP** and enter your console's IP address (default user/pass is usually `xbox` / `xbox`). Use the built-in **FTP browser** to test the connection and pick your install folder.
+
+---
+
 ## 🚀 Features
 
 ### 🔍 Massive built-in library & search
@@ -68,40 +100,6 @@ No external tools to install — conversion is baked right in:
 - Simple sidebar navigation: **Library / Search**, **Downloads**, **Logs**, and **Settings**.
 - Live progress, speeds, and a full activity log for every download and upload.
 - Your settings and FTP config persist between launches.
-
----
-
-## 📥 Installation
-
-### Easiest — grab the release
-1. Head to the [**Releases**](https://github.com/BmanGames024/bman-downloader/releases/latest) page.
-2. Download the latest `BmanDownloader.exe`.
-3. Run it. That's it — no install needed.
-
-> **Heads up on antivirus:** because the app is packaged with PyInstaller, Windows Defender may show a false positive. If it does, allow the file or grab it fresh from the official Releases link above.
-
-### Run from source
-```bash
-git clone https://github.com/BmanGames024/bman-downloader.git
-cd bman-downloader
-python temu.py
-```
-Dependencies (`customtkinter`, `Pillow`, `curl_cffi`, `rarfile`) install automatically on first run. Python 3.10+ recommended.
-
----
-
-## 🎯 Quick start
-
-1. **Search** for a game in the Library tab.
-2. Pick your **conversion format** (GOD, XeX, or extract-only).
-3. *(Optional)* Enter your console's FTP details in **Settings** and tick **Upload via FTP**.
-4. Hit **Download** — the app fetches, converts, and (if enabled) sends it to your console automatically.
-5. Watch progress in the **Downloads** tab and the full log in **Logs**.
-
-### Setting up FTP
-Open **Settings → FTP** and enter your console's IP address (default user/pass is usually `xbox` / `xbox`). Use the built-in **FTP browser** to test the connection and pick your install folder.
-
----
 
 ## ⚙️ Tunable settings
 
