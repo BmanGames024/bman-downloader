@@ -34,8 +34,8 @@ Bman Downloader takes you from *"I want this game"* to *"it's on my console"* in
 4. App may take a minute on first start to cache Archive items
 5. Head to [**Archive.org**](https://archive.org/)
 6. Open inspect element
-7a. If on Firefox, go to the Storage tab, cookies, and put the login user and sig, in the settings of the app (this is required to download)
-7b. If on Chrome, go to the Application tab, cookies, and put the login user and sig, in the settings of the app (this is required to download)
+7. If on Firefox, go to the Storage tab, cookies, and put the login user and sig, in the settings of the app (this is required to download)
+8. If on Chrome, go to the Application tab, cookies, and put the login user and sig, in the settings of the app (this is required to download)
 > **Heads up on antivirus:** Windows Defender may show a false positive. If it does, allow the file or grab it fresh from the official Releases link above.
 
 ### Run from source
