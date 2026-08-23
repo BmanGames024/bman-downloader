@@ -56,58 +56,21 @@ Open **Settings → FTP** and enter your console's IP address (default user/pass
 ## 🚀 Features
 
 ### 🔍 Massive built-in library & search
-- Search **thousands of Xbox 360 and Original Xbox** titles pulled from multiple archive.org collections — full games, **XBLA**, **XBLIG**, and **DLC**.
-- Instant, smart search with live results and game details.
-- **Cover art** fetched automatically from SteamGridDB so you can see what you're grabbing.
-- The whole library index is **cached locally**, so every launch after the first is effectively instant.
 
 ### 🌍 Powerful filtering
 - **Region filter** — All / Region-Free / USA (NTSC-U) / Europe (PAL) / Japan (NTSC-J). Reads No-Intro/Redump-style tags *and* scene release names.
 - **Show / hide DLC** with a single toggle so full games and add-ons never clutter each other.
 
-### ⬇️ Fast, resilient downloads
-- **Segmented multi-connection downloading** — up to **16 parallel connections per file** for maximum speed.
-- **Automatic retries with exponential backoff** — flaky connections and rate limits recover on their own instead of failing the whole download.
-- Fully **tunable** in Settings: connection count, segment sizes, retry limits, and backoff — with sensible defaults if you'd rather not touch a thing.
-
 ### 🔄 Built-in format conversion
-No external tools to install — conversion is baked right in:
 - **ISO → GOD** (Games on Demand) via ISO2GOD.
 - **ISO → XeX** (extracted game folder) via extract-xiso.
 - **Extract-only** mode when you just want the raw files.
 - **Bulk convert everything** with one click — **GOD All** or **XEX All** rips through your whole download folder automatically.
 
 ### 📡 Direct FTP install to your console
-- Send games **straight to your modded Xbox 360 or OG Xbox over FTP** — DashLaunch, Aurora, FSD, and the OG dashboards are all supported.
-- Uses **active-mode FTP** (what console servers actually expect) with **large block transfers** for speed.
-- **Parallel uploads** — up to 4 simultaneous connections.
-- **Built-in FTP file browser** — navigate your console's drive, create folders, and pick exactly where a game lands.
-- **Smart content detection** — automatically finds the console-native Title ID folder (e.g. `584E07D2`) inside an archive and uploads *only* what the console needs, dropping readmes, cover art, and wrapper folders.
-- **Download → convert → upload in one shot** — tick "Upload via FTP" and the app handles the whole chain, or send an entire library with **Upload All via FTP**.
+- Send games **straight to your modded Xbox 360 or OG Xbox over FTP**.
 
 ### 🧩 One-click Xefu / HDD compatibility install
-- The **Install Xefu** button sets up HDD compatibility on your console automatically — it reads your drive layout and installs the right compatibility pack for your setup.
-
-### 🔔 Automatic updates
-- Checks for new releases on launch and offers a **one-click update** — downloads the new build, swaps it in, and restarts itself. No manual reinstalling.
-
-### 🖥️ Clean, modern interface
-- Dark-mode UI built with CustomTkinter.
-- Simple sidebar navigation: **Library / Search**, **Downloads**, **Logs**, and **Settings**.
-- Live progress, speeds, and a full activity log for every download and upload.
-- Your settings and FTP config persist between launches.
-
-## ⚙️ Tunable settings
-
-| Setting | What it does |
-|---|---|
-| **Parallel connections** | Connections opened per file (1–16). More = faster, to a point. |
-| **Min size per segment** | How much file each extra connection earns. |
-| **Min file size to split** | Files below this download as a single stream. |
-| **Retries per segment** | How many times a stalled segment retries before failing. |
-| **Retry backoff** | How long to wait between retries — raise it for flaky connections. |
-| **FTP parallel uploads** | Simultaneous FTP connections (1–4). |
-| **Region filter** | Which regions show in search results. |
 
 ---
 
