@@ -40,8 +40,6 @@ git clone https://github.com/BmanGames024/bman-downloader.git
 cd bman-downloader
 python temu.py
 ```
-Dependencies (`customtkinter`, `Pillow`, `curl_cffi`, `rarfile`) install automatically on first run. Python 3.10+ recommended.
-
 ---
 
 ## 🎯 Quick start
