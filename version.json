@@ -1,5 +1,5 @@
 {
-  "version": "1.18",
-  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.18/BmanDownloader.exe",
-  "notes": "Fixed bug with xefu installr"
+  "version": "1.19",
+  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.19/BmanDownloader.exe",
+  "notes": "Added TitleID detection for FTP"
 }
