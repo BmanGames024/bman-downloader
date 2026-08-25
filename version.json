@@ -1,5 +1,5 @@
 {
-  "version": "1.20",
-  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.20/BmanDownloader.exe",
-  "notes": "Broke the fuck outta FTP, works fine for XeXmenu but not Aurora, womp womp"
+  "version": "1.21",
+  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.21/BmanDownloader.exe",
+  "notes": "Broke the fuck outta FTP, works fine for XeXmenu but not Aurora, womp womp, oh yeah and force users to download 7zip"
 }
