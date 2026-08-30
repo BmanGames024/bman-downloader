@@ -1,5 +1,5 @@
 {
-  "version": "1.24",
-  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.24/BmanDownloader.exe",
+  "version": "1.25",
+  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.25/BmanDownloader.exe",
   "notes": "Changed login method now uses S3 api key, no longer need to use inspect element and cookies"
 }
