@@ -27,13 +27,9 @@ Bman Downloader takes you from *"I want this game"* to *"it's on my console"* in
 1. Head to the [**Releases**](https://github.com/BmanGames024/bman-downloader/releases/latest) page.
 2. Download the latest `BmanDownloader.exe`.
 3. Run it. — no install needed.
-4. App may take a minute on first start to cache Archive items
-5. Head to [**Archive.org**](https://archive.org/)
-6. Sign into your account
-7. Open inspect element
-8. If on Firefox, go to the Storage tab, cookies, and put the login user and sig, in the settings of the app (this is required to download)
-9. If on Chrome, go to the Application tab, cookies, and put the login user and sig, in the settings of the app (this is required to download)
-> **Heads up on antivirus:** Windows Defender may show a false positive. If it does, allow the file or grab it fresh from the official Releases link above.
+4. App may take a minute on first start to cache Archive items.
+5. Go to settings, and press get API keys.
+6. Insert the API keys into the fields and press save.
 
 ---
 
