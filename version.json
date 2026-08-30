@@ -1,5 +1,5 @@
 {
-  "version": "1.23",
-  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.23/BmanDownloader.exe",
-  "notes": "Broke the fuck outta FTP, works fine for XeXmenu but not Aurora, womp womp, oh yeah and force users to download 7zip"
+  "version": "1.24",
+  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.24/BmanDownloader.exe",
+  "notes": "Changed login method now uses S3 api key, no longer need to use inspect element and cookies"
 }
