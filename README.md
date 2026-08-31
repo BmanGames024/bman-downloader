@@ -1,6 +1,6 @@
 <div align="center">
 
-# <img width="2172" height="724" alt="BmanDownloader" src="https://github.com/user-attachments/assets/6703f5a9-3af4-4ec1-a6dc-ff9ecf89691f" />
+# <img width="2089" height="350" alt="bmandownloader-transparent" src="https://github.com/user-attachments/assets/e30063e1-8757-40c0-bb5e-159dbca66738" />
 
 **A one-stop desktop app for finding, converting, and installing Xbox 360 & OG Xbox games straight to your modded console.**
 
