@@ -2,6 +2,7 @@
 
 # <img width="2172" height="724" alt="BmanDownloader" src="https://github.com/user-attachments/assets/6703f5a9-3af4-4ec1-a6dc-ff9ecf89691f" />
 
+https://github.com/user-attachments/assets/6703f5a9-3af4-4ec1-a6dc-ff9ecf89691f
 **A one-stop desktop app for finding, converting, and installing Xbox 360 & OG Xbox games straight to your modded console.**
 
 ![Platform](https://img.shields.io/badge/platform-Windows-0078D6?logo=windows&logoColor=white)
