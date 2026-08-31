@@ -79,4 +79,6 @@ Made with ❤️ for the Xbox 360 modding community by **[BmanGames024](https://
 
 ⭐ Star the repo if it saved you some time!
 
+
+Yes this ReadMe was made with AI fuck you (app was not tho :))
 </div>
