@@ -1,6 +1,6 @@
 <div align="center">
 
-# <img width="828" height="195" alt="bmandownloader-breathing" src="https://github.com/user-attachments/assets/358ccb3e-3f9f-4ac0-a91a-4854a199ea4e" />
+# <img width="489" height="126" alt="bmandl-pixelart-x3" src="https://github.com/user-attachments/assets/cd4c095b-dec9-4845-9553-02170aec0516" />
 
 **A one-stop desktop app for finding, converting, and installing Xbox 360 & OG Xbox games straight to your modded console.**
 
