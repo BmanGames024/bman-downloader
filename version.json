@@ -1,5 +1,5 @@
 {
-  "version": "1.25",
-  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.25/BmanDownloader.exe",
-  "notes": "Changed login method now uses S3 api key, no longer need to use inspect element and cookies"
+  "version": "1.28",
+  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.28/BmanDownloader.exe",
+  "notes": "Allowed more connections to archive.org, default is now set to 32 connections, can me changed via settings, going higher can cause a rate limit to archive.org"
 }
