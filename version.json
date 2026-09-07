@@ -1,5 +1,5 @@
 {
-  "version": "1.28",
-  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.28/BmanDownloader.exe",
-  "notes": "Allowed more connections to archive.org, default is now set to 32 connections, can me changed via settings, going higher can cause a rate limit to archive.org"
+  "version": "1.30",
+  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.30/BmanDownloader.exe",
+  "notes": "Added full 360 hdd support allowing auto uploading to a 360 hard drive (works the same as ftp)"
 }
