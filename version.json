@@ -1,5 +1,5 @@
 {
-  "version": "1.30",
-  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.30/BmanDownloader.exe",
-  "notes": "Added full 360 hdd support allowing auto uploading to a 360 hard drive (works the same as ftp)"
+  "version": "1.31",
+  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.31/BmanDownloader.exe",
+  "notes": "Added full 360 hdd support allowing auto uploading to a 360 hard drive (works the same as ftp)    Added collections for importing collections and downloading others collections"
 }
