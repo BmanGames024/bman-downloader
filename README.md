@@ -14,15 +14,6 @@
 
 ---
 
-## ✨ What it does
-
-Bman Downloader takes you from *"I want this game"* to *"it's on my console"* in a few clicks. No juggling separate download tools, ISO converters, and FTP clients — it's all built in.
-
-<!-- Tip: drop a screenshot or GIF of the app here. -->
-<!-- ![App screenshot](docs/screenshot.png) -->
-
----
-
 ## 📥 Installation
 1. Head to the [**Releases**](https://github.com/BmanGames024/bman-downloader/releases/latest) page.
 2. Download the latest `BmanDownloader.exe`.
@@ -44,6 +35,9 @@ Bman Downloader takes you from *"I want this game"* to *"it's on my console"* in
 ### Setting up FTP
 Open **Settings → FTP** and enter your console's IP address (default user/pass is usually `xbox` / `xbox`). Use the built-in **FTP browser** to test the connection and pick your install folder.
 
+### Setting up HDD Transfer
+Open **Settings → Xbox 360 Hard Drive** and select your Xbox 360 hard drive
+
 ---
 
 ## 🚀 Features
@@ -62,6 +56,9 @@ Open **Settings → FTP** and enter your console's IP address (default user/pass
 
 ### 📡 Direct FTP install to your console
 - Send games **straight to your modded Xbox 360 or OG Xbox over FTP**.
+
+### 📡 Direct HDD transfer to your Xbox 360 hard drive (plugged into your computer via sata)
+- Send games **straight to your Xbox 360 hard drive**.
 
 ### 🧩 One-click Xefu / HDD compatibility install
 
