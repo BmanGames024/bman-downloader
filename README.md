@@ -62,6 +62,9 @@ Open **Settings → Xbox 360 Hard Drive** and select your Xbox 360 hard drive
 
 ### 🧩 One-click Xefu / HDD compatibility install
 
+### 👜 Collections
+- Make collections to share with your friends so that everyone can easily download all at once!
+
 ---
 
 ## ⚠️ Disclaimer
