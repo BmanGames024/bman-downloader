@@ -22,7 +22,7 @@ Installation
 4. App may take a minute on first start to cache Archive items.
 5. Go to settings, and press get API keys.
 6. Insert the API keys into the fields and press save.
-
+</div>
 ---
 
 Quick start
