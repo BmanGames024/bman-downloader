@@ -12,7 +12,7 @@
 
 Join the Discord
 <a href="https://discord.gg/GJZAAFTc6h">
-  <img width="360" height="360" alt="image" src="https://github.com/user-attachments/assets/1724ed08-5b9a-4d6b-b1e5-24ea58635444" />
+  <img width="1600" height="1600" alt="image" src="https://github.com/user-attachments/assets/9db630c6-9fde-4399-9115-9367d03211c6" />
 </a>
 ---
 
