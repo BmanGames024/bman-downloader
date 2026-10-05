@@ -8,7 +8,7 @@
 ![Downloads](https://img.shields.io/github/downloads/BmanGames024/bman-downloader/total)
 ![Stars](https://img.shields.io/github/stars/BmanGames024/bman-downloader?style=flat)
 
-</div>
+<div align="center">
 
 <p>Join the Discord</p>
 <a href="https://discord.gg/GJZAAFTc6h">
