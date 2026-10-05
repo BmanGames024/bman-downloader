@@ -7,14 +7,14 @@
 ![Version](https://img.shields.io/github/v/release/BmanGames024/bman-downloader?label=latest)
 ![Downloads](https://img.shields.io/github/downloads/BmanGames024/bman-downloader/total)
 ![Stars](https://img.shields.io/github/stars/BmanGames024/bman-downloader?style=flat)
-
 </div>
-<div align="center">
+
+
 <p>Join the Discord</p>
 <a href="https://discord.gg/GJZAAFTc6h">
   <img width="220" height="220" alt="image" src="https://github.com/user-attachments/assets/9db630c6-9fde-4399-9115-9367d03211c6" />
 </a>
-</div>
+
 Installation
 1. Head to the [**Releases**](https://github.com/BmanGames024/bman-downloader/releases/latest) page.
 2. Download the latest `BmanDownloader.exe`.
