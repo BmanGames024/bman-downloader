@@ -1,5 +1,5 @@
 {
-  "version": "1.45",
-  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.45/BmanDownloader.exe",
-  "notes": "Changed how the updater works"
+  "version": "1.46",
+  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.46/BmanDownloader.exe",
+  "notes": "Changed how the updater works, reworked UI"
 }
