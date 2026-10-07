@@ -1,5 +1,5 @@
 {
-  "version": "1.54",
-  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.54/BmanDownloader.exe",
+  "version": "1.56",
+  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.56/BmanDownloader.exe",
   "notes": "Changed how download queue works, downloads will start even if another download is converting or uploading"
 }
