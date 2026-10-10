@@ -1,5 +1,5 @@
 {
-  "version": "1.59",
-  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.59/BmanDownloader.exe",
+  "version": "1.60",
+  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.60/BmanDownloader.exe",
   "notes": "Downloads current during a crash or a closing of the app no longer show up as downloaded when they are not"
 }
