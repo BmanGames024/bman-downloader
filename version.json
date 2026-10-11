@@ -1,5 +1,5 @@
 {
   "version": "1.62",
   "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.62/BmanDownloader.exe",
-  "notes": "Downloads current during a crash or a closing of the app no longer show up as downloaded when they are not, added a fall back where if iso2god fails to convert it will switch to iso extraction, also added a fallback where if a game fails at anypoint it will move to the next one"
+  "notes": "Added a delete downloads after upload button, found in settings/downloads"
 }
