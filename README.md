@@ -20,7 +20,7 @@ There are two apps here — pick the one for the games you want:
 | App | For | Download |
 |---|---|---|
 | **Bman Downloader** | Xbox 360 / OG Xbox | [Latest release](https://github.com/BmanGames024/bman-downloader/releases/latest) |
-| **Bman Retro Downloader** | Retro consoles (NES to PS3) | [Releases page](https://github.com/BmanGames024/bman-downloader/releases) — pick the newest one titled **Bman Retro** |
+| **Bman Retro Downloader** | Retro consoles (NES to PS3) | [Releases page](https://github.com/BmanGames024/bman-retro-downloader/releases) — pick the newest one titled **Bman Retro** | 
 
 ---
 
