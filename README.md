@@ -26,7 +26,7 @@ Installation
 6. Insert the API keys into the fields and press save.
 </div>
 ---
-
+*Xbox 360 Games*
 Quick start
 1. **Search** for a game in the Library tab.
 2. Pick your **conversion format** (GOD, XeX, or extract-only).
