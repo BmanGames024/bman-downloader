@@ -53,24 +53,6 @@ There are two apps here — pick the one for the games you want:
 
 ---
 
-## Bman Retro Downloader
-
-Download games for retro consoles — NES, SNES, Game Boy, N64, GameCube, Wii, PlayStation 1–3, PSP, Vita, DS, 3DS and more.
-
-### Installation
-1. Head to the [**Releases**](https://github.com/BmanGames024/bman-downloader/releases) page and find the newest release titled **Bman Retro**.
-2. Download `BmanDownloader.exe` from it and put it in **its own folder** (not the same folder as the Xbox 360 app).
-3. Run it, go to Settings, press **Grab API Keys**, paste them in and press **Save**.
-
-### Quick start
-1. Pick a **console** in the Library tab and search for a game (or press Search to list them all).
-2. Hit **Download**. Disc games are unzipped automatically; cartridge games stay zipped, ready for your emulator.
-3. Find your games in `downloads/<console>/` — or use **Show in Folder** in the Downloads tab.
-
-Updates install automatically from inside the app.
-
----
-
 ## Disclaimer
 
 These tools are intended for creating and installing backups of games you legally own, and for preserving software on hardware you own. You are responsible for complying with the laws in your country regarding game backups and copyrighted material. The author does not host any game files — all content is retrieved from third-party archives.
