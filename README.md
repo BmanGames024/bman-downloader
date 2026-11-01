@@ -5,7 +5,6 @@
 ![Platform](https://img.shields.io/badge/platform-Windows-0078D6?logo=windows&logoColor=white)
 ![Python](https://img.shields.io/badge/built%20with-Python-3776AB?logo=python&logoColor=white)
 ![Version](https://img.shields.io/github/v/release/BmanGames024/bman-downloader?label=latest)
-![Downloads](https://img.shields.io/github/downloads/BmanGames024/bman-downloader/total)
 ![Stars](https://img.shields.io/github/stars/BmanGames024/bman-downloader?style=flat)
 
 <p>Join the Discord</p>
