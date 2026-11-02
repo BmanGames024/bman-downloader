@@ -1,5 +1,5 @@
 {
-  "version": "1.74",
-  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.74/BmanDownloader.exe",
+  "version": "1.75",
+  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.75/BmanDownloader.exe",
   "notes": "Changed how cover art works, also changed how exe stores its needed files"
 }
