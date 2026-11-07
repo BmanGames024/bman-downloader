@@ -1,5 +1,5 @@
 {
-  "version": "1.77",
-  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.77/BmanDownloader.exe",
-  "notes": "Changed how cover art works, also changed how exe stores its needed files"
+  "version": "1.78",
+  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.78/BmanDownloader.exe",
+  "notes": "Added which xefu works best for og games on the 360"
 }
