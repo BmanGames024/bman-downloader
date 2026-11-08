@@ -6,7 +6,7 @@
 ![Python](https://img.shields.io/badge/built%20with-Python-3776AB?logo=python&logoColor=white)
 ![Version](https://img.shields.io/github/v/release/BmanGames024/bman-downloader?label=latest)
 ![Stars](https://img.shields.io/github/stars/BmanGames024/bman-downloader?style=flat)
-
+![Downloads](https://img.shields.io/github/downloads/BmanGames024/bman-downloader/total?style=flat)
 <p>Join the Discord</p>
 <a href="https://discord.gg/GJZAAFTc6h">
   <img width="220" height="220" alt="Discord" src="https://github.com/user-attachments/assets/9db630c6-9fde-4399-9115-9367d03211c6" />
