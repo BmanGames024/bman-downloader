@@ -34,7 +34,7 @@ There are two apps here — pick the one for the games you want:
 6. Paste the API keys into the fields and press **Save**.
 
 ### Linux/Mac Installation
-1. Download the source code
+1. Download the source code and 64-bit Python 3.10 to 3.14
 2. Open your CMD and run py -m pip install -r requirements.txt
 3. Open BmanDownloader.py
 
