@@ -25,13 +25,18 @@ There are two apps here — pick the one for the games you want:
 
 ## Bman Downloader (Xbox 360 / OG Xbox)
 
-### Installation
+### Windows Installation
 1. Head to the [**Releases**](https://github.com/BmanGames024/bman-downloader/releases/latest) page.
 2. Download the latest `BmanDownloader.exe`.
 3. Run it — no install needed.
 4. The app may take a minute on first start to cache Archive items.
 5. Go to Settings and press **Grab API Keys**.
 6. Paste the API keys into the fields and press **Save**.
+
+### Linux/Mac Installation
+1. Download the source code
+2. Open your CMD and run py -m pip install -r requirements.txt
+3. Open BmanDownloader.py
 
 ### Quick start
 1. **Search** for a game in the Library tab.
