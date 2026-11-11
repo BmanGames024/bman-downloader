@@ -60,3 +60,5 @@ There are two apps here — pick the one for the games you want:
 ## Disclaimer
 
 These tools are intended for creating and installing backups of games you legally own, and for preserving software on hardware you own. You are responsible for complying with the laws in your country regarding game backups and copyrighted material. The author does not host any game files — all content is retrieved from third-party archives.
+
+All rights reserved, see LICENSE.md
