@@ -1,5 +1,5 @@
 {
-  "version": "1.81",
-  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.81/BmanDownloader.exe",
-  "notes": "Added which xefu works best for og games on the 360, fixed error with the pop up for archive org couldnt load, showing when archive is working fine"
+  "version": "1.82",
+  "url": "https://github.com/BmanGames024/bman-downloader/releases/download/v1.82/BmanDownloader.exe",
+  "notes": "Added BmanRetro"
 }
