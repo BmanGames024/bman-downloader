@@ -5142,7 +5142,8 @@ class ArchiveGUI(ctk.CTk):
                 if self._stop_for_switch:
                     break                   # switching apps: stop after the last game
                 post_ui(lambda t=f"Extracting {i}/{len(archives)}: {archive.name}": self._set_bulk_status(t))
-                if not handle_post_download(archive, entry=None, conversion_mode="3"):
+                if not handle_post_download(archive, entry=self._entry_for_filename(archive.name),
+                                            conversion_mode="3"):
                     log_event(f"  extraction FAILED: {archive.name} (reason above) - moving on")
 
             if mode in ("1", "2"):
@@ -5230,7 +5231,8 @@ class ArchiveGUI(ctk.CTk):
                 post_ui(lambda t=f"Extracting {i}/{len(archives)}: {archive.name}": self._set_bulk_status(t))
                 log_event(f"  extracting {archive.name}")
                 try:
-                    if not handle_post_download(archive, entry=None, conversion_mode="3"):
+                    if not handle_post_download(archive, entry=self._entry_for_filename(archive.name),
+                                                conversion_mode="3"):
                         log_event(f"  extraction failed: {archive.name}")
                 except Exception as exc:
                     log_event(f"  extraction error for {archive.name}: {exc}")

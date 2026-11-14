@@ -87,7 +87,7 @@ FTP_BLOCK_SIZE = 1024 * 1024
 DEFAULT_FTP_PARALLEL = 4
 MAX_FTP_PARALLEL = 4
 
-APP_VERSION = "1.82"
+APP_VERSION = "1.83"
 UPDATE_MANIFEST_URL = "https://raw.githubusercontent.com/BmanGames024/bman-downloader/refs/heads/main/version.json"
 
 MIN_UPDATE_BYTES = 5 * 1024 * 1024
@@ -167,10 +167,7 @@ ARCHIVE_SOURCES = {
     "XBOX_360_4": True,
     "XBOX_360_5": True,
     "XBOX_360_6": True,
-    "XBOX_360_XBLIG_1": False,
-    "XBOX_360_XBLIG_2": False,
-    "XBOX_360_XBLIG_3": False,
-    "XBOX_360_XBLIG_4": False,
+    "xbox_360_indie_games": False,
     "XBOX_360_DLC_1": False,
     "XBOX_360_DLC_2": False,
     "XBOX_360_DLC_3": False,
@@ -187,10 +184,7 @@ ARCHIVE_SOURCES = {
 
 CONTENT_SOURCES = frozenset({
     "XBOX_360_XBLA",
-    "XBOX_360_XBLIG_1",
-    "XBOX_360_XBLIG_2",
-    "XBOX_360_XBLIG_3",
-    "XBOX_360_XBLIG_4",
+    "xbox_360_indie_games",
     "XBOX_360_DLC_1",
     "XBOX_360_DLC_2",
     "XBOX_360_DLC_3",
@@ -6585,6 +6579,56 @@ def _remove_partial_dir_if_empty(folder: Path) -> None:
 
 PROCESSING_MARKER_NAME = ".bman_processing.json"
 
+# Xbox 360 indie games (xbox_360_indie_games): each zip holds just the game's package
+# file. It is put in its title ID / content type folders as soon as it is extracted:
+#   extracted\<game>\584E07D2\00000002\<package>
+# Uploads then put the title ID folder in Content\0000000000000000\ on the console.
+INDIE_SOURCE = "xbox_360_indie_games"
+INDIE_TITLE_ID = "584E07D2"              # every XNA indie game; used when the zip name has none
+INDIE_CONTENT_TYPE = "00000002"
+_ZIP_TITLE_ID_RE = re.compile(r"_([0-9A-Fa-f]{8})_v\d+(?:\.\d+)*(?:_[0-9A-Fa-f]{40})?\.(?:zip|rar|7z)$",
+                              re.IGNORECASE)
+
+
+def is_indie_entry(entry) -> bool:
+    return getattr(entry, "archive_identifier", None) == INDIE_SOURCE
+
+
+def indie_title_id(archive_name: str) -> str:
+    """'Tapper_584E07D2_v0.0.0.0.zip' -> '584E07D2' (the title ID in the file name)."""
+    match = _ZIP_TITLE_ID_RE.search(archive_name or "")
+    return match.group(1).upper() if match else INDIE_TITLE_ID
+
+
+def arrange_indie_content(game_extract_dir: Path, archive_name: str) -> bool:
+    """Move an extracted indie game into <title ID>/00000002/ inside its folder.
+
+    Left alone if it already has a title ID folder. Returns False (after logging
+    why) only if the files could not be moved."""
+    try:
+        _root, existing = find_content_upload_roots(game_extract_dir, max_depth=CONTENT_SCAN_DEPTH_HINTED)
+        if existing:
+            return True                  # the zip already had the folder structure
+        items = [p for p in game_extract_dir.iterdir() if p.name != PROCESSING_MARKER_NAME]
+    except OSError as exc:
+        log_event(f"Indie layout for {archive_name}: could not read {game_extract_dir}: {exc}")
+        return False
+    if not items:
+        return True
+
+    title_id = indie_title_id(archive_name)
+    target = game_extract_dir / title_id / INDIE_CONTENT_TYPE
+    try:
+        target.mkdir(parents=True, exist_ok=True)
+        for item in items:
+            shutil.move(str(item), str(target / item.name))
+    except OSError as exc:
+        log_event(f"Indie layout for {archive_name}: could not move the files into "
+                  f"{title_id}\\{INDIE_CONTENT_TYPE}: {exc}")
+        return False
+    log_event(f"Indie game: placed in {title_id}\\{INDIE_CONTENT_TYPE}\\")
+    return True
+
 
 def _mark_processing(game_extract_dir: Path, stage: str, cleanup: list[Path]) -> None:
     """Note what to delete if the app dies during this extraction / conversion."""
@@ -7214,7 +7258,7 @@ def handle_post_download(file_path: Path, entry: Files | None = None, conversion
     name = Path(file_path).name
     game_extract_dir = EXTRACT_DIR / Path(file_path).stem
     try:
-        return _handle_post_download(Path(file_path), conversion_mode, progress_callback)
+        return _handle_post_download(Path(file_path), conversion_mode, progress_callback, entry)
     except Exception as exc:
         import traceback
         log_event(f"Post-processing {name} failed with an unexpected error: {exc}\n"
@@ -7416,7 +7460,8 @@ def convert_to_god_or_xiso(iso_path: Path, game_root: Path, progress_callback, g
     return False
 
 
-def _handle_post_download(file_path: Path, conversion_mode: str, progress_callback) -> bool:
+def _handle_post_download(file_path: Path, conversion_mode: str, progress_callback,
+                          entry: "Files | None" = None) -> bool:
     name = file_path.name
     if file_path.is_dir():
         log_event(f"Post-processing {name} failed: the download is a folder, not a file.")
@@ -7488,6 +7533,12 @@ def _handle_post_download(file_path: Path, conversion_mode: str, progress_callba
                 return False
         elif file_path.suffix.lower() == ".iso":
             iso_path = file_path
+
+        if is_archive and is_indie_entry(entry):
+            # Still inside the crash marker: a crash mid-move is cleaned up like a failed extraction.
+            if not arrange_indie_content(game_extract_dir, file_path.name):
+                _undo_processing(game_extract_dir, "failed")
+                return False
 
         if is_archive:
             _clear_processing(game_extract_dir)        # extraction finished cleanly
