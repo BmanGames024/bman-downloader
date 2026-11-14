@@ -87,7 +87,7 @@ FTP_BLOCK_SIZE = 1024 * 1024
 DEFAULT_FTP_PARALLEL = 4
 MAX_FTP_PARALLEL = 4
 
-APP_VERSION = "1.81"
+APP_VERSION = "1.82"
 UPDATE_MANIFEST_URL = "https://raw.githubusercontent.com/BmanGames024/bman-downloader/refs/heads/main/version.json"
 
 MIN_UPDATE_BYTES = 5 * 1024 * 1024
