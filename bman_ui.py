@@ -2945,7 +2945,7 @@ class ArchiveGUI(ctk.CTk):
 
         self.sidebar_frame = ctk.CTkFrame(self, width=200, corner_radius=0)
         self.sidebar_frame.grid(row=0, column=0, sticky="nsew")
-        self.sidebar_frame.grid_rowconfigure(10, weight=1)
+        self.sidebar_frame.grid_rowconfigure(11, weight=1)
 
         self.logo_label = ctk.CTkLabel(self.sidebar_frame, text="Bman Downloader", font=ctk.CTkFont(size=18, weight="bold"))
         self.logo_label.grid(row=0, column=0, padx=20, pady=(20, 10))
@@ -2975,9 +2975,12 @@ class ArchiveGUI(ctk.CTk):
         self.sidebar_btn_settings = ctk.CTkButton(self.sidebar_frame, text="Settings", command=lambda: self.select_tab("settings"))
         self.sidebar_btn_settings.grid(row=8, column=0, padx=20, pady=10)
 
+        self._setup_app_switch_button(row=9, target="retro", text="Retro Downloader")
+
         self._bulk_running = False
+        self._stop_for_switch = False     # set when the user switches apps mid-work
         self.bulk_frame = ctk.CTkFrame(self.sidebar_frame, fg_color="transparent")
-        self.bulk_frame.grid(row=9, column=0, padx=20, pady=(10, 0), sticky="ew")
+        self.bulk_frame.grid(row=10, column=0, padx=20, pady=(10, 0), sticky="ew")
 
         ctk.CTkLabel(self.bulk_frame, text="Bulk Actions", font=ctk.CTkFont(size=12, weight="bold"),
                      text_color="gray").pack(anchor="w", pady=(0, 4))
@@ -3011,7 +3014,7 @@ class ArchiveGUI(ctk.CTk):
             self.sidebar_frame, text="Update Available!", fg_color="#2b8a3e",
             hover_color="#236c31", command=self.open_update_settings,
         )
-        self.update_banner_btn.grid(row=11, column=0, padx=20, pady=(10, 20))
+        self.update_banner_btn.grid(row=12, column=0, padx=20, pady=(10, 20))
         self.update_banner_btn.grid_remove()
 
         self.content_frame = ctk.CTkFrame(self, corner_radius=0, fg_color="transparent")
@@ -3068,6 +3071,58 @@ class ArchiveGUI(ctk.CTk):
         threading.Thread(target=cleanup_update_leftovers, daemon=True,
                          name="update-cleanup").start()
 
+
+    # ----- switching between Bman Downloader and the Retro Downloader -----------
+    def _setup_app_switch_button(self, row: int, target: str, text: str) -> None:
+        """The button under Settings that swaps this window to the other app."""
+        try:
+            import bman_switch
+            if not bman_switch.available(target):
+                return
+        except Exception:
+            return
+        self.app_switch_btn = ctk.CTkButton(
+            self.sidebar_frame, text=text, fg_color="transparent", border_width=1,
+            text_color=("black", "white"), command=lambda: self.switch_app_action(target))
+        self.app_switch_btn._accent_locked = True
+        self.app_switch_btn.grid(row=row, column=0, padx=20, pady=(14, 10))
+
+    def switch_app_action(self, target: str) -> None:
+        import bman_switch
+        bman_switch.request_switch(
+            self, target,
+            notify=lambda title, text: show_info_popup(self, title, text),
+            confirm=lambda title, text: ask_confirm_popup(
+                self, title, text, confirm_text="Switch anyway", cancel_text="Stay"))
+
+    def stop_work_for_switch(self) -> None:
+        """The user chose to switch apps with work still running: stop what can be stopped.
+
+        Downloads (running or queued) are cancelled and bulk actions stop after the
+        game they are on. An extraction / conversion / upload that already started
+        can't be cut off safely, so it finishes on its own thread; bman_switch keeps
+        this app from being reopened until it has.
+        """
+        self._stop_for_switch = True
+        jobs = list(self._dl_waiting) + list(self._dl_live)
+        for q in (self.download_queue, self._post_queue):
+            try:
+                with q.mutex:
+                    items = list(q.queue)
+            except Exception:
+                items = []
+            for item in items:
+                jobs.append(item[0] if isinstance(item, tuple) else item)
+        cancelled = 0
+        for job in jobs:
+            event = getattr(job, "cancel_event", None)
+            if event is not None and not event.is_set() and not getattr(job, "done", False):
+                event.set()
+                cancelled += 1
+        if cancelled:
+            log_event(f"Switching apps: cancelled {cancelled} download(s).")
+        if self._bulk_running:
+            log_event("Switching apps: the bulk action stops after the game it is on.")
 
     # ----- game list (archive.org) health -------------------------------------
     INDEX_RETRY_OFFLINE_MS = 2 * 60 * 1000      # nothing loaded: try again every 2 minutes
@@ -4582,6 +4637,8 @@ class ArchiveGUI(ctk.CTk):
         Without the wait, a run of jobs that end instantly (offline, say) would
         ask for rows faster than the window can retire the finished ones.
         """
+        if self._stop_for_switch:
+            return                  # app switched: no window to catch up with
         caught_up = threading.Event()
 
         def tidy():
@@ -5082,6 +5139,8 @@ class ArchiveGUI(ctk.CTk):
             if archives:
                 log_event(f"=== {where} UPLOAD ALL: {len(archives)} archive(s) to extract ===")
             for i, archive in enumerate(archives, 1):
+                if self._stop_for_switch:
+                    break                   # switching apps: stop after the last game
                 post_ui(lambda t=f"Extracting {i}/{len(archives)}: {archive.name}": self._set_bulk_status(t))
                 if not handle_post_download(archive, entry=None, conversion_mode="3"):
                     log_event(f"  extraction FAILED: {archive.name} (reason above) - moving on")
@@ -5091,6 +5150,8 @@ class ArchiveGUI(ctk.CTk):
                 total = len(isos)
                 log_event(f"=== {where} UPLOAD ALL: {total} ISO(s) to convert to {label} ===")
                 for i, iso in enumerate(isos, 1):
+                    if self._stop_for_switch:
+                        break                   # switching apps: stop after the last game
                     def prog(msg, idx=i, name=iso.name):
                         post_ui_latest(_BULK_STATUS_SLOT,
                                        lambda: self._set_bulk_status(f"{label} {idx}/{total}: {name}\n{msg}"))
@@ -5105,6 +5166,8 @@ class ArchiveGUI(ctk.CTk):
             log_event(f"=== {where} UPLOAD ALL: {len(games)} game folder(s) -> {remote_dir} ===")
 
             for i, game_dir in enumerate(games, 1):
+                if self._stop_for_switch:
+                    break                   # switching apps: stop after the last game
                 try:
                     upload_kind, _path, _sub = analyze_upload_target(game_dir)
                 except Exception as exc:
@@ -5152,6 +5215,7 @@ class ArchiveGUI(ctk.CTk):
             log_event(f"{where} Upload All error: {exc}")
             post_ui(lambda e=exc, w=where: self._set_bulk_status(f"{w} Upload All error: {e}", "#d97070"))
         finally:
+            self._bulk_running = False      # here too: after an app switch the window is gone
             post_ui(self._bulk_finished)
 
     def _bulk_worker(self, mode: str):
@@ -5161,6 +5225,8 @@ class ArchiveGUI(ctk.CTk):
             archives = find_unextracted_archives()
             log_event(f"=== {label} ALL: {len(archives)} archive(s) to extract ===")
             for i, archive in enumerate(archives, 1):
+                if self._stop_for_switch:
+                    break                   # switching apps: stop after the last game
                 post_ui(lambda t=f"Extracting {i}/{len(archives)}: {archive.name}": self._set_bulk_status(t))
                 log_event(f"  extracting {archive.name}")
                 try:
@@ -5173,6 +5239,8 @@ class ArchiveGUI(ctk.CTk):
             log_event(f"=== {label} ALL: {len(isos)} ISO(s) found under extracted/ ===")
             total = len(isos)
             for i, iso in enumerate(isos, 1):
+                if self._stop_for_switch:
+                    break                   # switching apps: stop after the last game
                 def prog(msg, idx=i, name=iso.name):
                     post_ui_latest(_BULK_STATUS_SLOT,
                                    lambda: self._set_bulk_status(f"{label} {idx}/{total}: {name}\n{msg}"))
@@ -5200,6 +5268,7 @@ class ArchiveGUI(ctk.CTk):
             log_event(f"{label} All error: {exc}")
             post_ui(lambda e=exc: self._set_bulk_status(f"{label} All error: {e}", "#d97070"))
         finally:
+            self._bulk_running = False      # here too: after an app switch the window is gone
             post_ui(self._bulk_finished)
 
     def _bulk_finished(self):
@@ -6597,7 +6666,7 @@ class ArchiveGUI(ctk.CTk):
         ctk.CTkLabel(self.settings_view, text="Library Index", font=ctk.CTkFont(size=18, weight="bold")).pack(anchor="w", pady=(25, 5))
         ctk.CTkLabel(
             self.settings_view,
-            text=("The game list is cached on disk for 24 hours so the app starts instantly. "
+            text=("The game list is cached on disk for a week so the app starts instantly. "
                   "Refresh if archive.org has new files you don't see yet."),
             wraplength=600,
             justify="left",

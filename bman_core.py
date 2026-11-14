@@ -68,7 +68,7 @@ RUN_DIR = EXE_PATH.parent
 CREDS_FILE = "archive_creds.json"
 
 INDEX_CACHE_FILE = "index_cache.json"
-INDEX_CACHE_TTL_SECONDS = 24 * 60 * 60
+INDEX_CACHE_TTL_SECONDS = 7 * 24 * 60 * 60     # archive.org game list: refreshed once a week
 INDEX_CACHE_PARTIAL_TTL_SECONDS = 15 * 60
 INDEX_CACHE_VERSION = 1
 INDEX_FETCH_TIMEOUT = 12        # seconds per archive.org source
@@ -4351,7 +4351,7 @@ def upload_game_to_hdd(cfg: HddConfig, game_dir: Path, remote_dir: str,
 # which folder was picked: themes in 00030000, gamer pictures in 00020000.
 # ---------------------------------------------------------------------------
 
-CATALOG_CACHE_TTL_SECONDS = 24 * 60 * 60
+CATALOG_CACHE_TTL_SECONDS = 7 * 24 * 60 * 60   # archive.org themes / gamer pictures: once a week
 CATALOG_CACHE_VERSION = 1
 CATALOG_ARCHIVE_SUFFIXES = (".zip", ".rar", ".7z")
 

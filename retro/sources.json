@@ -1,0 +1,136 @@
+{
+  "_help": "List the archive.org items to index for each console. An item is the part of its URL after /details/ - for https://archive.org/details/some-item it is \"some-item\". If one item holds several consoles in subfolders, use {\"item\": \"some-item\", \"folder\": \"Folder Name\"} to take only that folder. Save this file, then use Settings > Reload sources (or restart the app).",
+  "consoles": {
+    "Atari2600": [],
+    "Atari5200": [],
+    "NES": [
+      "NES_Test_Collection_3"
+    ],
+    "SMS": [],
+    "Atari7800": [],
+    "TG16": [],
+    "Genesis": [],
+    "TGCD": [],
+    "SNES": [
+      "No-Intro_SNES_Collection"
+    ],
+    "CDi": [],
+    "SegaCD": [],
+    "Jaguar": [],
+    "32X": [],
+    "Saturn": [],
+    "PS1": [
+      "sony_playstation_part1",
+      "sony_playstation_part2",
+      "sony_playstation_part3",
+      "sony_playstation_part4",
+      "sony_playstation_part5"
+    ],
+    "JaguarCD": [],
+    "N64": [
+      "No-Intro_N64_Collection"
+    ],
+    "Dreamcast": [],
+    "PS2": [
+      "PS2-Redump-2024-Individual-Games-Part1",
+      "PS2-Redump-2024-Individual-Games-Part2",
+      "PS2-Redump-2024-Individual-Games-Part3",
+      "PS2-Redump-2024-Individual-Games-Part4",
+      "PS2-Redump-2024-Individual-Games-Part5",
+      "PS2-Redump-2024-Individual-Games-Part6",
+      "PS2-Redump-2024-Individual-Games-Part7",
+      "PS2-Redump-2024-Individual-Games-Part8",
+      "PS2-Redump-2024-Individual-Games-Part9",
+      "PS2-Redump-2024-Individual-Games-Part10",
+      "PS2-Redump-2024-Individual-Games-Part11",
+      "PS2-Redump-2024-Individual-Games-Part12",
+      "PS2-Redump-2024-Individual-Games-Part13",
+      "PS2-Redump-2024-Individual-Games-Part14",
+      "PS2-Redump-2024-Individual-Games-Part15",
+      "PS2-Redump-2024-Individual-Games-Part16",
+      "PS2-Redump-2024-Individual-Games-Part17"
+    ],
+    "GameCube": [
+      "GameCube-Redump-2024-Individual-Games-Part1",
+      "GameCube-Redump-2024-Individual-Games-Part2"
+    ],
+    "PS3": [
+      "PS3-Redump-2024-Individual-Games-Part1",
+      "PS3-Redump-2024-Individual-Games-Part2",
+      "PS3-Redump-2024-Individual-Games-Part3",
+      "PS3-Redump-2024-Individual-Games-Part4",
+      "PS3-Redump-2024-Individual-Games-Part5",
+      "PS3-Redump-2024-Individual-Games-Part6",
+      "PS3-Redump-2024-Individual-Games-Part7",
+      "PS3-Redump-2024-Individual-Games-Part8",
+      "PS3-Redump-2024-Individual-Games-Part9",
+      "PS3-Redump-2024-Individual-Games-Part10",
+      "PS3-Redump-2024-Individual-Games-Part11",
+      "PS3-Redump-2024-Individual-Games-Part12",
+      "PS3-Redump-2024-Individual-Games-Part13",
+      "PS3-Redump-2024-Individual-Games-Part14",
+      "PS3-Redump-2024-Individual-Games-Part15",
+      "PS3-Redump-2024-Individual-Games-Part16",
+      "PS3-Redump-2024-Individual-Games-Part17",
+      "PS3-Redump-2024-Individual-Games-Part18",
+      "PS3-Redump-2024-Individual-Games-Part19",
+      "PS3-Redump-2024-Individual-Games-Part20",
+      "PS3-Redump-2024-Individual-Games-Part21",
+      "PS3-Redump-2024-Individual-Games-Part22",
+      "PS3-Redump-2024-Individual-Games-Part23",
+      "PS3-Redump-2024-Individual-Games-Part24",
+      "PS3-Redump-2024-Individual-Games-Part25",
+      "PS3-Redump-2024-Individual-Games-Part26",
+      "PS3-Redump-2024-Individual-Games-Part27",
+      "PS3-Redump-2024-Individual-Games-Part28",
+      "PS3-Redump-2024-Individual-Games-Part29",
+      "PS3-Redump-2024-Individual-Games-Part30",
+      "PS3-Redump-2024-Individual-Games-Part31",
+      "PS3-Redump-2024-Individual-Games-Part32",
+      "PS3-Redump-2024-Individual-Games-Part33",
+      "PS3-Redump-2024-Individual-Games-Part34",
+      "PS3_PSN_1",
+      "PS3_PSN_2"
+    ],
+    "Wii": [
+      "Wii-Redump-2024-Individual-Games-Part1",
+      "Wii-Redump-2024-Individual-Games-Part2",
+      "Wii-Redump-2024-Individual-Games-Part3",
+      "Wii-Redump-2024-Individual-Games-Part4",
+      "Wii-Redump-2024-Individual-Games-Part5",
+      "Wii-Redump-2024-Individual-Games-Part6"
+    ],
+    "WiiWare": [],
+    "WiiU": [],
+    "GB": [
+      "No-Intro_GameBoy_Collection"
+    ],
+    "Lynx": [],
+    "GG": [],
+    "VB": [],
+    "GBC": [
+      "No-Intro_GameBoy_Color_Collection"
+    ],
+    "GBA": [
+      "No-Intro_GameBoy_Advance_Collection"
+    ],
+    "DS": [
+      "DS-No-Intro-2024-Myrient-Zipped",
+      "DSi-No-Intro-2024-Myrient-Zipped-2"
+    ],
+    "PSP": [
+      "sony_playstation_portable_part1",
+      "sony_playstation_portable_part2",
+      "sony_playstation_portable_part3",
+      "sony_playstation_portable_part4"
+    ],
+    "3DS": [
+      "3DS-Redump-2024-Individual-Games-Part1",
+      "3DS-Redump-2024-Individual-Games-Part2"
+    ],
+    "Vita": [
+      "sony-playstation-vita-usa-full-set-nonpdrm-format",
+      "sony-playstation-vita-usa-full-set-nonpdrm-format-dlc-updates"
+    ]
+  }
+}

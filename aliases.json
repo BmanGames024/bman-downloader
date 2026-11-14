@@ -1,0 +1,2755 @@
+{
+ "about": "Other names for the covers in this repo (full titles, regional and translated names). Used by Bman Downloader to match game files to covers.",
+ "version": 1,
+ "aliases": {
+  "Original Xbox Covers/AirForce Delta Storm (4B4E0002) (KN00201A).jpg": [
+   "AirForce Delta II",
+   "Deadly Skies"
+  ],
+  "Original Xbox Covers/Amped 2 (4D530041) (MS06501A).jpg": [
+   "Tenku 2"
+  ],
+  "Original Xbox Covers/Apex (49470015) (IG02104A).jpg": [
+   "Racing Evoluzione"
+  ],
+  "Original Xbox Covers/Beat Down - Fists of Vengeance (43430015) (CC02102A).jpg": [
+   "Beat Down"
+  ],
+  "Original Xbox Covers/Big Mutha Truckers 2 (454D0017) (EM02302K).jpg": [
+   "Big Mutha Truckers 2: Truck Me Harder"
+  ],
+  "Original Xbox Covers/Blinx 2 - Masters of Time & Space (4D530065) (MS10101W).jpg": [
+   "Blinx 2: Battle of Time & Space",
+   "Blinx 2 - Masters of Time & Space ~ Blinx 2 - Battle of Time & Space"
+  ],
+  "Original Xbox Covers/Braveknight - Leverant Eiyuuden (494C0002) (IL00201J).jpg": [
+   "Braveknight: Leverant Yeongungjeon"
+  ],
+  "Original Xbox Covers/Capcom Fighting Evolution (43430010) (CC01601W).jpg": [
+   "Capcom Fighting Jam",
+   "Capcom Fighting Evolution ~ Capcom Fighting Jam"
+  ],
+  "Original Xbox Covers/Capcom vs. SNK 2 EO (43430008) (CC00802A).jpg": [
+   "Capcom vs. SNK 2 EO: Mark of the Millennium 2001"
+  ],
+  "Original Xbox Covers/Championship Manager 5 (4553001A) (ES02608E).jpg": [
+   "L'Entraîneur 5: Saison 04/05",
+   "Entraineur 5, L' - Saison 04-05",
+   "Scudetto 5"
+  ],
+  "Original Xbox Covers/Club Football - FC Bayern München (434D0016) (CM02201E).jpg": [
+   "Club Football - FC Bayern Muenchen"
+  ],
+  "Original Xbox Covers/Club Football 2005 - FC Bayern München (434D003E) (CM06201E).jpg": [
+   "Club Football 2005 - FC Bayern Muenchen"
+  ],
+  "Original Xbox Covers/Conflict - Desert Storm II - Back to Baghdad (53430006) (SC00602A).jpg": [
+   "Conflict: Desert Storm II"
+  ],
+  "Original Xbox Covers/Conflict - Global Terror (5343000C) (SC01204A).jpg": [
+   "Conflict: Global Storm"
+  ],
+  "Original Xbox Covers/Crimson Sea (4B4F0002) (KO00203A).jpg": [
+   "Kurenai no Umi: Crimson Sea"
+  ],
+  "Original Xbox Covers/Dai Senryaku VII - Modern Military Tactics (434B0001) (CK00102A).jpg": [
+   "Daisenryaku VII"
+  ],
+  "Original Xbox Covers/Dakar 2 - The World's Ultimate Rally (41430017) (AC02302A).jpg": [
+   "Dakar 2"
+  ],
+  "Original Xbox Covers/Dance Dance Revolution Ultramix 2 (4B4E0021) (KN03304A).jpg": [
+   "Dancing Stage Unleashed 2"
+  ],
+  "Original Xbox Covers/Dance Dance Revolution Ultramix 3 (4B4E0029) (KN04101A).jpg": [
+   "Dancing Stage Unleashed 3"
+  ],
+  "Original Xbox Covers/Dead or Alive 1 Ultimate (54430006) (TC00605K).jpg": [
+   "Dead or Alive 2 Ultimate"
+  ],
+  "Original Xbox Covers/Digimon Rumble Arena 2 (42410001) (BA00102A).jpg": [
+   "Digimon Battle Chronicle"
+  ],
+  "Original Xbox Covers/Digimon World 4 (42410002) (BA00203A).jpg": [
+   "Digimon World X"
+  ],
+  "Original Xbox Covers/Disney Pixar Finding Nemo (5451001E) (TQ03001A).jpg": [
+   "Disney/Pixar Nemo-reul Chajaseo"
+  ],
+  "Original Xbox Covers/Disney Pixar The Incredibles (54510028) (TQ04001K).jpg": [
+   "Disney/Pixar Die Unglaublichen",
+   "Disney/Pixar Gli Incredibili",
+   "Disney/Pixar Los Increíbles",
+   "Disney-Pixar Los Increibles",
+   "Disney/Pixar Mr. Incredible"
+  ],
+  "Original Xbox Covers/Disney's Chicken Little (42560002) (BV00201W).jpg": [
+   "Disneys Himmel und Huhn"
+  ],
+  "Original Xbox Covers/Dr. Seuss' The Cat in the Hat (56550028) (VU04001K).jpg": [
+   "The Cat in the Hat",
+   "Cat in the Hat, The"
+  ],
+  "Original Xbox Covers/DreamWorks Shark Tale (41560038) (AV05601W).jpg": [
+   "DreamWorks Shark Tale: Hajar som Hajar"
+  ],
+  "Original Xbox Covers/Dynasty Warriors 3 (4B4F0003) (KO00301A).jpg": [
+   "Shin Sangoku Musou 2"
+  ],
+  "Original Xbox Covers/Dynasty Warriors 4 (4B4F0004) (KO00403K).jpg": [
+   "Shin Sangoku Musou 3"
+  ],
+  "Original Xbox Covers/Dynasty Warriors 5 (4B4F0007) (KO00703K).jpg": [
+   "Shin Sangoku Musou 4"
+  ],
+  "Original Xbox Covers/ESPN International Winter Sports 2002 (4B4E000B) (KN01101A).jpg": [
+   "ESPN International Winter Sports"
+  ],
+  "Original Xbox Covers/Egg Mania - Eggstreme Madness (4B420002) (KB00203A).jpg": [
+   "Egg Mania: Tsukande! Mawashite! Dossun Puzzle!!",
+   "Eggo Mania"
+  ],
+  "Original Xbox Covers/FIFA Soccer 06 (45410078) (EA12002A).jpg": [
+   "FIFA 06"
+  ],
+  "Original Xbox Covers/FIFA Soccer 07 (454100A6) (EA16605A).jpg": [
+   "FIFA 07"
+  ],
+  "Original Xbox Covers/FIFA Soccer 2003 (45410017) (EA02301A).jpg": [
+   "FIFA Football 2003"
+  ],
+  "Original Xbox Covers/FIFA Soccer 2004 (4541003B) (EA05906A).jpg": [
+   "FIFA Football 2004"
+  ],
+  "Original Xbox Covers/FIFA Soccer 2005 (4541004E) (EA07801A).jpg": [
+   "FIFA Football 2005"
+  ],
+  "Original Xbox Covers/Fable (Limited Edition Bonus DVD) (4D530080) (MS12801A).jpg": [
+   "Fable"
+  ],
+  "Original Xbox Covers/Fantastic 4 (4156001A) (AV02601W).jpg": [
+   "I Fantastici 4",
+   "Fantastici 4, I"
+  ],
+  "Original Xbox Covers/Fatal Frame (54430004) (TC00404A).jpg": [
+   "Fatal Frame: Zero",
+   "Fatal Frame: Zero Special Edition"
+  ],
+  "Original Xbox Covers/Fatal Frame II - Crimson Butterfly - Director's Cut (5443000A) (TC01005K).jpg": [
+   "Fatal Frame II: Crimson Butterfly",
+   "Project Zero II: Crimson Butterfly: Director's Cut"
+  ],
+  "Original Xbox Covers/Freestyle Street Soccer (4143000C) (AC01203A).jpg": [
+   "Urban Freestyle Soccer"
+  ],
+  "Original Xbox Covers/Gladiator - Sword of Vengeance (4143001A) (AC02601A).jpg": [
+   "Gladiator: Schwert der Rache"
+  ],
+  "Original Xbox Covers/GoldenEye - Rogue Agent (4541005D) (EA09301A).jpg": [
+   "GoldenEye: Agente Corrupto",
+   "GoldenEye: Au Service du Mal"
+  ],
+  "Original Xbox Covers/Group S Challenge (43430005) (CC00505K).jpg": [
+   "Circus Drive"
+  ],
+  "Original Xbox Covers/Guilty Gear X2 #Reload - The Midnight Carnival (53410002) (SA00203A).jpg": [
+   "Guilty Gear XX #Reload: The Midnight Carnival"
+  ],
+  "Original Xbox Covers/Halo - Combat Evolved (4D530004) (MS00402A).jpg": [
+   "Halo",
+   "Halo Movies"
+  ],
+  "Original Xbox Covers/Harry Potter and the Sorcerer's Stone (45410037) (EA05504A).jpg": [
+   "Harry Potter and the Philosopher's Stone"
+  ],
+  "Original Xbox Covers/Hello Kitty - Roller Rescue (58500004) (XP00402E).jpg": [
+   "Hello Kitty: Mission Rescue"
+  ],
+  "Original Xbox Covers/Hitman 2 - Silent Assassin (45530009) (ES00911A).jpg": [
+   "Hitman: Silent Assassin"
+  ],
+  "Original Xbox Covers/Indigo Prophecy (4947007B) (IG12304K).jpg": [
+   "Fahrenheit"
+  ],
+  "Original Xbox Covers/Jade Empire (4D53006D) (MS10901L).jpg": [
+   "Jade Empire: Hisui no Teikoku"
+  ],
+  "Original Xbox Covers/Jade Empire (Bonus Disc) (4D530085) (MS13301W).jpg": [
+   "Jade Empire"
+  ],
+  "Original Xbox Covers/Knight's Apprentice - Memorick's Adventures (4D490004) (MI00403L).jpg": [
+   "Memorick: The Apprentice Knight",
+   "Knight's Apprentice - Memorick's Adventures ~ Memorick - The Apprentice Knight"
+  ],
+  "Original Xbox Covers/Kung Fu Chaos (4D530031) (MS04905K).jpg": [
+   "Kung Fu Panic"
+  ],
+  "Original Xbox Covers/LMA Manager 2003 (434D0004) (CM00406E).jpg": [
+   "BDFL Manager 2003",
+   "Football Manager Campionato 2003",
+   "Mánager de Liga 2003",
+   "Manager de Liga 2003",
+   "Roger Lemerre: La Sélection des Champions 2003",
+   "Roger Lemerre - La Selection des Champions 2003"
+  ],
+  "Original Xbox Covers/LMA Manager 2004 (434D000F) (CM01501E).jpg": [
+   "BDFL Manager 2004",
+   "Football Manager Campionato 2004",
+   "Mánager de Liga 2004",
+   "Manager de Liga 2004",
+   "Roger Lemerre: La Sélection des Champions 2004",
+   "Roger Lemerre - La Selection des Champions 2004"
+  ],
+  "Original Xbox Covers/Le Tour de France (4B4E000F) (KN01501E).jpg": [
+   "Tour de France, Le"
+  ],
+  "Original Xbox Covers/Lemony Snicket's A Series of Unfortunate Events (4156001F) (AV03101A).jpg": [
+   "Les Désastreuses Aventures des Orphelins Baudelaire: D'Apres Lemony Snicket",
+   "Desastreuses Aventures des Orphelins Baudelaire, Les - D'Apres Lemony Snicket",
+   "Lemony Snicket: Rätselhafte Ereignisse",
+   "Lemony Snicket - Raetselhafte Ereignisse",
+   "Una Serie de Catastróficas Desdichas de Lemony Snicket",
+   "Una Serie de Catastroficas Desdichas de Lemony Snicket"
+  ],
+  "Original Xbox Covers/MTV Music Generator 3 - This Is the Remix (434D0029) (CM04102A).jpg": [
+   "MTV Music Generator 3"
+  ],
+  "Original Xbox Covers/MechAssault 2 - Lone Wolf (Bonus Disc) (4D530083) (MS13101W).jpg": [
+   "MechAssault 2 - Lone Wolf"
+  ],
+  "Original Xbox Covers/Medal of Honor - European Assault (4541005E) (EA09401A).jpg": [
+   "Medal of Honor: Les Faucons de Guerre"
+  ],
+  "Original Xbox Covers/Medal of Honor - Frontline (4541001A) (EA02601A).jpg": [
+   "Medal of Honor: En Première Ligne",
+   "Medal of Honor - En Premiere Ligne"
+  ],
+  "Original Xbox Covers/Medal of Honor - Rising Sun (4541003F) (EA06301A).jpg": [
+   "Medal of Honor: Soleil Levant"
+  ],
+  "Original Xbox Covers/Metal Dungeon (58490001) (XI00101A).jpg": [
+   "Migong Zhengfuzhe"
+  ],
+  "Original Xbox Covers/Microsoft Windows Media Center Extender for Xbox v1.01 (58580007) (XX00702A).jpg": [
+   "Microsoft Windows Media Center Extender for Xbox"
+  ],
+  "Original Xbox Covers/Midnight Club 3 - DUB Edition (54540079) (TT12101A).jpg": [
+   "Midnight Club 3: DUB Edition Remix"
+  ],
+  "Original Xbox Covers/Minority Report - Everybody Runs (41560014) (AV02001A).jpg": [
+   "Minority Report: Le Futur vous Rattrape"
+  ],
+  "Original Xbox Covers/Mortal Kombat - Deception (4D570019) (MW02505A).jpg": [
+   "Mortal Kombat: Deception (Kollector's Edition Bonus Disc)"
+  ],
+  "Original Xbox Covers/MotoGP 2 (54510016) (TQ02206A).jpg": [
+   "MotoGP URT2 Online Challenge"
+  ],
+  "Original Xbox Covers/Motor Trend Presents Lotus Challenge (58490005) (XI00501A).jpg": [
+   "Lotus Challenge"
+  ],
+  "Original Xbox Covers/Mánager de Liga 2005 (434D004D) (CM07701E).jpg": [
+   "Manager de Liga 2005"
+  ],
+  "Original Xbox Covers/Need for Speed - Most Wanted (4541007B) (EA12302A).jpg": [
+   "Need for Speed: Most Wanted: Black Edition"
+  ],
+  "Original Xbox Covers/Nickelodeon SpongeBob SquarePants - The Movie (54510027) (TQ03901K).jpg": [
+   "Nickelodeon SpongeBob Schwammkopf: Der Film"
+  ],
+  "Original Xbox Covers/Nickelodeon Tak - The Great Juju Challenge (545100F4) (TQ24401K).jpg": [
+   "Nickelodeon Tak: Die große Juju-Jagd",
+   "Nickelodeon Tak - Die grosse Juju-Jagd"
+  ],
+  "Original Xbox Covers/Oddworld - Stranger's Wrath (4541006D) (EA10901A).jpg": [
+   "Oddworld: La Fureur de l'Etranger",
+   "Oddworld: Strangers Vergeltung"
+  ],
+  "Original Xbox Covers/Official Xbox Magazine Game Disc 42 (494D0045) (IM06902A).jpg": [
+   "Das Offizielle Xbox-Magazin: Cover-DVD 07/2005",
+   "Offizielle Xbox-Magazin, Das - Cover-DVD 07-2005"
+  ],
+  "Original Xbox Covers/Otogi - Myth of Demons (46530002) (FS00202A).jpg": [
+   "Otogi"
+  ],
+  "Original Xbox Covers/Otogi 2 - Immortal Warriors (46530004) (FS00402A).jpg": [
+   "Otogi: Hyakki Toubatsu Emaki"
+  ],
+  "Original Xbox Covers/Prince of Persia - Warrior Within (5553003B) (US05901W).jpg": [
+   "Prince of Persia: Kenshi no Kokoro"
+  ],
+  "Original Xbox Covers/Pro Cast - Sports Fishing Game (4343000B) (CC01102A).jpg": [
+   "Lakemasters: Bass Fishing Game"
+  ],
+  "Original Xbox Covers/Pro Race Driver (434D0002) (CM00203A).jpg": [
+   "DTM Race Driver Live",
+   "TOCA Race Driver",
+   "V8 Supercars Australia: Race Driver",
+   "DTM Race Driver: Director's Cut"
+  ],
+  "Original Xbox Covers/Project Gotham Racing (4D530003) (MS00301A).jpg": [
+   "Project Gotham: World Street Racer"
+  ],
+  "Original Xbox Covers/Puyo Pop Fever (53450027) (SE03902E).jpg": [
+   "Puyo Puyo Fever"
+  ],
+  "Original Xbox Covers/Quantum Redshift (4D530015) (MS02104A).jpg": [
+   "Quantum Redshift: Chou Kousoku Kuukan Battle Race"
+  ],
+  "Original Xbox Covers/R -Racing Evolution (4E4D0008) (NM00802A).jpg": [
+   "R:Racing",
+   "R:Racing Evolution: Life in the Fast Lane"
+  ],
+  "Original Xbox Covers/Red Ninja - End of Honor (56550027) (VU03901W).jpg": [
+   "Red Ninja: End of Honour"
+  ],
+  "Original Xbox Covers/RedCard 20-03 (4D57000F) (MW01502A).jpg": [
+   "RedCard"
+  ],
+  "Original Xbox Covers/Roger Lemerre - La Sélection des Champions 2005 (434D004B) (CM07501E).jpg": [
+   "Roger Lemerre - La Selection des Champions 2005"
+  ],
+  "Original Xbox Covers/Silent Hill 2 - Restless Dreams (4B4E0004) (KN00401A).jpg": [
+   "Silent Hill 2: Inner Fears"
+  ],
+  "Original Xbox Covers/Sneakers (4D530023) (MS03502A).jpg": [
+   "Nezmix"
+  ],
+  "Original Xbox Covers/Star Wars - Episode III - Revenge of the Sith (4C410017) (LA02305A).jpg": [
+   "Star Wars: Episode III: Die Rache der Sith",
+   "Star Wars: Episode III: La Revanche des Sith"
+  ],
+  "Original Xbox Covers/Star Wars - Knights of the Old Republic (4C410003) (LA00301A).jpg": [
+   "Star Wars: Caballeros de la Antigua República",
+   "Star Wars - Caballeros de la Antigua Republica"
+  ],
+  "Original Xbox Covers/Star Wars - Knights of the Old Republic II - The Sith Lords (4C410014) (LA02008A).jpg": [
+   "Star Wars: Caballeros de la Antigua República II: Los Señores Sith",
+   "Star Wars - Caballeros de la Antigua Republica II - Los Senores Sith"
+  ],
+  "Original Xbox Covers/Star Wars - The Clone Wars (4C410004) (LA00401A).jpg": [
+   "Star Wars: La Guerra dei Cloni",
+   "Star Wars: Las Guerras Clon"
+  ],
+  "Original Xbox Covers/Steel Battalion (43430002) (CC00201A).jpg": [
+   "Tekki"
+  ],
+  "Original Xbox Covers/Sudeki (4D53000A) (MS01001W).jpg": [
+   "Sudeki: Sennen no Akatsuki no Monogatari"
+  ],
+  "Original Xbox Covers/TOCA Race Driver 2 (434D0011) (CM01702A).jpg": [
+   "DTM Race Driver 2: Ultimate Racing Simulator",
+   "V8 Supercars Australia 2"
+  ],
+  "Original Xbox Covers/TOCA Race Driver 3 (434D0050) (CM08001W).jpg": [
+   "DTM Race Driver 3",
+   "V8 Supercars Australia 3"
+  ],
+  "Original Xbox Covers/Test Drive (49470007) (IG00701A).jpg": [
+   "TD Overdrive: The Brotherhood of Speed"
+  ],
+  "Original Xbox Covers/Test Drive Off-Road - Wide Open (49470001) (IG00101A).jpg": [
+   "Off-Road: Wide Open"
+  ],
+  "Original Xbox Covers/The Bard's Tale (49580001) (IX00101A).jpg": [
+   "Bard's Tale, The"
+  ],
+  "Original Xbox Covers/The Baseball 2002 - Battle Ball Park Sengen (4B410002) (KA00201J).jpg": [
+   "Baseball 2002, The - Battle Ball Park Sengen"
+  ],
+  "Original Xbox Covers/The Bible Game (43560011) (CV01701A).jpg": [
+   "Bible Game, The"
+  ],
+  "Original Xbox Covers/The Chronicles of Narnia - The Lion, the Witch and the Wardrobe (42560003) (BV00301K).jpg": [
+   "Chronicles of Narnia, The - The Lion, the Witch and the Wardrobe",
+   "Die Chroniken von Narnia: Der König von Narnia",
+   "Chroniken von Narnia, Die - Der Koenig von Narnia",
+   "Le Monde de Narnia: Chapitre 1: Le Lion, la Sorcière Blanche et l'Armoire Magique",
+   "Monde de Narnia, Le - Chapitre 1 - Le Lion, la Sorciere Blanche et l'Armoire Magique"
+  ],
+  "Original Xbox Covers/The Chronicles of Riddick - Escape from Butcher Bay (56550026) (VU03801K).jpg": [
+   "Chronicles of Riddick, The - Escape from Butcher Bay"
+  ],
+  "Original Xbox Covers/The Da Vinci Code (545400AB) (TT17102L).jpg": [
+   "Da Vinci Code, The"
+  ],
+  "Original Xbox Covers/The Dukes of Hazzard - Return of the General Lee (5553003A) (US05802L).jpg": [
+   "Dukes of Hazzard, The - Return of the General Lee"
+  ],
+  "Original Xbox Covers/The Elder Scrolls III - Morrowind (42530001) (BS00101A).jpg": [
+   "Elder Scrolls III, The - Morrowind"
+  ],
+  "Original Xbox Covers/The Elder Scrolls III - Morrowind - Game of the Year Edition (42530005) (BS00503A).jpg": [
+   "Elder Scrolls III, The - Morrowind - Game of the Year Edition"
+  ],
+  "Original Xbox Covers/The Fairly OddParents - Breakin' da Rules (54510020) (TQ03201A).jpg": [
+   "Fairly OddParents, The - Breakin' da Rules"
+  ],
+  "Original Xbox Covers/The Godfather - The Game (4541007D) (EA12502A).jpg": [
+   "The Godfather",
+   "Godfather, The",
+   "Godfather, The - The Game",
+   "El Padrino",
+   "Padrino, El",
+   "Il Padrino",
+   "Padrino, Il",
+   "Le Parrain",
+   "Parrain, Le",
+   "Der Pate",
+   "Pate, Der"
+  ],
+  "Original Xbox Covers/The Great Escape (53430003) (SC00303A).jpg": [
+   "Great Escape, The"
+  ],
+  "Original Xbox Covers/The Guy Game (5454007B) (TT12301A).jpg": [
+   "Guy Game, The"
+  ],
+  "Original Xbox Covers/The Hobbit - The Prelude to the Lord of the Rings (56550023) (VU03501K).jpg": [
+   "Hobbit, The - The Prelude to the Lord of the Rings"
+  ],
+  "Original Xbox Covers/The House of the Dead III (53450008) (SE00803A).jpg": [
+   "House of the Dead III, The"
+  ],
+  "Original Xbox Covers/The Hustle - Detroit Streets (4156005B) (AV09101W).jpg": [
+   "Hustle, The - Detroit Streets"
+  ],
+  "Original Xbox Covers/The Incredible Hulk - Ultimate Destruction (56550039) (VU05703W).jpg": [
+   "Incredible Hulk, The - Ultimate Destruction"
+  ],
+  "Original Xbox Covers/The Italian Job (4553000E) (ES01402A).jpg": [
+   "Italian Job, The"
+  ],
+  "Original Xbox Covers/The King of Fighters - Neowave (534E000A) (SN01003W).jpg": [
+   "King of Fighters, The - Neowave"
+  ],
+  "Original Xbox Covers/The King of Fighters 2002 (534E0006) (SN00601L).jpg": [
+   "King of Fighters 2002, The"
+  ],
+  "Original Xbox Covers/The King of Fighters 2003 (534E0003) (SN00301K).jpg": [
+   "King of Fighters 2003, The"
+  ],
+  "Original Xbox Covers/The Legend of Spyro - A New Beginning (5655004A) (VU07401W).jpg": [
+   "Legend of Spyro, The - A New Beginning"
+  ],
+  "Original Xbox Covers/The Lord of the Rings - The Fellowship of the Ring (56550004) (VU00403A).jpg": [
+   "Lord of the Rings, The - The Fellowship of the Ring"
+  ],
+  "Original Xbox Covers/The Lord of the Rings - The Return of the King (4541003E) (EA06201A).jpg": [
+   "Der Herr der Ringe: Die Rückkehr des Königs",
+   "Herr der Ringe, Der - Die Rueckkehr des Koenigs",
+   "Lord of the Rings, The - The Return of the King",
+   "Le Seigneur des Anneaux: Le Retour du Roi",
+   "Seigneur des Anneaux, Le - Le Retour du Roi",
+   "El Señor de los Anillos: El Retorno del Rey",
+   "Senor de los Anillos, El - El Retorno del Rey",
+   "Il Signore degli Anelli: Il ritorno del Re",
+   "Signore degli Anelli, Il - Il ritorno del Re"
+  ],
+  "Original Xbox Covers/The Lord of the Rings - The Third Age (4541005F) (EA09508A).jpg": [
+   "Der Herr der Ringe: Das dritte Zeitalter",
+   "Herr der Ringe, Der - Das dritte Zeitalter",
+   "Lord of the Rings, The - The Third Age",
+   "Le Seigneur des Anneaux: Le Tiers Age",
+   "Seigneur des Anneaux, Le - Le Tiers Age",
+   "El Señor de los Anillos: La Tercera Edad",
+   "Senor de los Anillos, El - La Tercera Edad",
+   "Il Signore degli Anelli: La Terza Era",
+   "Signore degli Anelli, Il - La Terza Era"
+  ],
+  "Original Xbox Covers/The Lord of the Rings - The Two Towers (45410010) (EA01601A).jpg": [
+   "Lord of the Rings, The - The Two Towers"
+  ],
+  "Original Xbox Covers/The Matrix - Path of Neo (4947007C) (IG12401K).jpg": [
+   "Matrix, The - Path of Neo"
+  ],
+  "Original Xbox Covers/The Punisher (54510018) (TQ02401K).jpg": [
+   "Punisher, The"
+  ],
+  "Original Xbox Covers/The Simpsons - Hit & Run (56550015) (VU02101K).jpg": [
+   "Simpsons, The - Hit & Run"
+  ],
+  "Original Xbox Covers/The Simpsons - Road Rage (45410013) (EA01901A).jpg": [
+   "Simpsons, The - Road Rage"
+  ],
+  "Original Xbox Covers/The Sims (4541002F) (EA04704A).jpg": [
+   "Sims, The"
+  ],
+  "Original Xbox Covers/The Sims - Bustin' Out (45410043) (EA06701A).jpg": [
+   "Sims, The - Bustin' Out"
+  ],
+  "Original Xbox Covers/The Sims 2 (4541038B) (EA90702A).jpg": [
+   "Sims 2, The"
+  ],
+  "Original Xbox Covers/The Suffering (4D570015) (MW02101A).jpg": [
+   "Suffering, The"
+  ],
+  "Original Xbox Covers/The Suffering - Ties That Bind (4D57002C) (MW04401L).jpg": [
+   "Suffering, The - Ties That Bind"
+  ],
+  "Original Xbox Covers/The Terminator - Dawn of Fate (49470026) (IG03801A).jpg": [
+   "Terminator, The - Dawn of Fate"
+  ],
+  "Original Xbox Covers/The Thing (5655000D) (VU01302A).jpg": [
+   "Thing, The"
+  ],
+  "Original Xbox Covers/The Ultimate Selection (584B000A) (XK01005E).jpg": [
+   "Ultimate Selection, The",
+   "Xbox the Best of Demo Disk Version 10.0"
+  ],
+  "Original Xbox Covers/The Urbz - Sims in the City (45410060) (EA09601A).jpg": [
+   "Urbz, The - Sims in the City"
+  ],
+  "Original Xbox Covers/The Warriors (5454009B) (TT15503A).jpg": [
+   "Warriors, The"
+  ],
+  "Original Xbox Covers/The Wild Rings (4D530048) (MS07201J).jpg": [
+   "Wild Rings, The"
+  ],
+  "Original Xbox Covers/Tom Clancy's Splinter Cell (5553000C) (US01209A).jpg": [
+   "Tom Clancy's Splinter Cell (Bonus Disc)"
+  ],
+  "Original Xbox Covers/Ultimate Beach Soccer (57450001) (WE00102A).jpg": [
+   "Pro Beach Soccer"
+  ],
+  "Original Xbox Covers/Ultra Bust-A-Move (4D4A000C) (MJ01201A).jpg": [
+   "Ultra Puzzle Bobble"
+  ],
+  "Original Xbox Covers/WTA Tour Tennis (4B4E0010) (KN01603A).jpg": [
+   "Pro Tennis WTA Tour",
+   "WTA Tour Tennis Pro Evolution"
+  ],
+  "Original Xbox Covers/WWF Raw (54510002) (TQ00201A).jpg": [
+   "WWE Raw"
+  ],
+  "Original Xbox Covers/WinBack 2 - Project Poseidon (4B4F0008) (KO00801A).jpg": [
+   "Operation WinBack 2: Project Poseidon"
+  ],
+  "Original Xbox Covers/Winter X Games Snowboarding 2002 (4B4E0009) (KN00902A).jpg": [
+   "ESPN Winter X Games Snowboarding 2002",
+   "Winter X Games Snowboarding 2"
+  ],
+  "Original Xbox Covers/Wreckless - The Yakuza Missions (4156000A) (AV01001A).jpg": [
+   "Wreckless: Mission Yakusas"
+  ],
+  "Original Xbox Covers/X2 - Wolverine's Revenge (41560008) (AV00802A).jpg": [
+   "X-Men 2: Wolverine's Revenge"
+  ],
+  "Xbox 360 Covers/2006 FIFA World Cup™ (454107E6).jpg": [
+   "FIFA World Cup Germany 2006"
+  ],
+  "Xbox 360 Covers/2010 FIFA World Cup™ (454108E4).jpg": [
+   "2010 FIFA World Cup South Africa",
+   "2010 FIFA World Cup: Minami Africa Taikai",
+   "2010 FIFA WM"
+  ],
+  "Xbox 360 Covers/50 Cent - BotS (5451083B).jpg": [
+   "50 Cent: Blood on the Sand"
+  ],
+  "Xbox 360 Covers/50 Cent - BotS (JP) (54510852).jpg": [
+   "50 Cent: Blood on the Sand"
+  ],
+  "Xbox 360 Covers/5th Grader - Game Time (54510840).jpg": [
+   "Are You Smarter Than a 5th Grader? Game Time"
+  ],
+  "Xbox 360 Covers/A-Train HX (414B07D1).jpg": [
+   "A Ressha de Ikou HX"
+  ],
+  "Xbox 360 Covers/AA - True Soldiers (55530808).jpg": [
+   "America's Army: True Soldiers"
+  ],
+  "Xbox 360 Covers/AC DC LIVE - Rock Band (45410889).jpg": [
+   "AC/DC Live: Rock Band Track Pack"
+  ],
+  "Xbox 360 Covers/AC for Answer (465307DA).jpg": [
+   "Armored Core: For Answer"
+  ],
+  "Xbox 360 Covers/ACE COMBAT 6 - Fires of Liberation (4E4D07D1).jpg": [
+   "Ace Combat 6: Kaihou e no Senka"
+  ],
+  "Xbox 360 Covers/ANARCHY REIGNS (5345083F).jpg": [
+   "Anarchy Reigns ~ Max Anarchy"
+  ],
+  "Xbox 360 Covers/APOCALYPSE (494607D5).jpg": [
+   "Apocalypse: Desire Next"
+  ],
+  "Xbox 360 Covers/AQUAZONE (464707D1).jpg": [
+   "Aquazone: Life Simulator"
+  ],
+  "Xbox 360 Covers/ARMORED CORE V(ASIA) (4E4D0854).jpg": [
+   "Armored Core V"
+  ],
+  "Xbox 360 Covers/ATARI ASTEROIDS ASTEROIDS DELUXE (5841084E).jpg": [
+   "Asteroids & Asteroids Deluxe"
+  ],
+  "Xbox 360 Covers/Absolute (494607D3).jpg": [
+   "Absolute: Blazing Infinity"
+  ],
+  "Xbox 360 Covers/Adventure Time - Finn and Jake Investigations (373407D8).jpg": [
+   "Adventure Time: Finn & Jake Investigations"
+  ],
+  "Xbox 360 Covers/Agarest (494607D6).jpg": [
+   "Agarest Senki: Re-appearance"
+  ],
+  "Xbox 360 Covers/Akai Katana Disc Xbox 360 (435A07DD).jpg": [
+   "Akai Katana Shin"
+  ],
+  "Xbox 360 Covers/Alaskan Adventures (415607DC).jpg": [
+   "Cabela's Alaskan Adventures"
+  ],
+  "Xbox 360 Covers/Alaskan Storm (475707D1).jpg": [
+   "Deadliest Catch: Alaskan Storm"
+  ],
+  "Xbox 360 Covers/Alien - Isolation (5345085E).jpg": [
+   "Alien: Isolation (Installation Disc)"
+  ],
+  "Xbox 360 Covers/American Wasteland (415607D4).jpg": [
+   "Tony Hawk's American Wasteland"
+  ],
+  "Xbox 360 Covers/ArcaniA (4A5707D2).jpg": [
+   "Arcania: Gothic 4",
+   "Arcania: The Complete Tale"
+  ],
+  "Xbox 360 Covers/Army of TWO™ - TFD (454108D8).jpg": [
+   "Army of Two: The 40th Day"
+  ],
+  "Xbox 360 Covers/Army of TWO™ - TFD (JP) (454108F1).jpg": [
+   "Army of Two: The 40th Day"
+  ],
+  "Xbox 360 Covers/Army of Two™ (EU) (4541084C).jpg": [
+   "Army of Two"
+  ],
+  "Xbox 360 Covers/Assassin's Creed II (5553083B).jpg": [
+   "Assassin's Creed II: Game of the Year Edition",
+   "Assassin's Creed II: Special Edition"
+  ],
+  "Xbox 360 Covers/Assassin's Creed® III (555308AE).jpg": [
+   "Assassin's Creed III (Single-player)",
+   "Assassin's Creed III (Multiplayer)"
+  ],
+  "Xbox 360 Covers/Assassin’s Creed® Liberation HD (584113FC).jpg": [
+   "Assassins Creed III Liberation HD"
+  ],
+  "Xbox 360 Covers/Assassin’s Creed®IV Black Flag™ (555308C2).jpg": [
+   "Assassin's Creed IV: Black Flag (Multiplayer)"
+  ],
+  "Xbox 360 Covers/Assault on Dark Athena (494707EE).jpg": [
+   "The Chronicles of Riddick: Assault on Dark Athena"
+  ],
+  "Xbox 360 Covers/Asterix Olympic Games (494707E1).jpg": [
+   "Asterix at the Olympic Games"
+  ],
+  "Xbox 360 Covers/At World’s End (425607D1).jpg": [
+   "Disney Pirates of the Caribbean: At World's End"
+  ],
+  "Xbox 360 Covers/Avatar - TLA - TBE (545107E1).jpg": [
+   "Nickelodeon Avatar: The Last Airbender: The Burning Earth"
+  ],
+  "Xbox 360 Covers/BCFx Doug Williams Ed (415907D7).jpg": [
+   "Black College Football: The Xperience"
+  ],
+  "Xbox 360 Covers/BEN 10 - VILGAX ATTACKS (445007F1).jpg": [
+   "Ben 10 Alien Force: Vilgax Attacks"
+  ],
+  "Xbox 360 Covers/BEN 10 ULTIMATE ALIEN™ (445007F7).jpg": [
+   "Ben 10: Ultimate Alien: Cosmic Destruction"
+  ],
+  "Xbox 360 Covers/BIA - HH JP (5553082A).jpg": [
+   "Brothers in Arms: Hell's Highway"
+  ],
+  "Xbox 360 Covers/BLADESTORM (4B4F07D8).jpg": [
+   "Bladestorm: Hyakunen Sensou",
+   "Bladestorm: The Hundred Years' War"
+  ],
+  "Xbox 360 Covers/BLAZBLUE CS (415707DA).jpg": [
+   "BlazBlue: Continuum Shift"
+  ],
+  "Xbox 360 Covers/BPS® - The Hunt (474907D2).jpg": [
+   "Bass Pro Shops: The Hunt"
+  ],
+  "Xbox 360 Covers/Baja 1000 (41560823).jpg": [
+   "Score International Baja 1000: World Championship Off Road Racing"
+  ],
+  "Xbox 360 Covers/Bakugan™ (41560857).jpg": [
+   "Bakugan: Battle Brawlers"
+  ],
+  "Xbox 360 Covers/Bakugan™ - DOTC (41560891).jpg": [
+   "Bakugan: Defenders of the Core"
+  ],
+  "Xbox 360 Covers/Banjo Kazooie - N and B (4D5307ED).jpg": [
+   "Banjo-Kazooie: Nuts & Bolts"
+  ],
+  "Xbox 360 Covers/Barbie and Her Sisters Puppy Rescue (373407DB).jpg": [
+   "Barbie & Her Sisters: Puppy Rescue"
+  ],
+  "Xbox 360 Covers/Batman - AA GOTY (5343080B).jpg": [
+   "Batman: Arkham Asylum: Game of the Year Edition"
+  ],
+  "Xbox 360 Covers/Batman - Arkham City (57520802).jpg": [
+   "Batman: Arkham City: Game of the Year Edition"
+  ],
+  "Xbox 360 Covers/Batman™ - Arkham Origins (57520828).jpg": [
+   "Batman: Arkham Origins (Disco 1)",
+   "Batman: Arkham Origins (Disco 2)"
+  ],
+  "Xbox 360 Covers/Battle for the Pacific (41560805).jpg": [
+   "The History Channel: Battle for the Pacific"
+  ],
+  "Xbox 360 Covers/Battlefield 3™ (45410950).jpg": [
+   "Battlefield 3 (Multiplay/COOP)",
+   "Battlefield 3 (Multiplayer/Co-Op)",
+   "Battlefield 3 (Single-Play)",
+   "Battlefield 3 (Single-Player Campaign)"
+  ],
+  "Xbox 360 Covers/Battlefield™ Hardline (454109E0).jpg": [
+   "Battlefield Hardline (Install/Multiplayer)",
+   "Battlefield Hardline (Single Player)"
+  ],
+  "Xbox 360 Covers/Beautiful Katamari (4E4D07DC).jpg": [
+   "Beautiful Katamari Damacy"
+  ],
+  "Xbox 360 Covers/Bee Movie™ Game (415607F5).jpg": [
+   "DreamWorks Bee Movie Game"
+  ],
+  "Xbox 360 Covers/Bejeweled 3 (504707D8).jpg": [
+   "Plants vs. Zombies"
+  ],
+  "Xbox 360 Covers/Beowulf (55530801).jpg": [
+   "Beowulf: The Game"
+  ],
+  "Xbox 360 Covers/Big Game Hunter (41560800).jpg": [
+   "Cabela's Big Game Hunter"
+  ],
+  "Xbox 360 Covers/BioShock (545407D8).jpg": [
+   "BioShock: Ultimate Rapture Edition (BioShock: Bonus Content)"
+  ],
+  "Xbox 360 Covers/BioShock 2 (54540861).jpg": [
+   "BioShock: Ultimate Rapture Edition (BioShock 2: Bonus Content)"
+  ],
+  "Xbox 360 Covers/BioShock 2 (Kor) (54540865).jpg": [
+   "BioShock 2"
+  ],
+  "Xbox 360 Covers/Black Eyed Peas Experience (5553088D).jpg": [
+   "The Black Eyed Peas Experience"
+  ],
+  "Xbox 360 Covers/Blacksite (4D5707D7).jpg": [
+   "BlackSite: Area 51"
+  ],
+  "Xbox 360 Covers/Blackwater Kinect (464F07F2).jpg": [
+   "Blackwater"
+  ],
+  "Xbox 360 Covers/BlazBlue (415807D5).jpg": [
+   "BlazBlue: Calamity Trigger"
+  ],
+  "Xbox 360 Covers/Blazing Angels (555307DB).jpg": [
+   "Blazing Angels: Squadrons of WWII"
+  ],
+  "Xbox 360 Covers/Blazing Angels 2 (555307FE).jpg": [
+   "Blazing Angels 2: Secret Missions of WWII"
+  ],
+  "Xbox 360 Covers/Blur (41560845).jpg": [
+   "Blur Racerz"
+  ],
+  "Xbox 360 Covers/Body and Brain Connection (4E4D0827).jpg": [
+   "Tohoku Daigaku Kawashima Ryuta Kyouju Kanshuu Shidou: Karada de Kotaeru Atarashii Noutore"
+  ],
+  "Xbox 360 Covers/Borderlands (JP) (54540866).jpg": [
+   "Borderlands"
+  ],
+  "Xbox 360 Covers/Borderlands - The Pre-Sequel (545408B4).jpg": [
+   "Borderlands: The Pre-Sequel! Add-On Installation Disc"
+  ],
+  "Xbox 360 Covers/Brave- Warrior's Tale (455607D1).jpg": [
+   "Brave: A Warrior's Tale"
+  ],
+  "Xbox 360 Covers/Brothers in Arms - HH (555307EA).jpg": [
+   "Brothers in Arms: Hell's Highway"
+  ],
+  "Xbox 360 Covers/Brothers in Arms HH GR (55530828).jpg": [
+   "Brothers in Arms: Hell's Highway"
+  ],
+  "Xbox 360 Covers/Bully Scholarship Ed (5454081A).jpg": [
+   "Bully: Scholarship Edition"
+  ],
+  "Xbox 360 Covers/Burnout Paradise (45410806).jpg": [
+   "Burnout Paradise: The Ultimate Box"
+  ],
+  "Xbox 360 Covers/C&C Red Alert 3 (45410860).jpg": [
+   "Command & Conquer: Alarmstufe Rot 3",
+   "Command & Conquer: Red Alert 3"
+  ],
+  "Xbox 360 Covers/C&C3 - Kane's Wrath (4541083A).jpg": [
+   "Command & Conquer 3: Kane's Wrath",
+   "Command & Conquer 3: Kanes Rache",
+   "Command & Conquer 3: L'Ira di Kane"
+  ],
+  "Xbox 360 Covers/CHAOS;HEAD らぶChu☆Chu！ (465607DC).jpg": [
+   "Chaos;Head Love Chu Chu!"
+  ],
+  "Xbox 360 Covers/CLASH OF THE TITANS (4E4D081B).jpg": [
+   "Clash of the Titans: The Videogame"
+  ],
+  "Xbox 360 Covers/CM 2007 (534307D7).jpg": [
+   "Championship Manager 2007"
+  ],
+  "Xbox 360 Covers/CSI - Deadly Intent (5553083F).jpg": [
+   "CSI: Crime Scene Investigation: Deadly Intent"
+  ],
+  "Xbox 360 Covers/CSI - Fatal Conspiracy (55530849).jpg": [
+   "CSI: Crime Scene Investigation: Fatal Conspiracy"
+  ],
+  "Xbox 360 Covers/CSI-Hard Evidence (55530809).jpg": [
+   "CSI: Crime Scene Investigation: Hard Evidence"
+  ],
+  "Xbox 360 Covers/CW - Secret Missions (41560825).jpg": [
+   "History Civil War: Secret Missions"
+  ],
+  "Xbox 360 Covers/Cabela's BGH 2010 (4156085F).jpg": [
+   "Cabela's Big Game Hunter 2010"
+  ],
+  "Xbox 360 Covers/Cabela's Hunting Party (415608C2).jpg": [
+   "Cabela's Big Game Hunter: Hunting Party"
+  ],
+  "Xbox 360 Covers/Cabela's NAA (4156088F).jpg": [
+   "Cabela's North American Adventures"
+  ],
+  "Xbox 360 Covers/Cabela's Safari (415607E5).jpg": [
+   "Cabela's African Safari"
+  ],
+  "Xbox 360 Covers/Cabela's Survival - SoK (415608BE).jpg": [
+   "Cabela's Survival: Shadows of Katmai"
+  ],
+  "Xbox 360 Covers/Cabela's® DH 2011 (41560890).jpg": [
+   "Cabela's Dangerous Hunts 2011"
+  ],
+  "Xbox 360 Covers/Call of Duty® - Advanced Warfare (41560914).jpg": [
+   "Call of Duty: Advanced Warfare (Disco de Juego)",
+   "Call of Duty: Advanced Warfare (Disco di Gioco)",
+   "Call of Duty: Advanced Warfare (Disco do Jogo)",
+   "Call of Duty: Advanced Warfare (Disque de Jeu)",
+   "Call of Duty: Advanced Warfare (Game Disc)",
+   "Call of Duty: Advanced Warfare (Igrovoj)",
+   "Call of Duty: Advanced Warfare (Install Disc)",
+   "Call of Duty: Advanced Warfare (Spieldisc)"
+  ],
+  "Xbox 360 Covers/Call of Duty® - Ghosts (415608FC).jpg": [
+   "Call of Duty: Ghosts (Disque de Jeu)",
+   "Call of Duty: Ghosts (Dysk Z Gra)",
+   "Call of Duty: Ghosts (Game Disc)",
+   "Call of Duty: Ghosts (Igrovoj)",
+   "Call of Duty: Ghosts (Spieldisc)",
+   "Call of Duty: Ghosts (Install Disc)",
+   "Call of Duty: Ghosts (Disco 1) (Disco de Juego)",
+   "Call of Duty: Ghosts (Disco 1) (Disco di Gioco)",
+   "Call of Duty: Ghosts (Disco 1) (Disco do Jogo)"
+  ],
+  "Xbox 360 Covers/Cameron's Avatar (5553083C).jpg": [
+   "James Cameron's Avatar The Game",
+   "James Cameron's Avatar: Gra Komputerowa"
+  ],
+  "Xbox 360 Covers/Carnival Games® - Monkey See, Monkey Do™ (54540890).jpg": [
+   "Carnival Games: Monkey See, Monkey Do ~ Carnival Games in Action!"
+  ],
+  "Xbox 360 Covers/Cars (545107EA).jpg": [
+   "Disney/Pixar Cars"
+  ],
+  "Xbox 360 Covers/Cars - Race-O-Rama (54510848).jpg": [
+   "Disney/Pixar Cars: Race-O-Rama"
+  ],
+  "Xbox 360 Covers/Cars 2 - The Video Game (425607FE).jpg": [
+   "Disney/Pixar Cars 2"
+  ],
+  "Xbox 360 Covers/Cars 3 - Driven to Win (57520855).jpg": [
+   "Disney/Pixar Cars 3: Driven to Win"
+  ],
+  "Xbox 360 Covers/Cars Mater-National (54510801).jpg": [
+   "Disney/Pixar Cars: Mater-National Championship"
+  ],
+  "Xbox 360 Covers/Champion Jockey - G1 Jockey & Gallop Racer (4B5607D7).jpg": [
+   "Champion Jockey: Gallop Racer & GI Jockey"
+  ],
+  "Xbox 360 Covers/Chaotic (4156085A).jpg": [
+   "Chaotic: Shadow Warriors"
+  ],
+  "Xbox 360 Covers/Check vs Mate (5A4507D1).jpg": [
+   "Battle vs. Chess"
+  ],
+  "Xbox 360 Covers/Civil War (415607E4).jpg": [
+   "Civil War: A Nation Divided"
+  ],
+  "Xbox 360 Covers/Cloudy with a (55530836).jpg": [
+   "Cloudy with a Chance of Meatballs"
+  ],
+  "Xbox 360 Covers/Command & Conquer 3 (4541080E).jpg": [
+   "Command & Conquer 3: Tiberium Wars"
+  ],
+  "Xbox 360 Covers/Condemned (534507D2).jpg": [
+   "Condemned: Psycho Crime",
+   "Condemned - Criminal Origins"
+  ],
+  "Xbox 360 Covers/Conflict -DeniedOps(DE) (534307EF).jpg": [
+   "Conflict: Denied Ops"
+  ],
+  "Xbox 360 Covers/Crackdown (4D5307DC).jpg": [
+   "Crackdown ~ Riot Act"
+  ],
+  "Xbox 360 Covers/Crackdown 2 (4D5308BC).jpg": [
+   "Crackdown 2 ~ Riot Act 2"
+  ],
+  "Xbox 360 Covers/Crash Time (435607D5).jpg": [
+   "Crash Time: Autobahn Pursuit"
+  ],
+  "Xbox 360 Covers/Crash Time (524C07D1).jpg": [
+   "Cobra 11: Crash Time"
+  ],
+  "Xbox 360 Covers/Crash Time 3 (524C07D9).jpg": [
+   "Crash Time III"
+  ],
+  "Xbox 360 Covers/DARK SOULS™ II (465307E4).jpg": [
+   "Dark Souls II: Scholar of the First Sin"
+  ],
+  "Xbox 360 Covers/DB - Raging Blast (4E4D0803).jpg": [
+   "Dragon Ball: Raging Blast"
+  ],
+  "Xbox 360 Covers/DB - Raging Blast 2 (4E4D0826).jpg": [
+   "Dragon Ball: Raging Blast 2"
+  ],
+  "Xbox 360 Covers/DBZ - BURST LIMIT (424107DC).jpg": [
+   "Dragon Ball Z: Burst Limit"
+  ],
+  "Xbox 360 Covers/DDR DS Universe (4B4E07DC).jpg": [
+   "Dance Dance Revolution Universe",
+   "Dancing Stage Universe"
+  ],
+  "Xbox 360 Covers/DDR DS Universe 2 (4B4E07E7).jpg": [
+   "Dance Dance Revolution Universe 2",
+   "Dancing Stage Universe 2"
+  ],
+  "Xbox 360 Covers/DDR Universe 3 (4B4E07EF).jpg": [
+   "Dance Dance Revolution Universe 3",
+   "Dance Dance Revolution Universe 3: Chinese Songs Special Edition"
+  ],
+  "Xbox 360 Covers/DEAD OR ALIVE 5 Last Round (4B5607E8).jpg": [
+   "Dead or Alive 5 Ultimate"
+  ],
+  "Xbox 360 Covers/DEATHSMILES NA (415807D8).jpg": [
+   "Deathsmiles"
+  ],
+  "Xbox 360 Covers/DECA SPORTS FREEDOM (485507DF).jpg": [
+   "Sports Island Freedom"
+  ],
+  "Xbox 360 Covers/DEUS EX - HUMAN REVOLUTION (535107FA).jpg": [
+   "Deus Ex: Human Revolution: Director's Cut"
+  ],
+  "Xbox 360 Covers/DIARIO (494607D2).jpg": [
+   "Diario: Rebirth Moon Legend"
+  ],
+  "Xbox 360 Covers/DTR - Retribution (4E4D07F5).jpg": [
+   "Dead to Rights: Retribution"
+  ],
+  "Xbox 360 Covers/DW - GUNDAM 2 (4E4D0800).jpg": [
+   "Dynasty Warriors: Gundam 2"
+  ],
+  "Xbox 360 Covers/DW - Strikeforce (4B4F07FA).jpg": [
+   "Dynasty Warriors: Strikeforce"
+  ],
+  "Xbox 360 Covers/DW -GUNDAM (4E4D07E5).jpg": [
+   "Dynasty Warriors: Gundam",
+   "Gundam Musou International"
+  ],
+  "Xbox 360 Covers/DW MULTI RAID Special (4B4F07EC).jpg": [
+   "Shin Sangoku Musou: Multi Raid Special"
+  ],
+  "Xbox 360 Covers/DW Strikeforce(Kr) (4B4F07F2).jpg": [
+   "Jin Samguk Mussang: Multi Raid Special"
+  ],
+  "Xbox 360 Covers/DW Strikeforce(Tc) (4B4F07F1).jpg": [
+   "Shin Sangoku Musou: Multi Raid Special"
+  ],
+  "Xbox 360 Covers/DYNASTY WARRIORS 6 (4B4F07DA).jpg": [
+   "Shin Sangoku Musou 5"
+  ],
+  "Xbox 360 Covers/DYNASTY WARRIORS 6 (4B4F07DF).jpg": [
+   "Jin Samguk Mussang 5"
+  ],
+  "Xbox 360 Covers/DYNASTY WARRIORS 6 (4B4F07E4).jpg": [
+   "Shin Sangoku Musou 5"
+  ],
+  "Xbox 360 Covers/DanceMasters (4B4E081E).jpg": [
+   "Dance Evolution"
+  ],
+  "Xbox 360 Covers/Dangerous Hunts 2009 (41560826).jpg": [
+   "Cabela's Dangerous Adventures",
+   "Cabela's Dangerous Hunts 2009"
+  ],
+  "Xbox 360 Covers/Dante's Inferno™ (454108CF).jpg": [
+   "Dante's Inferno: Shinkyoku Jigoku-hen"
+  ],
+  "Xbox 360 Covers/Dark Messiah of Might and Magic - Elements (55530804).jpg": [
+   "Dark Messiah: Might and Magic: Elements"
+  ],
+  "Xbox 360 Covers/Dark Souls™ (4E4D083A).jpg": [
+   "Dark Souls: Prepare to Die Edition"
+  ],
+  "Xbox 360 Covers/DarkStar One (4B5907DA).jpg": [
+   "DarkStar One: Broken Alliance"
+  ],
+  "Xbox 360 Covers/Darksiders (4B4E0814).jpg": [
+   "Darksiders: Shinpan no Toki"
+  ],
+  "Xbox 360 Covers/Dead Island (4B4D07DF).jpg": [
+   "Dead Island: Game of the Year Edition"
+  ],
+  "Xbox 360 Covers/Dead Island (53440803).jpg": [
+   "Dead Island: Zombie of the Year Edition"
+  ],
+  "Xbox 360 Covers/Deadly Premonition (4D5607D1).jpg": [
+   "Red Seeds Profile"
+  ],
+  "Xbox 360 Covers/DeathSmiles2 X (435A07D9).jpg": [
+   "Deathsmiles II X: Makai no Merry Christmas"
+  ],
+  "Xbox 360 Covers/Defiance™ Free to Play (545907D1).jpg": [
+   "Defiance"
+  ],
+  "Xbox 360 Covers/DiRT 3 (434D083D).jpg": [
+   "DiRT 3: Complete Edition"
+  ],
+  "Xbox 360 Covers/Dishonored (425307E3).jpg": [
+   "Dishonored: Game of the Year Edition"
+  ],
+  "Xbox 360 Covers/Disney Bolt (425607DE).jpg": [
+   "Walt Disney Pictures Bolt"
+  ],
+  "Xbox 360 Covers/Disney Infinity (2.0 Edition) (4256082C).jpg": [
+   "Disney Infinity 2.0: Igra bez Granic",
+   "Disney Infinity 2.0: Play Without Limits"
+  ],
+  "Xbox 360 Covers/Disney Infinity 3.0 Edition (42560832).jpg": [
+   "Disney Infinity 3.0: Play Without Limits"
+  ],
+  "Xbox 360 Covers/Disney Pixar - Brave The Video Game (42560817).jpg": [
+   "Disney/Pixar Brave"
+  ],
+  "Xbox 360 Covers/Disney Sing It HSM3 (425607E6).jpg": [
+   "Disney Sing It: High School Musical 3: Senior Year"
+  ],
+  "Xbox 360 Covers/Disney·Pixar UP (54510839).jpg": [
+   "Disney/Pixar Oben"
+  ],
+  "Xbox 360 Covers/Divinity II (434407D6).jpg": [
+   "Divinity II: Ego Draconis"
+  ],
+  "Xbox 360 Covers/Divinity II (445407D3).jpg": [
+   "Divinity II: Ego Draconis"
+  ],
+  "Xbox 360 Covers/Dodonpachi saidaioujyou (435A07E7).jpg": [
+   "DoDonPachi Saidaioujou"
+  ],
+  "Xbox 360 Covers/Double Dragon II –the wander of Dragons- (5841128D).jpg": [
+   "Double Dragon II - The Wander of The Dragons"
+  ],
+  "Xbox 360 Covers/Dragon Age - Origins (454108C0).jpg": [
+   "Dragon Age: Nachalo",
+   "Dragon Age: Origins: Awakening"
+  ],
+  "Xbox 360 Covers/Dragon Age - Origins (J) (53440801).jpg": [
+   "Dragon Age: Origins",
+   "Dragon Age: Origins: Awakening"
+  ],
+  "Xbox 360 Covers/Dragon Age II (J) (53440804).jpg": [
+   "Dragon Age II"
+  ],
+  "Xbox 360 Covers/Dragon Age™ - Inquisition (45410997).jpg": [
+   "Dragon Age: Inquisition (Disco 1)",
+   "Dragon Age: Inquisition (Disco 2)"
+  ],
+  "Xbox 360 Covers/Dragon Age™ 2 (4541090B).jpg": [
+   "Dragon Age II"
+  ],
+  "Xbox 360 Covers/Dragon Ball Z Ultimate Tenkaichi (4E4D0846).jpg": [
+   "Dragon Ball: Ultimate Blast"
+  ],
+  "Xbox 360 Covers/Dragon's Dogma - Dark Arisen (43430814).jpg": [
+   "Dragon's Dogma",
+   "Dragon's Dogma: Dark Arisen (Game Disc)",
+   "Dragon's Dogma: Dark Arisen (Install Disc)"
+  ],
+  "Xbox 360 Covers/DreamWorks Kartz (415608B4).jpg": [
+   "DreamWorks Super Star Kartz"
+  ],
+  "Xbox 360 Covers/Duke Nukem Forever(JP) (5454084D).jpg": [
+   "Duke Nukem Forever"
+  ],
+  "Xbox 360 Covers/Dynasty Warriors 5 Empires (4B4F07D3).jpg": [
+   "Shin Sangoku Musou 4: Empires"
+  ],
+  "Xbox 360 Covers/Dynasty Warriors 6 Empires (4B4F07E7).jpg": [
+   "Shin Sangoku Musou 5: Empires"
+  ],
+  "Xbox 360 Covers/Dynasty Warriors 8 (4B5607E6).jpg": [
+   "Shin Sangoku Musou 7"
+  ],
+  "Xbox 360 Covers/Dynasty Warriors Gundam 3 (4E4D0834).jpg": [
+   "Gundam Musou 3"
+  ],
+  "Xbox 360 Covers/EA SPORTS Active 2 (45410911).jpg": [
+   "EA Sports Active 2: Personal Trainer"
+  ],
+  "Xbox 360 Covers/EA SPORTS™ 2014 FIFA World Cup Brazil™ (454109D4).jpg": [
+   "2014 FIFA World Cup Brazil",
+   "Copa do Mundo da FIFA Brasil 2014"
+  ],
+  "Xbox 360 Covers/EA SPORTS™ FIFA 15 (454109DB).jpg": [
+   "FIFA 15"
+  ],
+  "Xbox 360 Covers/EA SPORTS™ FIFA 16 (454109EE).jpg": [
+   "FIFA 16"
+  ],
+  "Xbox 360 Covers/EA SPORTS™ FIFA 17 (454109F4).jpg": [
+   "FIFA 17"
+  ],
+  "Xbox 360 Covers/EA SPORTS™ FIFA 19 Legacy Edition (454109F9).jpg": [
+   "FIFA 19: Edição Legacy",
+   "FIFA 19: Izdanie Legacy",
+   "FIFA 19: Legacy Edition"
+  ],
+  "Xbox 360 Covers/EA SPORTS™ FIFA Street (4541097B).jpg": [
+   "FIFA Street"
+  ],
+  "Xbox 360 Covers/EA SPORTS™ Grand Slam® Tennis 2 (45410891).jpg": [
+   "Grand Slam Tennis 2"
+  ],
+  "Xbox 360 Covers/EA SPORTS™ NHL® Legacy Edition (454109EC).jpg": [
+   "NHL Legacy Edition"
+  ],
+  "Xbox 360 Covers/EA SPORTS™ NHL®13 (4541099B).jpg": [
+   "NHL 13"
+  ],
+  "Xbox 360 Covers/EA Sports ™ FIFA Soccer 13 (45410998).jpg": [
+   "FIFA 13",
+   "FIFA 13: World Class Soccer",
+   "FIFA Soccer 13"
+  ],
+  "Xbox 360 Covers/ESPGALUDA2 (435A07D8).jpg": [
+   "Espgaluda II Black Label"
+  ],
+  "Xbox 360 Covers/ET - QUAKE Wars (415607DF).jpg": [
+   "Enemy Territory: Quake Wars"
+  ],
+  "Xbox 360 Covers/Earth Defense Force 2017 (445007D3).jpg": [
+   "Chikyuu Boueigun 3"
+  ],
+  "Xbox 360 Covers/Eat Lead (445007EB).jpg": [
+   "Eat Lead: The Return of Matt Hazard"
+  ],
+  "Xbox 360 Covers/Eat Lead (445007F2).jpg": [
+   "Eat Lead: Matt Hazard no Gyakushuu"
+  ],
+  "Xbox 360 Covers/Eets™ (58410825).jpg": [
+   "Eets: Chowdown"
+  ],
+  "Xbox 360 Covers/F.E.A.R (565507D9).jpg": [
+   "F.E.A.R.: First Encounter Assault Recon"
+  ],
+  "Xbox 360 Covers/F.E.A.R. 2 (575207D3).jpg": [
+   "F.E.A.R. 2: Project Origin"
+  ],
+  "Xbox 360 Covers/F.E.A.R. 2 - JP (434607D1).jpg": [
+   "F.E.A.R. 2: Project Origin"
+  ],
+  "Xbox 360 Covers/F1™ 2013 (434D084F).jpg": [
+   "F1 2013: Complete Edition"
+  ],
+  "Xbox 360 Covers/F4 - ROTSS (545407FD).jpg": [
+   "Fantastic Four: Rise of the Silver Surfer"
+  ],
+  "Xbox 360 Covers/FABLE II (4D5307F1).jpg": [
+   "Fable II: Game of the Year Edition",
+   "Fable II: Gioco dell'Anno"
+  ],
+  "Xbox 360 Covers/FC Instincts Predator (555307DC).jpg": [
+   "Far Cry Instincts: Predator"
+  ],
+  "Xbox 360 Covers/FIFA 06 RTFWC (454107D7).jpg": [
+   "FIFA 06: Road to FIFA World Cup"
+  ],
+  "Xbox 360 Covers/FIFA 07 (454107EF).jpg": [
+   "FIFA Soccer 07"
+  ],
+  "Xbox 360 Covers/FIFA 08 (4541081F).jpg": [
+   "FIFA 08: World Class Soccer",
+   "FIFA Soccer 08"
+  ],
+  "Xbox 360 Covers/FIFA 09 (4541085B).jpg": [
+   "FIFA 09: World Class Soccer",
+   "FIFA Soccer 09"
+  ],
+  "Xbox 360 Covers/FIFA 10 (454108BC).jpg": [
+   "FIFA 10: World Class Soccer",
+   "FIFA Soccer 10"
+  ],
+  "Xbox 360 Covers/FIFA 12 (45410967).jpg": [
+   "FIFA 12: World Class Soccer",
+   "FIFA Soccer 12"
+  ],
+  "Xbox 360 Covers/FIFA 14 (454109C3).jpg": [
+   "FIFA 14: World Class Soccer"
+  ],
+  "Xbox 360 Covers/FIFA 18 (454109F8).jpg": [
+   "FIFA 18: Legacy Edition"
+  ],
+  "Xbox 360 Covers/FIFA Soccer 11 (454108F3).jpg": [
+   "FIFA 11",
+   "FIFA 11: World Class Soccer"
+  ],
+  "Xbox 360 Covers/FINAL FANTASY XI - Seekers of Adoulin (535107D5).jpg": [
+   "Final Fantasy XI",
+   "Final Fantasy XI: Adoulin no Makyou",
+   "Final Fantasy XI: All in One Pack 2006",
+   "Final Fantasy XI: Altana no Shinpei",
+   "Final Fantasy XI: Online",
+   "Final Fantasy XI: Online: 2007 Edition",
+   "Final Fantasy XI: Online: 2008 Edition",
+   "Final Fantasy XI: Online: Ultimate Collection",
+   "Final Fantasy XI: Online: Ultimate Collection: Seekers Edition",
+   "Final Fantasy XI: Online: Vana'diel Collection 2008",
+   "Final Fantasy XI: Online: Wings of the Goddess Expansion Pack",
+   "Final Fantasy XI: Vana'diel Collection",
+   "Final Fantasy XI: Vana'diel Collection 2"
+  ],
+  "Xbox 360 Covers/FINAL FANTASY XIII-2 (53510806).jpg": [
+   "Final Fantasy XIII-2: Additional Content Selection"
+  ],
+  "Xbox 360 Covers/Fallout - New Vegas (425307EE).jpg": [
+   "Fallout: New Vegas: Ultimate Edition",
+   "Fallout: New Vegas: Ultimate Edition (Disco 2)",
+   "Fallout: New Vegas: Ultimate Edition (Disque 2)"
+  ],
+  "Xbox 360 Covers/Fallout 3 (425307D5).jpg": [
+   "Fallout 3: Game Add-On Pack: Broken Steel and Point Lookout",
+   "Fallout 3: Game Add-On Pack: The Pitt and Operation: Anchorage",
+   "Fallout 3: Game of the Year Edition"
+  ],
+  "Xbox 360 Covers/Family Feud® (5553087F).jpg": [
+   "Family Feud: 2012 Edition"
+  ],
+  "Xbox 360 Covers/Family Game Night 4 - The Game Show (45410966).jpg": [
+   "Hasbro Family Game Night 4: The Game Show"
+  ],
+  "Xbox 360 Covers/Family Game Night 4 - The Game Show (4541097C).jpg": [
+   "Hasbro Family Game Night 4: The Game Show"
+  ],
+  "Xbox 360 Covers/Fantasia - Music Evolved (42560824).jpg": [
+   "Disney Fantasia: Music Evolved"
+  ],
+  "Xbox 360 Covers/Field & Stream T.O.C (464F07DB).jpg": [
+   "Field & Stream: Total Outdoorsman Challenge"
+  ],
+  "Xbox 360 Covers/Fist of the North Star - Ken's Rage (4B4F07F4).jpg": [
+   "Hokuto Musou"
+  ],
+  "Xbox 360 Covers/Fist of the North Star - Ken’s rage 2 (4B4F07FF).jpg": [
+   "Shin Hokuto Musou"
+  ],
+  "Xbox 360 Covers/FlatOut UC (454D07D2).jpg": [
+   "FlatOut: Ultimate Carnage"
+  ],
+  "Xbox 360 Covers/Forza Motorsport 3 (4D53084D).jpg": [
+   "Forza Motorsport 3 (Play Disc)",
+   "Forza Motorsport 3 (Content Install Disc)",
+   "Forza Motorsport 3: Ultimate Collection (Play Disc)",
+   "Forza Motorsport 3: Ultimate Collection (Content Install Disc)"
+  ],
+  "Xbox 360 Covers/Forza Motorsport 4 (4D530910).jpg": [
+   "Forza Motorsport 4 (Play Disc)",
+   "Forza Motorsport 4 (Content Install Disc)",
+   "Forza Motorsport 4: Essentials Edition"
+  ],
+  "Xbox 360 Covers/Full Game - Luxor 2 (5841080D).jpg": [
+   "Luxor 2"
+  ],
+  "Xbox 360 Covers/Full Game - Sonic The Hedgehog (58410864).jpg": [
+   "Sonic The Hedgehog"
+  ],
+  "Xbox 360 Covers/G-Force (425607E8).jpg": [
+   "Disney G-Force"
+  ],
+  "Xbox 360 Covers/G.I. JOE (PAL) (454108D9).jpg": [
+   "G.I. Joe: The Rise of Cobra"
+  ],
+  "Xbox 360 Covers/G.I. JOE™ (4541089B).jpg": [
+   "G.I. Joe: The Rise of Cobra"
+  ],
+  "Xbox 360 Covers/GHP2 (4D4A07D8).jpg": [
+   "Greg Hastings Paintball 2"
+  ],
+  "Xbox 360 Covers/GH™ - Warriors of Rock (41560883).jpg": [
+   "Guitar Hero: Warriors of Rock"
+  ],
+  "Xbox 360 Covers/GTA IV (545407F2).jpg": [
+   "Grand Theft Auto IV",
+   "Grand Theft Auto: Episodes from Liberty City"
+  ],
+  "Xbox 360 Covers/GUILTY GEAR 2 (415707D1).jpg": [
+   "Guilty Gear 2: Overture"
+  ],
+  "Xbox 360 Covers/GUNDAM OPERATION TROY (424107D6).jpg": [
+   "Mobile Suit Gundam: Operation: Troy"
+  ],
+  "Xbox 360 Covers/Game Demos (4D530A0C).jpg": [
+   "Game Demos: Just for Fun!"
+  ],
+  "Xbox 360 Covers/Generator Rex (415608AD).jpg": [
+   "Generator Rex: Agent of Providence"
+  ],
+  "Xbox 360 Covers/Get Fit With Mel B (4C5307DE).jpg": [
+   "Get Fit with Mel B: See the Difference"
+  ],
+  "Xbox 360 Covers/Ghostbusters (494707F4).jpg": [
+   "Ghostbusters: The Video Game"
+  ],
+  "Xbox 360 Covers/Grand Theft Auto V (545408A7).jpg": [
+   "Grand Theft Auto V (Install)",
+   "Grand Theft Auto V (Play)"
+  ],
+  "Xbox 360 Covers/Great Battles Medieval (535607D1).jpg": [
+   "History: Great Battles Medieval"
+  ],
+  "Xbox 360 Covers/Guitar Hero Hits (4156083E).jpg": [
+   "Guitar Hero: Greatest Hits"
+  ],
+  "Xbox 360 Covers/Guitar Hero III (415607F7).jpg": [
+   "Guitar Hero III: Legends of Rock"
+  ],
+  "Xbox 360 Covers/Guitar Hero Live (41560920).jpg": [
+   "Guitar Hero Live (Game Disc)",
+   "Guitar Hero Live (Install Disc)"
+  ],
+  "Xbox 360 Covers/HSM3 Senior Year DANCE (425607DF).jpg": [
+   "Disney High School Musical 3: Senior Year Dance!"
+  ],
+  "Xbox 360 Covers/Halo 3 (4D5307E6).jpg": [
+   "Halo 3: ODST (Multiplayer)"
+  ],
+  "Xbox 360 Covers/Halo 3 - ODST Campaign Edition (4D530877).jpg": [
+   "Halo 3: ODST (Campaign)",
+   "Halo 3: ODST",
+   "Halo 3: ODST (Disco 1) (Campanha)"
+  ],
+  "Xbox 360 Covers/Halo 4 (4D530919).jpg": [
+   "Halo 4 (Disco 1)"
+  ],
+  "Xbox 360 Covers/Hannah The Movie (425607E9).jpg": [
+   "Hannah Montana: The Movie"
+  ],
+  "Xbox 360 Covers/Happy Feet Two - The Videogame (5752080D).jpg": [
+   "Happy Feet Two"
+  ],
+  "Xbox 360 Covers/Harry Potter HBP (454107FA).jpg": [
+   "Harry Potter and the Half-Blood Prince"
+  ],
+  "Xbox 360 Covers/Harry Potter OOTP (45410819).jpg": [
+   "Harry Potter and the Order of the Phoenix"
+  ],
+  "Xbox 360 Covers/Hellboy™ - TSoE (4B4E07D3).jpg": [
+   "Hellboy: The Science of Evil"
+  ],
+  "Xbox 360 Covers/Hip-Hop Dance Experience (555308B4).jpg": [
+   "The Hip Hop Dance Experience"
+  ],
+  "Xbox 360 Covers/Hitman HD Pack (5351081C).jpg": [
+   "Hitman HD Trilogy"
+  ],
+  "Xbox 360 Covers/Hole In The Wall™ (55530885).jpg": [
+   "Hole in the Wall: Deluxe Edition"
+  ],
+  "Xbox 360 Covers/How To Train Your Dragon 2 (373407D4).jpg": [
+   "DreamWorks How to Train Your Dragon 2"
+  ],
+  "Xbox 360 Covers/HowToTrainYourDragon (41560877).jpg": [
+   "DreamWorks How to Train Your Dragon"
+  ],
+  "Xbox 360 Covers/Hunted Demon’s Forge (425307D7).jpg": [
+   "Hunted: The Demon's Forge"
+  ],
+  "Xbox 360 Covers/ICC Cricket 2007 (434D07D8).jpg": [
+   "Brian Lara International Cricket 2007",
+   "Ricky Ponting International Cricket 2007"
+  ],
+  "Xbox 360 Covers/IL-2 - Birds of Prey (464F07D1).jpg": [
+   "IL-2 Sturmovik: Birds of Prey"
+  ],
+  "Xbox 360 Covers/Ice Age - Continental Drift - Arctic Games (415608D7).jpg": [
+   "L'Era Glaciale 4: Continenti alla Deriva: Giochi Polari"
+  ],
+  "Xbox 360 Covers/Ice Age 3 (4156083F).jpg": [
+   "Ice Age: Dawn of the Dinosaurs",
+   "L'Era Glaciale 3: L'Alba dei Dinosauri"
+  ],
+  "Xbox 360 Covers/Indy 500 Evolution (444507D2).jpg": [
+   "Indianapolis 500 Evolution"
+  ],
+  "Xbox 360 Covers/Infernal (504307D4).jpg": [
+   "Infernal: Hell's Vengeance"
+  ],
+  "Xbox 360 Covers/Injustice - Gods Among Us (57520829).jpg": [
+   "Injustice: Gods Among Us: Ultimate Edition"
+  ],
+  "Xbox 360 Covers/Int'l Cricket 2010 (434D0836).jpg": [
+   "International Cricket 2010"
+  ],
+  "Xbox 360 Covers/JOJO'S BIZARRE ADVENTURE HD Ver (5841124E).jpg": [
+   "JoJo's Bizarre Adventure HD"
+  ],
+  "Xbox 360 Covers/James Bond 007™ - Blood Stone (4156081F).jpg": [
+   "007: Blood Stone"
+  ],
+  "Xbox 360 Covers/Jane's Advanced Strike Fighters (455607D6).jpg": [
+   "JASF: Jane's Advanced Strike Fighters"
+  ],
+  "Xbox 360 Covers/Jonah Lomu Rugby Challenge (484507D4).jpg": [
+   "Rugby Challenge"
+  ],
+  "Xbox 360 Covers/Juiced 2 - HIN (545107D5).jpg": [
+   "Juiced 2: Hot Import Nights"
+  ],
+  "Xbox 360 Covers/Jumper (425407D1).jpg": [
+   "Jumper: Griffin's Story"
+  ],
+  "Xbox 360 Covers/Just Cause (534307D5).jpg": [
+   "Just Cause: Viva Revolution"
+  ],
+  "Xbox 360 Covers/Just Dance 2018 (555308D5).jpg": [
+   "Just Dance 2017"
+  ],
+  "Xbox 360 Covers/KOF XII (534E07D2).jpg": [
+   "The King of Fighters XII"
+  ],
+  "Xbox 360 Covers/KR - AI Encore 2 (4B4E07F3).jpg": [
+   "Karaoke Revolution Presents: American Idol Encore 2"
+  ],
+  "Xbox 360 Covers/KUF - Circle of Doom (424507D1).jpg": [
+   "Kingdom Under Fire: Circle of Doom"
+  ],
+  "Xbox 360 Covers/Kameo (4D5307D2).jpg": [
+   "Kameo: Elements of Power"
+  ],
+  "Xbox 360 Covers/Kane & Lynch 2 (534307F8).jpg": [
+   "Kane & Lynch 2: Dog Days"
+  ],
+  "Xbox 360 Covers/Kane and Lynch - Dead Men (534307E0).jpg": [
+   "Kane & Lynch: Dead Men"
+  ],
+  "Xbox 360 Covers/Kane&Lynch -Dead Men(J) (534407F6).jpg": [
+   "Kane & Lynch: Dead Men"
+  ],
+  "Xbox 360 Covers/Kengo Legend of the 9 (474507D2).jpg": [
+   "Kengo Zero",
+   "Kengou Zero"
+  ],
+  "Xbox 360 Covers/Kinect Nat Geo TV DVD (4D5309CD).jpg": [
+   "Kinect Nat Geo TV: America the Wild (Volume 1)",
+   "Kinect Nat Geo TV: America the Wild (Volume 2)",
+   "Kinect Nat Geo TV"
+  ],
+  "Xbox 360 Covers/Kinect Sesame Street TV (4D5309DA).jpg": [
+   "Kinect Sesame Street TV (Volume 1: Growing Up)",
+   "Kinect Sesame Street TV (Volume 2: Science)"
+  ],
+  "Xbox 360 Covers/Kinectimals (4D5308B3).jpg": [
+   "Kinectimals: Now with Bears!"
+  ],
+  "Xbox 360 Covers/Kingdoms of Amalur - Reckoning (4541093E).jpg": [
+   "Les Royaumes D'Amalur: Reckoning"
+  ],
+  "Xbox 360 Covers/Kung Fu Panda (415607F2).jpg": [
+   "DreamWorks Kung Fu Panda"
+  ],
+  "Xbox 360 Covers/Kung Fu Panda 2 (54510874).jpg": [
+   "DreamWorks Kung Fu Panda 2"
+  ],
+  "Xbox 360 Covers/Kung Fu Panda Showdown of Legendary Legends (373407D7).jpg": [
+   "DreamWorks Kung Fu Panda: Showdown of Legendary Legends"
+  ],
+  "Xbox 360 Covers/L.A. Noire (5454086C).jpg": [
+   "L.A. Noire: The Complete Edition"
+  ],
+  "Xbox 360 Covers/LEGO Batman (575207D7).jpg": [
+   "LEGO Batman: The Videogame"
+  ],
+  "Xbox 360 Covers/LEGO Indiana Jones (4C4107DF).jpg": [
+   "LEGO Indiana Jones: The Original Adventures"
+  ],
+  "Xbox 360 Covers/LEGO® Harry Potter™ (575207E6).jpg": [
+   "LEGO Harry Potter: Years 1-4"
+  ],
+  "Xbox 360 Covers/LEGO® Indiana Jones™ 2 (4C4107ED).jpg": [
+   "LEGO Indiana Jones 2: The Adventure Continues"
+  ],
+  "Xbox 360 Covers/LEGO® Marvel's Avengers (5752084F).jpg": [
+   "LEGO Marvel Avengers"
+  ],
+  "Xbox 360 Covers/LLWS2010 (41560886).jpg": [
+   "Little League World Series Baseball 2010"
+  ],
+  "Xbox 360 Covers/LOST PLANET (434307D3).jpg": [
+   "Lost Planet: Extreme Condition"
+  ],
+  "Xbox 360 Covers/LOST PLANET COLONIES (434307DE).jpg": [
+   "Lost Planet: Extreme Condition: Colonies Edition"
+  ],
+  "Xbox 360 Covers/LOTG (575207F1).jpg": [
+   "Legend of the Guardians: The Owls of Ga'Hoole"
+  ],
+  "Xbox 360 Covers/LOTR - Conquest (45410852).jpg": [
+   "The Lord of the Rings: Conquest"
+  ],
+  "Xbox 360 Covers/LOTR, BFME II (454107DF).jpg": [
+   "The Lord of the Rings: The Battle for Middle-Earth II"
+  ],
+  "Xbox 360 Covers/Left 4 Dead (45410830).jpg": [
+   "Left 4 Dead: Game of the Year Edition"
+  ],
+  "Xbox 360 Covers/Legend of Spyro (565507F9).jpg": [
+   "The Legend of Spyro: Dawn of the Dragon"
+  ],
+  "Xbox 360 Covers/Leisure Suit Larry (434D0822).jpg": [
+   "Leisure Suit Larry: Box Office Bust"
+  ],
+  "Xbox 360 Covers/Lips (4D530888).jpg": [
+   "Lips: Canta en Español",
+   "Lips: Deutsche Partyknaller",
+   "Lips: I Love the 80s",
+   "Lips: Number One Hits",
+   "Lips: Party Classics"
+  ],
+  "Xbox 360 Covers/London 2012 - The Official Video Game of the Olympic Games (53450843).jpg": [
+   "London 2012"
+  ],
+  "Xbox 360 Covers/Looney Tunes - AA (575207D2).jpg": [
+   "Looney Tunes: Acme Arsenal"
+  ],
+  "Xbox 360 Covers/Looney Tunes - AA EUR (575207D5).jpg": [
+   "Looney Tunes: Acme Arsenal"
+  ],
+  "Xbox 360 Covers/Lost Odyssey (4D5307FA).jpg": [
+   "Lost Oddisey"
+  ],
+  "Xbox 360 Covers/LoveFOOTBALL (4E4D07D6).jpg": [
+   "Love Football: Aoki Senshi-tachi no Kiseki"
+  ],
+  "Xbox 360 Covers/Lucha Libre AAA (475807D1).jpg": [
+   "Lucha Libre AAA: Héroes del Ring"
+  ],
+  "Xbox 360 Covers/MARVEL VS. CAPCOM 3 (43430806).jpg": [
+   "Marvel vs. Capcom 3: Fate of Two Worlds"
+  ],
+  "Xbox 360 Covers/METAL GEAR SOLID HD EDITION - 2 & 3 (4B4E0840).jpg": [
+   "Metal Gear Solid: HD Collection",
+   "Metal Gear Solid: HD Edition"
+  ],
+  "Xbox 360 Covers/METAL GEAR SOLID PEACE WALKER HD EDITION (4B4E083C).jpg": [
+   "Metal Gear Solid: HD Collection"
+  ],
+  "Xbox 360 Covers/MJ Path of Destruction (4156088C).jpg": [
+   "Monster Jam: Path of Destruction"
+  ],
+  "Xbox 360 Covers/MLB 2K10 (54540855).jpg": [
+   "Major League Baseball 2K10"
+  ],
+  "Xbox 360 Covers/MLB 2K12 (5454089E).jpg": [
+   "Major League Baseball 2K12"
+  ],
+  "Xbox 360 Covers/MLB 2K13 (545408AB).jpg": [
+   "Major League Baseball 2K13"
+  ],
+  "Xbox 360 Covers/MLB 2K6 (545407D3).jpg": [
+   "Major League Baseball 2K6"
+  ],
+  "Xbox 360 Covers/MLB 2K7 (545407FA).jpg": [
+   "Major League Baseball 2K7"
+  ],
+  "Xbox 360 Covers/MLB 2K8 (54540817).jpg": [
+   "Major League Baseball 2K8"
+  ],
+  "Xbox 360 Covers/MLB 2K9 (54540842).jpg": [
+   "Major League Baseball 2K9"
+  ],
+  "Xbox 360 Covers/MLB® Front Office Mgr (5454082F).jpg": [
+   "MLB Front Office Manager"
+  ],
+  "Xbox 360 Covers/MURDERED - SOUL SUSPECT™ (5351081E).jpg": [
+   "Murdered: Tamashii no Yobu Koe"
+  ],
+  "Xbox 360 Covers/Macching Maker X (tentative) Disc Xbox 360 (445007F3).jpg": [
+   "Matching Maker 4"
+  ],
+  "Xbox 360 Covers/Madagascar 2 (4156081D).jpg": [
+   "DreamWorks Madagascar: Escape 2 Africa"
+  ],
+  "Xbox 360 Covers/Madagascar 3 - The Video Game (44500801).jpg": [
+   "DreamWorks Madagascar 3: The Video Game"
+  ],
+  "Xbox 360 Covers/Madagascar Kartz (41560858).jpg": [
+   "DreamWorks Madagascar Kartz"
+  ],
+  "Xbox 360 Covers/Magnacarta2 (4E4D080C).jpg": [
+   "Magna Carta II"
+  ],
+  "Xbox 360 Covers/Majin and the Forsaken Kingdom (4E4D0816).jpg": [
+   "Majin to Ushinawareta Oukoku"
+  ],
+  "Xbox 360 Covers/Mamoru Kun (475207F6).jpg": [
+   "Mamoru-kun wa Norowarete Shimatta!"
+  ],
+  "Xbox 360 Covers/Man vs. Wild (435607D9).jpg": [
+   "Man vs. Wild with Bear Grylls"
+  ],
+  "Xbox 360 Covers/Marvel - Ultimate Alliance (415607DA).jpg": [
+   "Marvel: Ultimate Alliance: Special Edition"
+  ],
+  "Xbox 360 Covers/Marvel Avengers™ - Battle for Earth (555308AD).jpg": [
+   "Marvel The Avengers: Battle for Earth"
+  ],
+  "Xbox 360 Covers/Mass Effect 2 (454108CE).jpg": [
+   "Mass Effect 2 (Disque 1)",
+   "Mass Effect 2 (Disque 2)"
+  ],
+  "Xbox 360 Covers/Mass Effect 2 (JP) (4541093D).jpg": [
+   "Mass Effect 2"
+  ],
+  "Xbox 360 Covers/Mass Effect™ 3 (4541095D).jpg": [
+   "Mass Effect 3 (Disco 1)",
+   "Mass Effect 3 (Disco 2)"
+  ],
+  "Xbox 360 Covers/Max Payne 3 (5454086B).jpg": [
+   "Max Payne 3 (Single Player Disc 1 and Multiplayer)",
+   "Max Payne 3 (Single Player Disc 1 und Multiplayer)",
+   "Max Payne 3 (Single Player Disc 2)"
+  ],
+  "Xbox 360 Covers/Medal of Honor™ Warfighter (45410993).jpg": [
+   "Medal of Honor: Warfighter (Multiplayer)",
+   "Medal of Honor: Warfighter (Single-Player Campaign)"
+  ],
+  "Xbox 360 Covers/Meet the Robinsons (425607D4).jpg": [
+   "Walt Disney Pictures Presents Meet the Robinsons"
+  ],
+  "Xbox 360 Covers/MegaMind - Ultimate Showdown (5451085C).jpg": [
+   "DreamWorks Megamind: Ultimate Showdown"
+  ],
+  "Xbox 360 Covers/Men in Black - Alien Crisis (415608D3).jpg": [
+   "MIB: Alien Crisis"
+  ],
+  "Xbox 360 Covers/Mercenaries 2 (45410828).jpg": [
+   "Mercenaries 2: World in Flames"
+  ],
+  "Xbox 360 Covers/Metro 2033(J) (53440800).jpg": [
+   "Metro 2033"
+  ],
+  "Xbox 360 Covers/Middle-earth - Shadow of Mordor (5752082C).jpg": [
+   "Terra-Média: Sombras de Mordor (Disco 1)",
+   "Terra-Média: Sombras de Mordor (Disco 2)"
+  ],
+  "Xbox 360 Covers/Midnight Club - Los Angeles Complete (545407F8).jpg": [
+   "Midnight Club: Los Angeles",
+   "Midnight Club: Los Angeles: Complete Edition"
+  ],
+  "Xbox 360 Covers/Minecraft - Story Mode (443607D9).jpg": [
+   "Minecraft: Story Mode: A Telltale Games Series"
+  ],
+  "Xbox 360 Covers/Minecraft - Story Mode - Season Two (443607DF).jpg": [
+   "Minecraft: Story Mode: Season Two: The Telltale Series"
+  ],
+  "Xbox 360 Covers/Minecraft - Story Mode - The Complete Adventure (443607DC).jpg": [
+   "Minecraft: Story Mode: A Telltale Games Series: The Complete Adventure"
+  ],
+  "Xbox 360 Covers/Monster Madness (535007D1).jpg": [
+   "Monster Madness: Battle for Suburbia"
+  ],
+  "Xbox 360 Covers/Monsters vs. Aliens (4156082A).jpg": [
+   "DreamWorks Monsters vs. Aliens"
+  ],
+  "Xbox 360 Covers/Mortal Kombat (575207FD).jpg": [
+   "Mortal Kombat: Komplete Edition"
+  ],
+  "Xbox 360 Covers/Mortal Kombat vs. DCU (4D5707E9).jpg": [
+   "Mortal Kombat vs. DC Universe"
+  ],
+  "Xbox 360 Covers/Motionsports™ (55530850).jpg": [
+   "Motionsports: Play for Real"
+  ],
+  "Xbox 360 Covers/Mushihimesama Disc Xbox 360 (435A07E3).jpg": [
+   "Mushihimesama HD"
+  ],
+  "Xbox 360 Covers/Muv-luv Alternative Total Eclipse Disc Xbox360 (465607F0).jpg": [
+   "Muv-Luv Alternative: Total Eclipse"
+  ],
+  "Xbox 360 Covers/Muv-luv Disc Xbox 360 (465607E5).jpg": [
+   "Muv-Luv"
+  ],
+  "Xbox 360 Covers/My Body Coach 3 (573607D7).jpg": [
+   "My Body Coach 3: Complete Coaching"
+  ],
+  "Xbox 360 Covers/My Horse And Me 2 (494707E2).jpg": [
+   "My Horse & Me 2"
+  ],
+  "Xbox 360 Covers/NARUTO SHIPPUDEN - ULTIMATE NINJA STORM 2 (4E4D0819).jpg": [
+   "Naruto Shippuuden: Narutimate Storm 2"
+  ],
+  "Xbox 360 Covers/NARUTO SHIPPUDEN - Ultimate Ninja STORM 3 (4E4D085C).jpg": [
+   "Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst",
+   "Naruto Shippuuden: Narutimate Storm 3"
+  ],
+  "Xbox 360 Covers/NARUTO SHIPPUDEN - Ultimate Ninja STORM Generations (4E4D0842).jpg": [
+   "Naruto Shippuuden: Narutimate Storm Generation"
+  ],
+  "Xbox 360 Covers/NASCAR '15 Victory Edition (4F4807D1).jpg": [
+   "NASCAR '15"
+  ],
+  "Xbox 360 Covers/NASCAR Inside Line (415608D2).jpg": [
+   "NASCAR the Game: Inside Line"
+  ],
+  "Xbox 360 Covers/NASCAR The Game 2011 (41560893).jpg": [
+   "NASCAR 2011: The Game"
+  ],
+  "Xbox 360 Covers/NASCAR® 08 EU (4541082D).jpg": [
+   "NASCAR 08"
+  ],
+  "Xbox 360 Covers/NASCAR® 09 EU (45410879).jpg": [
+   "NASCAR 09"
+  ],
+  "Xbox 360 Covers/NBA 2K12 (54540894).jpg": [
+   "NBA 2K12: Game of the Year Edition"
+  ],
+  "Xbox 360 Covers/NBA 2K8 (Japan) (54540823).jpg": [
+   "NBA 2K8"
+  ],
+  "Xbox 360 Covers/NBA JAM (58410A7D).jpg": [
+   "NBA JAM (Xbox Arcade)"
+  ],
+  "Xbox 360 Covers/NCIS The Video Game (55530881).jpg": [
+   "NCIS: Based on the TV Series"
+  ],
+  "Xbox 360 Covers/NEED FOR SPEED™ MOST WANTED (45410961).jpg": [
+   "Need for Speed: Most Wanted: A Criterion Game",
+   "NEED FOR SPEED MOST WANTED (2012)"
+  ],
+  "Xbox 360 Covers/NFS Most Wanted (454107D9).jpg": [
+   "Need for Speed: Most Wanted"
+  ],
+  "Xbox 360 Covers/NFS Undercover (45410876).jpg": [
+   "Need for Speed: Undercover"
+  ],
+  "Xbox 360 Covers/NO MORE HEROES 英雄たちの楽園 (4D5607D2).jpg": [
+   "No More Heroes: Eiyuu-tachi no Rakuen"
+  ],
+  "Xbox 360 Covers/Narnia - Prince Caspian (425607DB).jpg": [
+   "The Chronicles of Narnia: Prince Caspian"
+  ],
+  "Xbox 360 Covers/Naughty Bear (464F07D8).jpg": [
+   "Naughty Bear: Gold Edition"
+  ],
+  "Xbox 360 Covers/Naval Assault (464F07D9).jpg": [
+   "Naval Assault: The Killing Tide"
+  ],
+  "Xbox 360 Covers/Need for Speed™ Carbon (454107EC).jpg": [
+   "Need for Speed: Carbon: Collector's Edition",
+   "Need for Speed: Carbono"
+  ],
+  "Xbox 360 Covers/Nicktoons MLB (54540883).jpg": [
+   "Nickelodeon Nicktoons MLB"
+  ],
+  "Xbox 360 Covers/Night at the Museum 2 (4D4A07D5).jpg": [
+   "Night at the Museum: Battle of the Smithsonian: The Video Game"
+  ],
+  "Xbox 360 Covers/Ninety-Nine Nights (4D5307DB).jpg": [
+   "N3: Ninety-Nine Nights"
+  ],
+  "Xbox 360 Covers/Ninety-Nine NightsⅡ AP (4B4E0818).jpg": [
+   "N3II: Ninety-Nine Nights",
+   "Ninety-Nine Nights II"
+  ],
+  "Xbox 360 Covers/Ninety-Nine NightsⅡ EU (4B4E0816).jpg": [
+   "N3II: Ninety-Nine Nights",
+   "Ninety-Nine Nights II"
+  ],
+  "Xbox 360 Covers/Ninety-Nine NightsⅡ JP (4B4E0817).jpg": [
+   "N3II: Ninety-Nine Nights",
+   "Ninety-Nine Nights II"
+  ],
+  "Xbox 360 Covers/Ninety-Nine NightsⅡ KR (4B4E0815).jpg": [
+   "N3II: Ninety-Nine Nights",
+   "Ninety-Nine Nights II"
+  ],
+  "Xbox 360 Covers/Ninety-Nine NightsⅡ NA (4B4E0810).jpg": [
+   "N3II: Ninety-Nine Nights",
+   "Ninety-Nine Nights II"
+  ],
+  "Xbox 360 Covers/OF - Dragon Rising (434D0811).jpg": [
+   "Operation Flashpoint: Dragon Rising"
+  ],
+  "Xbox 360 Covers/Oblivion (425307D1).jpg": [
+   "The Elder Scrolls IV: Oblivion",
+   "The Elder Scrolls IV: Oblivion: Edition Jeu de L'Année",
+   "The Elder Scrolls IV: Oblivion: Game of the Year Edition",
+   "The Elder Scrolls IV: Oblivion: Game of the Year Edition (Disco 1)",
+   "The Elder Scrolls IV: Oblivion: Jubiläumsausgabe",
+   "The Elder Scrolls IV: Shivering Isles"
+  ],
+  "Xbox 360 Covers/Onechanbara (445007EA).jpg": [
+   "Onechanbara: Bikini Samurai Squad"
+  ],
+  "Xbox 360 Covers/Operation Darkness(NA) (415407D2).jpg": [
+   "Operation Darkness"
+  ],
+  "Xbox 360 Covers/Ore No Yome (494607D8).jpg": [
+   "Ore no Yome: Anata dake no Hanayome"
+  ],
+  "Xbox 360 Covers/Outdoor Adventures (4156085B).jpg": [
+   "Cabela's Outdoor Adventures"
+  ],
+  "Xbox 360 Covers/Over-G (544907D1).jpg": [
+   "Over G Fighters",
+   "Over G: Energy Airforce"
+  ],
+  "Xbox 360 Covers/PDC World Champ Darts (4F5807D1).jpg": [
+   "PDC World Championship Darts"
+  ],
+  "Xbox 360 Covers/PES 2009 (4B4E07F0).jpg": [
+   "PES 2009: Pro Evolution Soccer",
+   "Pro Evolution Soccer 2009"
+  ],
+  "Xbox 360 Covers/PES 2009 (4B4E07FA).jpg": [
+   "PES 2009: Pro Evolution Soccer"
+  ],
+  "Xbox 360 Covers/PES 2010 (4B4E0801).jpg": [
+   "PES 2010: Pro Evolution Soccer",
+   "Pro Evolution Soccer 2010"
+  ],
+  "Xbox 360 Covers/PES 2010 (4B4E0805).jpg": [
+   "PES 2010: Pro Evolution Soccer"
+  ],
+  "Xbox 360 Covers/PES 2012 Pro Evolution Socccer (4B4E0837).jpg": [
+   "PES 2012: Pro Evolution Soccer",
+   "Pro Evolution Socccer 2012"
+  ],
+  "Xbox 360 Covers/PES2008 (4B4E07E6).jpg": [
+   "PES 2008: Pro Evolution Soccer"
+  ],
+  "Xbox 360 Covers/PES2008 (US) (4B4E07E9).jpg": [
+   "PES 2008: Pro Evolution Soccer"
+  ],
+  "Xbox 360 Covers/PGR 3 (4D5307D1).jpg": [
+   "Project Gotham Racing 3"
+  ],
+  "Xbox 360 Covers/PGR 4 (4D5307F9).jpg": [
+   "Project Gotham Racing 4"
+  ],
+  "Xbox 360 Covers/PRO EVOLUTION SOCCER 2018 (4A3007D3).jpg": [
+   "PES 2018: Pro Evolution Soccer"
+  ],
+  "Xbox 360 Covers/PROJECT SYLPHEED (535107D4).jpg": [
+   "Project Sylpheed: Arc of Deception"
+  ],
+  "Xbox 360 Covers/Paintball 2009 (41560827).jpg": [
+   "NPPL Championship Paintball 2009",
+   "The Millennium European Paintball Series: Championship Paintball 2009"
+  ],
+  "Xbox 360 Covers/Party Animals (4D530819).jpg": [
+   "Viva Piñata: Party Animals"
+  ],
+  "Xbox 360 Covers/Persona 4 Arena (453907D2).jpg": [
+   "Persona 4: The Ultimate in Mayonaka Arena"
+  ],
+  "Xbox 360 Covers/Peter Jackson's King Kong (555307D3).jpg": [
+   "Peter Jackson's King Kong: The Official Game of the Movie"
+  ],
+  "Xbox 360 Covers/Phineas and Ferb - Quest for Cool Stuff (4D4A07F5).jpg": [
+   "Disney Phineas and Ferb: Quest for Cool Stuff"
+  ],
+  "Xbox 360 Covers/Piaキャロットへようこそ!!4 ～夏の恋活～ (504807D1).jpg": [
+   "Pia Carrot e Youkoso!! 4: Natsu no Renkatsu"
+  ],
+  "Xbox 360 Covers/Pimp My Ride (415607E0).jpg": [
+   "MTV Pimp My Ride"
+  ],
+  "Xbox 360 Covers/Pinball Hall of Fame (435607D7).jpg": [
+   "Pinball Hall of Fame: The Williams Collection"
+  ],
+  "Xbox 360 Covers/Planet 51 (5345082B).jpg": [
+   "Planet 51: The Game"
+  ],
+  "Xbox 360 Covers/PlayOnline Viewer (535107D2).jpg": [
+   "Final Fantasy XI: Online"
+  ],
+  "Xbox 360 Covers/Prison Break (4B4D07DE).jpg": [
+   "Prison Break: The Conspiracy"
+  ],
+  "Xbox 360 Covers/Prizefighter (545407DC).jpg": [
+   "Don King Presents: Prizefighter"
+  ],
+  "Xbox 360 Covers/Pro Evolution Soccer 2011 (4B4E081D).jpg": [
+   "PES 2011: Pro Evolution Soccer",
+   "World Soccer Winning Eleven 2011"
+  ],
+  "Xbox 360 Covers/Pro Evolution Soccer 2013 (4B4E084C).jpg": [
+   "PES 2013: Pro Evolution Soccer"
+  ],
+  "Xbox 360 Covers/Pro Evolution Soccer 2014 (4B4E0856).jpg": [
+   "PES 2014: Pro Evolution Soccer",
+   "World Soccer Winning Eleven 2014"
+  ],
+  "Xbox 360 Covers/Pro Evolution Soccer 2015 (4B4E085F).jpg": [
+   "PES 2015: Pro Evolution Soccer"
+  ],
+  "Xbox 360 Covers/Pro Evolution Soccer 2016 (4B4E0861).jpg": [
+   "PES 2016: Pro Evolution Soccer"
+  ],
+  "Xbox 360 Covers/Pro Evolution Soccer 2017 (4A3007D1).jpg": [
+   "PES 2017: Pro Evolution Soccer"
+  ],
+  "Xbox 360 Covers/Pure (425607D9).jpg": [
+   "Extreme Racing Pure"
+  ],
+  "Xbox 360 Covers/Pure Futbol (555307FB).jpg": [
+   "Pure Futbol: Authentic Soccer ~ Pure Football"
+  ],
+  "Xbox 360 Covers/Puss in Boots (5451088B).jpg": [
+   "DreamWorks Puss in Boots"
+  ],
+  "Xbox 360 Covers/QUAKE 4 (415607D2).jpg": [
+   "Quake 4 (Bonus Disc)"
+  ],
+  "Xbox 360 Covers/Quantum of Solace (415607FF).jpg": [
+   "007: Ein Quantum Trost",
+   "007: Nagusame no Houshuu",
+   "007: Quantum of Solace"
+  ],
+  "Xbox 360 Covers/RESIDENT EVIL 5 (434307D4).jpg": [
+   "Resident Evil 5 ~ Biohazard 5"
+  ],
+  "Xbox 360 Covers/RESIDENT EVIL 6 (43430819).jpg": [
+   "Resident Evil 6 (Game Disc)",
+   "Resident Evil 6 (Voice Over Pack)",
+   "Resident Evil 6 ~ Biohazard 6 (Game)"
+  ],
+  "Xbox 360 Covers/RESIDENT EVIL CODE - Veronica X (43430822).jpg": [
+   "Biohazard: Revival Selection (Biohazard: Code: Veronica: Kanzenban)"
+  ],
+  "Xbox 360 Covers/RESIDENT EVIL REVELATIONS (43430833).jpg": [
+   "Resident Evil: Revelations ~ Biohazard: Revelations: Unveiled Edition"
+  ],
+  "Xbox 360 Covers/RISE OF THE GUARDIANS (44500803).jpg": [
+   "DreamWorks Rise of the Guardians"
+  ],
+  "Xbox 360 Covers/RTL Winter Sports 2009 (524C07D2).jpg": [
+   "Winter Sports 2009: The Next Challenge"
+  ],
+  "Xbox 360 Covers/Rainbow Six® Vegas (555307D6).jpg": [
+   "Tom Clancy's Rainbow Six: Vegas"
+  ],
+  "Xbox 360 Covers/Rainbow Six® Vegas 2 (55530807).jpg": [
+   "Tom Clancy's Rainbow Six: Vegas 2"
+  ],
+  "Xbox 360 Covers/Rainbow Six® Vegas 2 (5553081F).jpg": [
+   "Tom Clancy's Rainbow Six: Vegas 2"
+  ],
+  "Xbox 360 Covers/Rapala Fishing Frenzy (41560808).jpg": [
+   "Rapala Fishing Frenzy 2009"
+  ],
+  "Xbox 360 Covers/Rapala Tournament (415607EB).jpg": [
+   "Rapala Tournament Fishing!"
+  ],
+  "Xbox 360 Covers/Rapala® Pro Bass (41560889).jpg": [
+   "Rapala Pro Bass Fishing"
+  ],
+  "Xbox 360 Covers/Ratatouille (545107F1).jpg": [
+   "Disney/Pixar Ratatouille"
+  ],
+  "Xbox 360 Covers/Raving Rabbids - Alive & Kicking (55530882).jpg": [
+   "Rabbids: Alive & Kicking"
+  ],
+  "Xbox 360 Covers/Record of Agarest War Zero -Dawn of War- (494607D9).jpg": [
+   "Agarest Senki Zero: Dawn of War"
+  ],
+  "Xbox 360 Covers/Red Dead Redemption (5454082B).jpg": [
+   "Red Dead Redemption: Complete Edition (Single Player)",
+   "Red Dead Redemption: Complete Edition (Red Dead Redemption: Undead Nightmare & Multiplayer)",
+   "Red Dead Redemption: Game of the Year Edition (Red Dead Redemption Single Player)",
+   "Red Dead Redemption: Game of the Year Edition (Undead Nightmare and Multiplayer)",
+   "Red Dead Redemption: Undead Nightmare"
+  ],
+  "Xbox 360 Covers/Resident Evil 4 (4343081C).jpg": [
+   "Biohazard: Revival Selection (Biohazard 4)"
+  ],
+  "Xbox 360 Covers/Resident Evil Operation Raccoon City (4343081D).jpg": [
+   "Biohazard: Operation Raccoon City"
+  ],
+  "Xbox 360 Covers/Robotics;Notes Disc Xbox 360 (465607EC).jpg": [
+   "Robotics;Notes"
+  ],
+  "Xbox 360 Covers/Rock Band Classic Rock (454108B0).jpg": [
+   "Rock Band Track Pack: Classic Rock"
+  ],
+  "Xbox 360 Covers/Rock Band Country Pack (454108CA).jpg": [
+   "Rock Band: Country Track Pack"
+  ],
+  "Xbox 360 Covers/Rock Band Metal Pack (454108CD).jpg": [
+   "Rock Band: Metal Track Pack"
+  ],
+  "Xbox 360 Covers/Rock Band Song Pack 2 (45410881).jpg": [
+   "Rock Band: Track Pack Volume 2"
+  ],
+  "Xbox 360 Covers/Rock Revolution (EU) (4B4E07F6).jpg": [
+   "Rock Revolution"
+  ],
+  "Xbox 360 Covers/Rocksmith 2014 Edition (555308C0).jpg": [
+   "Rocksmith: All-New 2014 Edition"
+  ],
+  "Xbox 360 Covers/Rockstar Table Tennis (545407DF).jpg": [
+   "Rockstar Games Presents Table Tennis"
+  ],
+  "Xbox 360 Covers/Rugby Challenge 2 - The Lions Tour Edition (484507D7).jpg": [
+   "Jonah Lomu Rugby Challenge 2"
+  ],
+  "Xbox 360 Covers/SAMURAI SHOWDOWN SEN (534E07D5).jpg": [
+   "Samurai Shodown Sen",
+   "Samurai Spirits Sen"
+  ],
+  "Xbox 360 Covers/SAMURAI WARRIORS 2 (4B4F07D5).jpg": [
+   "Sengoku Musou 2",
+   "Sengoku Musou 2 with Moushouden"
+  ],
+  "Xbox 360 Covers/SBK Superbike World Championship (4C5307E5).jpg": [
+   "SBK 2011: FIM Superbike World Championship"
+  ],
+  "Xbox 360 Covers/SBK® (NA) (434E07D5).jpg": [
+   "SBK: Superbike World Championship"
+  ],
+  "Xbox 360 Covers/SBK®08 (4C5307D1).jpg": [
+   "SBK 08: Superbike World Championship"
+  ],
+  "Xbox 360 Covers/SBK®X (4C5307D7).jpg": [
+   "SBK X: Superbike World Championship"
+  ],
+  "Xbox 360 Covers/SBK™09 (4C5307D4).jpg": [
+   "SBK 09: Superbike World Championship"
+  ],
+  "Xbox 360 Covers/SEGA MEGA DRIVE UC (53450825).jpg": [
+   "Sega Mega Drive Ultimate Collection"
+  ],
+  "Xbox 360 Covers/SEGA Rally™ (534507E6).jpg": [
+   "Sega Rally Revo"
+  ],
+  "Xbox 360 Covers/SHIKIGAMI NO SHIRO 3 (415707D2).jpg": [
+   "Shikigami no Shiro III"
+  ],
+  "Xbox 360 Covers/SHReK the THiRD (415607E8).jpg": [
+   "DreamWorks Shrek Terzo",
+   "DreamWorks Shrek the Third"
+  ],
+  "Xbox 360 Covers/SOF Payback (41560802).jpg": [
+   "Soldier of Fortune: Payback"
+  ],
+  "Xbox 360 Covers/SOF Payback (41560818).jpg": [
+   "Soldier of Fortune: Payback"
+  ],
+  "Xbox 360 Covers/SONA-NYL THE VIOLET SHADOW (543407D1).jpg": [
+   "Shiei No Sona-nyl Refrain: What a Beautiful Memories"
+  ],
+  "Xbox 360 Covers/SONIC UNLEASHED (53450812).jpg": [
+   "Sonic World Adventure"
+  ],
+  "Xbox 360 Covers/SOULCALIBUR Ⅴ (4E4D083D).jpg": [
+   "Soulcalibur V"
+  ],
+  "Xbox 360 Covers/SUPER STREETFIGHTER IV ARCADE EDITION (434307FC).jpg": [
+   "Super Street Fighter IV",
+   "Ultra Street Fighter IV"
+  ],
+  "Xbox 360 Covers/SWTCW - Republic Heroes (4C4107E2).jpg": [
+   "Star Wars: The Clone Wars: Republic Heroes"
+  ],
+  "Xbox 360 Covers/Saban's Power Rangers Super Samurai (4E4D0848).jpg": [
+   "Power Rangers: Super Samurai"
+  ],
+  "Xbox 360 Covers/Sacred 2 (J) (534407FF).jpg": [
+   "Sacred 2: Fallen Angel"
+  ],
+  "Xbox 360 Covers/Saints Row 2 BRD (54510836).jpg": [
+   "Saints Row 2"
+  ],
+  "Xbox 360 Covers/Saints Row BRD (545107ED).jpg": [
+   "Saints Row"
+  ],
+  "Xbox 360 Covers/Saints Row IV (4B4D07F6).jpg": [
+   "Saints Row IV: National Treasure Edition (Installation Disc)",
+   "Saints Row IV: National Treasure Edition",
+   "Saints Row IV: Ultra Super Ultimate Deluxe Edition"
+  ],
+  "Xbox 360 Covers/Saints Row® - The Third™ (5451086D).jpg": [
+   "Saints Row: The Third: The Full Package (DLC Installer)",
+   "Saints Row: The Third: The Full Package (Install Disc)"
+  ],
+  "Xbox 360 Covers/Saints Row® - The Third™ (545108A5).jpg": [
+   "Saints Row: The Third: The Full Package (DLC Installer)"
+  ],
+  "Xbox 360 Covers/Sam & Max Save the World (Original 2009 Version) (5841097D).jpg": [
+   "Sam & Max Save the World (2009)"
+  ],
+  "Xbox 360 Covers/Sandlot Sluggers (49470806).jpg": [
+   "Backyard Sports: Sandlot Sluggers"
+  ],
+  "Xbox 360 Covers/Scene It BOS! (4D530860).jpg": [
+   "Scene It? Box Office Smash!",
+   "Scene It? Grandes Éxitos de Taquilla",
+   "Scene It? Kinohits"
+  ],
+  "Xbox 360 Covers/Scene It LCA (4D530832).jpg": [
+   "Scene It? Lights, Camera, Action",
+   "Scene It? Luces, Cámara, ¡Acción!",
+   "Scene It? Luci, Camera, Azione!"
+  ],
+  "Xbox 360 Covers/Scene It ® (575207F5).jpg": [
+   "Scene It? Bright Lights! Big Screen!"
+  ],
+  "Xbox 360 Covers/Scene It ® (575207F6).jpg": [
+   "Scene It? Bright Lights! Big Screen!"
+  ],
+  "Xbox 360 Covers/Scene It ® (575207F8).jpg": [
+   "Scene It? Ganz großes Kino!"
+  ],
+  "Xbox 360 Covers/Scene It ® (575207F9).jpg": [
+   "Scene It? Estrellas en la Pantalla Gigante"
+  ],
+  "Xbox 360 Covers/Scene It ® (575207FC).jpg": [
+   "Scene It? Ciak! Si Gira!"
+  ],
+  "Xbox 360 Covers/Self-Defense Training Camp (55530889).jpg": [
+   "My SelfDefence Coach"
+  ],
+  "Xbox 360 Covers/Serious Sam Collection (565107DA).jpg": [
+   "The Serious Sam Collection"
+  ],
+  "Xbox 360 Covers/Serious Sam HD - The First and Second Encounters (4D4B07D4).jpg": [
+   "Serious Sam HD"
+  ],
+  "Xbox 360 Covers/Shellshock 2 (534307E5).jpg": [
+   "ShellShock 2: Blood Trails"
+  ],
+  "Xbox 360 Covers/Sherlock Holmes (464507D3).jpg": [
+   "Sherlock Holmes Versus Jack the Ripper"
+  ],
+  "Xbox 360 Covers/Sherlock Holmes (4A5707D3).jpg": [
+   "Sherlock Holmes Versus Jack the Ripper"
+  ],
+  "Xbox 360 Covers/Sherlock Holmes - Crimes and Punishments (464507DF).jpg": [
+   "Sherlock Holmes: Crimes & Punishments"
+  ],
+  "Xbox 360 Covers/Shrek Forever After (41560876).jpg": [
+   "DreamWorks Shrek Forever After",
+   "DreamWorks Shrek e Vissero Felici e Contenti"
+  ],
+  "Xbox 360 Covers/Skate 2 (DE) (454108AF).jpg": [
+   "Skate 2"
+  ],
+  "Xbox 360 Covers/Ski-Doo Challenge (564707D1).jpg": [
+   "Ski-Doo Snowmobile Challenge"
+  ],
+  "Xbox 360 Covers/Skylanders SuperChargers Portal Owner's Pack (4156091F).jpg": [
+   "Skylanders: SuperChargers"
+  ],
+  "Xbox 360 Covers/Skylanders Trap Team(TM) (41560911).jpg": [
+   "Skylanders: Trap Team"
+  ],
+  "Xbox 360 Covers/Skyrim (425307E6).jpg": [
+   "The Elder Scrolls V: Skyrim"
+  ],
+  "Xbox 360 Covers/Skyrim (425307F2).jpg": [
+   "The Elder Scrolls V: Skyrim (Kinect Sensor Taiou Title Update Disc)"
+  ],
+  "Xbox 360 Covers/SmackDown vs RAW 2008 (5451080B).jpg": [
+   "WWE SmackDown vs. Raw 2008"
+  ],
+  "Xbox 360 Covers/SmackDown vs. RAW 2009 (54510826).jpg": [
+   "WWE SmackDown vs. Raw 2009"
+  ],
+  "Xbox 360 Covers/SmackDown vs. RAW 2010 (54510844).jpg": [
+   "WWE SmackDown vs. Raw 2010"
+  ],
+  "Xbox 360 Covers/Smackdown vs RAW 2007 (545107E0).jpg": [
+   "WWE SmackDown vs. Raw 2007"
+  ],
+  "Xbox 360 Covers/Sniper Elite 3 (464F0803).jpg": [
+   "Sniper Elite III",
+   "Sniper Elite III: Ultimate Edition"
+  ],
+  "Xbox 360 Covers/Sniper Elite V2 (464F07E8).jpg": [
+   "Sniper Elite V2: Silver Star Edition"
+  ],
+  "Xbox 360 Covers/Snipers (573607D2).jpg": [
+   "De Snipers: Invisible, Silentadly"
+  ],
+  "Xbox 360 Covers/Sonic & SEGA Racing (53450815).jpg": [
+   "Sonic & Sega All-Stars Racing with Banjo-Kazooie"
+  ],
+  "Xbox 360 Covers/Sonic's UGC (53450810).jpg": [
+   "Sonic's Ultimate Genesis Collection"
+  ],
+  "Xbox 360 Covers/South Park™ - The Stick of Truth™ (555308C5).jpg": [
+   "South Park: Der Stab der Wahrheit"
+  ],
+  "Xbox 360 Covers/Spectral Force 3 (494607D1).jpg": [
+   "Spectral Force 3: Innocent Rage"
+  ],
+  "Xbox 360 Covers/Spider-Man™ - FoF (415607FA).jpg": [
+   "Spider-Man: Friend or Foe"
+  ],
+  "Xbox 360 Covers/Spider-Man™ -Dimensions (41560881).jpg": [
+   "Spider-Man: Shattered Dimensions"
+  ],
+  "Xbox 360 Covers/Spiderwick Chronicles (565507E6).jpg": [
+   "The Spiderwick Chronicles"
+  ],
+  "Xbox 360 Covers/SplinterCellConviction (5553080B).jpg": [
+   "Tom Clancy's Splinter Cell: Conviction"
+  ],
+  "Xbox 360 Covers/Split Second (425607E7).jpg": [
+   "Split/Second: Velocity"
+  ],
+  "Xbox 360 Covers/SpongeBob - Truth-Sq (54510850).jpg": [
+   "Nickelodeon SpongeBob SquarePants: SpongeBob's Truth or Square",
+   "Nickelodeon SpongeBob's Truth or Square",
+   "SpongeBob SquarePants: SpongeBob's Truth or Square"
+  ],
+  "Xbox 360 Covers/SpongeBob HeroPants (41560919).jpg": [
+   "Nickelodeon SpongeBob HeroPants"
+  ],
+  "Xbox 360 Covers/SpongeBob Squarepants - Plankton's Robotic Revenge (41560900).jpg": [
+   "Nickelodeon SpongeBob SquarePants: Plankton's Robotic Revenge"
+  ],
+  "Xbox 360 Covers/SpongeBob's Surf & Skate Roadtrip (5451089D).jpg": [
+   "Nickelodeon SpongeBob SquarePants: Surf & Skate Roadtrip"
+  ],
+  "Xbox 360 Covers/Star Wars - The Force Unleashed (4C4107D2).jpg": [
+   "Star Wars: The Force Unleashed: Ultimate Sith Edition"
+  ],
+  "Xbox 360 Covers/Steins;Gate FD (465607E8).jpg": [
+   "Steins;Gate: Hiyoku Renri no Darling"
+  ],
+  "Xbox 360 Covers/Stranglehold (4D5707D2).jpg": [
+   "John Woo Presents Stranglehold"
+  ],
+  "Xbox 360 Covers/Stranglehold (4D5707E5).jpg": [
+   "John Woo Presents Stranglehold"
+  ],
+  "Xbox 360 Covers/Street Fighter III - Third Strike Online Edition (58410B16).jpg": [
+   "SF3 Online Edition",
+   "Street Fighter 3 Online Edition"
+  ],
+  "Xbox 360 Covers/Summer Challenge (524C07DE).jpg": [
+   "Summer Challenge: Athletics Tournament"
+  ],
+  "Xbox 360 Covers/Super Street Fighter II Turbo HD Remix (584108A4).jpg": [
+   "Super Street Fighter 2 THD",
+   "Super Street Fighter 2 Turbo HD Remix"
+  ],
+  "Xbox 360 Covers/SuperStar (535407D1).jpg": [
+   "SuperStar Karaoke"
+  ],
+  "Xbox 360 Covers/Superstars® V8 NC (4C5307D8).jpg": [
+   "Superstars V8: Next Challenge"
+  ],
+  "Xbox 360 Covers/TC's SC Double Agent (555307D7).jpg": [
+   "Tom Clancy's Splinter Cell: Double Agent"
+  ],
+  "Xbox 360 Covers/TC’s H.A.W.X (55530816).jpg": [
+   "Tom Clancy's H.A.W.X"
+  ],
+  "Xbox 360 Covers/TGM ACE (434107D2).jpg": [
+   "Tetris: The Grand Master Ace"
+  ],
+  "Xbox 360 Covers/TH Proving Ground (415607F0).jpg": [
+   "Tony Hawk's Proving Ground"
+  ],
+  "Xbox 360 Covers/THE IDOLM@STER (4E4D07DB).jpg": [
+   "The Idolmaster"
+  ],
+  "Xbox 360 Covers/THE IDOLM@STER 2 (4E4D0817).jpg": [
+   "The Idolmaster 2"
+  ],
+  "Xbox 360 Covers/TNA iMPACT!™ (4D5707DF).jpg": [
+   "TNA Impact! Total Nonstop Action Wrestling"
+  ],
+  "Xbox 360 Covers/Teenage Mutant Ninja Turtles (415608FD).jpg": [
+   "Nickelodeon Teenage Mutant Ninja Turtles"
+  ],
+  "Xbox 360 Covers/Teenage Mutant Ninja Turtles - Danger of the Ooze (4156090C).jpg": [
+   "Nickelodeon Teenage Mutant Ninja Turtles: Danger of the Ooze"
+  ],
+  "Xbox 360 Covers/Terraria – Xbox 360 Edition (464F0802).jpg": [
+   "Terraria"
+  ],
+  "Xbox 360 Covers/The Adventures of Tintin - The Secret of the Unicorn - The Game (55530871).jpg": [
+   "The Adventures of Tintin: The Game"
+  ],
+  "Xbox 360 Covers/The Bourne Conspiracy (565507D4).jpg": [
+   "Robert Ludlum's The Bourne Conspiracy"
+  ],
+  "Xbox 360 Covers/The Darkness [German] (54540804).jpg": [
+   "The Darkness"
+  ],
+  "Xbox 360 Covers/The Godfather™ (454107E9).jpg": [
+   "El Padrino",
+   "Il Padrino"
+  ],
+  "Xbox 360 Covers/The Godfather™ II (45410866).jpg": [
+   "Der Pate II",
+   "Le Parrain 2"
+  ],
+  "Xbox 360 Covers/The Peanuts® Movie - Snoopy's Grand Adventure (41560922).jpg": [
+   "Snoopy's Grand Adventure"
+  ],
+  "Xbox 360 Covers/The Penguins of Madagascar - Dr. Blowhole Returns Again! (54510873).jpg": [
+   "DreamWorks The Penguins of Madagascar: Dr. Blowhole Returns: Again!"
+  ],
+  "Xbox 360 Covers/The Simpsons™ Game (45410809).jpg": [
+   "Die Simpsons: Das Spiel",
+   "Les Simpson: Le Jeu"
+  ],
+  "Xbox 360 Covers/The Strike (474907D1).jpg": [
+   "Bass Pro Shops: The Strike"
+  ],
+  "Xbox 360 Covers/The Voice (41560912).jpg": [
+   "The Voice: I Want You"
+  ],
+  "Xbox 360 Covers/The Walking Dead (443607D2).jpg": [
+   "The Walking Dead: A Telltale Games Series",
+   "The Walking Dead: A Telltale Games Series: Game of the Year Edition"
+  ],
+  "Xbox 360 Covers/The Walking Dead - Season Two (443607D4).jpg": [
+   "The Walking Dead: Season Two: A Telltale Games Series"
+  ],
+  "Xbox 360 Covers/The Witcher 2 (574607D2).jpg": [
+   "The Witcher 2: Assassins of Kings: Enhanced Edition (Game Disc 1)",
+   "The Witcher 2: Assassins of Kings: Enhanced Edition (Game Disc 2)"
+  ],
+  "Xbox 360 Covers/The Wolf Among Us (443607D5).jpg": [
+   "The Wolf Among Us: A Telltale Games Series"
+  ],
+  "Xbox 360 Covers/Tiger Woods PGA TOUR® 12 - The Masters® (4541094D).jpg": [
+   "Tiger Woods PGA Tour 12"
+  ],
+  "Xbox 360 Covers/Titanfall Deluxe Edition (454109D0).jpg": [
+   "Titanfall"
+  ],
+  "Xbox 360 Covers/Tom Clancy's GRAW 2 (555307F0).jpg": [
+   "Tom Clancy's Ghost Recon: Advanced Warfighter 2"
+  ],
+  "Xbox 360 Covers/Tom Clancy’s Splinter Cell® Blacklist™ (555308B6).jpg": [
+   "Tom Clancy's Splinter Cell: Blacklist (Campaign Part 1 & Multiplayer)",
+   "Tom Clancy's Splinter Cell: Blacklist (Campaign Part 2 & HD Texture Pack)"
+  ],
+  "Xbox 360 Covers/Tomb Raider -Legend (534307D4).jpg": [
+   "Lara Croft Tomb Raider: Legend"
+  ],
+  "Xbox 360 Covers/TombRaiderUnderworldJP (534407FA).jpg": [
+   "Tomb Raider: Underworld"
+  ],
+  "Xbox 360 Covers/Tour de France (464507D8).jpg": [
+   "Le Tour de France"
+  ],
+  "Xbox 360 Covers/Tour de France 2012 (464507DA).jpg": [
+   "Le Tour de France 2012"
+  ],
+  "Xbox 360 Covers/Tour de France 2013 - 100th Edition (464507DE).jpg": [
+   "Le Tour de France 2013"
+  ],
+  "Xbox 360 Covers/Tour de France 2014 (464507E0).jpg": [
+   "Le Tour de France: Season 2014"
+  ],
+  "Xbox 360 Covers/Toy Story 3 (425607E5).jpg": [
+   "Disney/Pixar Istoriya igrushek: Bol'shoj pobeg",
+   "Disney/Pixar Toy Story 3"
+  ],
+  "Xbox 360 Covers/Toy Story Mania! (42560819).jpg": [
+   "Disney/Pixar Toy Story Mania!"
+  ],
+  "Xbox 360 Covers/Transformers - WFC (4156084C).jpg": [
+   "Transformers: Kampf um Cybertron",
+   "Transformers: War for Cybertron"
+  ],
+  "Xbox 360 Covers/Transformers 2 (41560834).jpg": [
+   "Transformers: Die Rache",
+   "Transformers: Revenge of the Fallen"
+  ],
+  "Xbox 360 Covers/Tron - Evolution (425607ED).jpg": [
+   "Disney TRON: Evolution"
+  ],
+  "Xbox 360 Covers/Tropico 4 (4B5907DC).jpg": [
+   "Tropico 4: Gold Edition"
+  ],
+  "Xbox 360 Covers/Turbo - Super Stunt Squad (44500806).jpg": [
+   "DreamWorks Turbo: Super Stunt Squad"
+  ],
+  "Xbox 360 Covers/Turning Point (434D07E0).jpg": [
+   "Turning Point: Fall of Liberty"
+  ],
+  "Xbox 360 Covers/Turning Point [FR DE] (434D0801).jpg": [
+   "Turning Point: Fall of Liberty"
+  ],
+  "Xbox 360 Covers/Two Worlds II (5A4507DA).jpg": [
+   "Two Worlds II: Game of the Year Edition"
+  ],
+  "Xbox 360 Covers/UEFA CL 2006-2007 (45410811).jpg": [
+   "UEFA Champions League 2006-2007"
+  ],
+  "Xbox 360 Covers/UEFA EURO 2008™ (4541083F).jpg": [
+   "UEFA Euro 2008: Austria-Switzerland"
+  ],
+  "Xbox 360 Covers/Universe at War (534507F0).jpg": [
+   "Universe at War: Earth Assault"
+  ],
+  "Xbox 360 Covers/Unknown (5841125F).jpg": [
+   "Toy Soldiers - Cold War"
+  ],
+  "Xbox 360 Covers/Unreal Tournament® 3 (4D5707F3).jpg": [
+   "Unreal Tournament III"
+  ],
+  "Xbox 360 Covers/Victorious™ - Time to Shine (445007FA).jpg": [
+   "Nickelodeon Victorious: Time to Shine"
+  ],
+  "Xbox 360 Covers/Viking (534507E0).jpg": [
+   "Viking: Battle for Asgard"
+  ],
+  "Xbox 360 Covers/Virtua Fighter 5 (534507EE).jpg": [
+   "Virtua Fighter 5 Online ~ Virtua Fighter 5",
+   "Virtua Fighter 5: Live Arena"
+  ],
+  "Xbox 360 Covers/Virtual-On Force (5345084C).jpg": [
+   "Dennou Senki: Virtual-On Force"
+  ],
+  "Xbox 360 Covers/Viva Piñata (4D5307F2).jpg": [
+   "Atsumare! Piñata"
+  ],
+  "Xbox 360 Covers/Viva Piñata - TIP (4D53085F).jpg": [
+   "Viva Piñata: Trouble in Paradise ~ Atsumare! Piñata 2: Garden no Dai-Pinch"
+  ],
+  "Xbox 360 Covers/W.L.O. 世界恋愛機構 (465607DB).jpg": [
+   "W.L.O. Sekai Ren'ai Kikou"
+  ],
+  "Xbox 360 Covers/WALL•E (54510824).jpg": [
+   "Disney/Pixar WALL-E",
+   "Disney/Pixar WALL-E: Batallón de Limpieza",
+   "Disney/Pixar WALL-E: Der Letzte räumt die Erde auf"
+  ],
+  "Xbox 360 Covers/WALL•E KOREA (54510830).jpg": [
+   "Disney/Pixar WALL-E"
+  ],
+  "Xbox 360 Covers/WAR TECH -SenkoNoRonde (475207D1).jpg": [
+   "Senkou no Ronde Rev.X"
+  ],
+  "Xbox 360 Covers/WARRIORS OROCHI (4B4F07D9).jpg": [
+   "Musou Orochi"
+  ],
+  "Xbox 360 Covers/WARRIORS OROCHI 2 (4B4F07E3).jpg": [
+   "Musou Orochi: Maou Sairin"
+  ],
+  "Xbox 360 Covers/WARRIORS OROCHI 3 (4B5607D9).jpg": [
+   "Musou Orochi 2"
+  ],
+  "Xbox 360 Covers/WCP All In (435607D1).jpg": [
+   "World Championship Poker 2: All In",
+   "World Championship Poker featuring Howard Lederer: All In"
+  ],
+  "Xbox 360 Covers/WRC 4 (573607DD).jpg": [
+   "WRC 4: FIA World Rally Championship"
+  ],
+  "Xbox 360 Covers/WRC 5 FIA World Rally Championship (573607E2).jpg": [
+   "WRC 5"
+  ],
+  "Xbox 360 Covers/WSC2007 (534507DF).jpg": [
+   "World Snooker Championship 2007"
+  ],
+  "Xbox 360 Covers/WSC2009 (424907D1).jpg": [
+   "WSC Real 09: World Snooker Championship"
+  ],
+  "Xbox 360 Covers/WSOP - 2008 (41560806).jpg": [
+   "World Series of Poker 2008: Battle for the Bracelets"
+  ],
+  "Xbox 360 Covers/WSOP - TOC (415607D9).jpg": [
+   "World Series of Poker: Tournament of Champions: 2007 Edition"
+  ],
+  "Xbox 360 Covers/WWE Legends (54510838).jpg": [
+   "WWE Legends of WrestleMania"
+  ],
+  "Xbox 360 Covers/Warlords (58410851).jpg": [
+   "Atari Warlords"
+  ],
+  "Xbox 360 Covers/Warriors - Legends of Troy™ (4B4F07F0).jpg": [
+   "Troy Musou"
+  ],
+  "Xbox 360 Covers/Watch Dogs™ (555308B7).jpg": [
+   "Watch_Dogs (Installation Disc)",
+   "Watch_Dogs (Game Disc)"
+  ],
+  "Xbox 360 Covers/Watchmen - The End is Nigh (5841096E).jpg": [
+   "Watchmen Part 1",
+   "Watchmen The End is Nigh Part 1"
+  ],
+  "Xbox 360 Covers/Way of the Samurai 3 (534407FC).jpg": [
+   "Samurai Dou 3"
+  ],
+  "Xbox 360 Covers/Winning Eleven 2007 (4B4E07DF).jpg": [
+   "Winning Eleven: Pro Evolution Soccer 2007"
+  ],
+  "Xbox 360 Covers/Winning Eleven 2008 (4B4E07E8).jpg": [
+   "World Soccer Winning Eleven 2008"
+  ],
+  "Xbox 360 Covers/Winning Eleven 2009 (4B4E07F1).jpg": [
+   "World Soccer Winning Eleven 2009"
+  ],
+  "Xbox 360 Covers/Winning Eleven 2010 (4B4E080D).jpg": [
+   "World Soccer Winning Eleven 2010"
+  ],
+  "Xbox 360 Covers/Winning Eleven X (4B4E07DE).jpg": [
+   "World Soccer Winning Eleven X"
+  ],
+  "Xbox 360 Covers/Winter Sports 2 (434E07D2).jpg": [
+   "Winter Sports 2: The Next Challenge"
+  ],
+  "Xbox 360 Covers/Winter Sports 2010 (524C07D8).jpg": [
+   "Winter Sports 2010: The Great Tournament"
+  ],
+  "Xbox 360 Covers/Winter Sports 2011 (445407DA).jpg": [
+   "Winter Sports 2011: Go for Gold"
+  ],
+  "Xbox 360 Covers/Wipeout 3 (415608DD).jpg": [
+   "ABC Wipeout 3"
+  ],
+  "Xbox 360 Covers/WoO - Sprint Cars (54510835).jpg": [
+   "World of Outlaws: Sprint Cars"
+  ],
+  "Xbox 360 Covers/World of Tanks (4D530A8C).jpg": [
+   "World of Tanks: Xbox 360 Edition"
+  ],
+  "Xbox 360 Covers/WtWTA (575207F2).jpg": [
+   "Where the Wild Things Are: The Videogame"
+  ],
+  "Xbox 360 Covers/XMen Origins - Wolverine (41560816).jpg": [
+   "X-Men Origins: Wolverine: Uncaged Edition"
+  ],
+  "Xbox 360 Covers/Xbox 360 Triple Pack (4D5309C5).jpg": [
+   "Triple Pack"
+  ],
+  "Xbox 360 Covers/ZONE OF THE ENDERS HD COLLECTION (4B4E0842).jpg": [
+   "Zone of the Enders: HD Edition"
+  ],
+  "Xbox 360 Covers/Zegapain (424107D1).jpg": [
+   "Zegapain NOT",
+   "Zegapain XOR"
+  ],
+  "Xbox 360 Covers/Zeno Clash UE (584109DC).jpg": [
+   "Zeno Clash"
+  ],
+  "Xbox 360 Covers/Zuma's Revenge! Collection (4541099F).jpg": [
+   "Zuma's Revenge!"
+  ],
+  "Xbox 360 Covers/de Blob 2 (2014) (54510865).jpg": [
+   "De Blob 2"
+  ],
+  "Xbox 360 Covers/tsurugi no machi no ihojin siro no oukyu (4B5807D5).jpg": [
+   "Tsurugi no Machi no Ihoujin: Shiro no Oukyuu"
+  ],
+  "Xbox 360 Covers/【eM】 -eNCHANT arM- (465307D2).jpg": [
+   ": eNCHANT arM"
+  ],
+  "Xbox 360 Covers/お姉チャンバラZ ～カグラ～ (445007F4).jpg": [
+   "Oneechanbara Z: Kagura"
+  ],
+  "Xbox 360 Covers/お姉チャンバラvorteX (445007D2).jpg": [
+   "Oneechanbara VorteX: Imichi o Tsugu Mono-tachi"
+  ],
+  "Xbox 360 Covers/ぎゃる☆がん (414A07D2).jpg": [
+   "Gal Gun"
+  ],
+  "Xbox 360 Covers/ぬらりひょんの孫 百鬼繚乱大戦 (4B4E0826).jpg": [
+   "Nurarihyon no Mago: Hyakki Ryouran Taisen"
+  ],
+  "Xbox 360 Covers/のーふぇいと! -only the power of will- (414A07D1).jpg": [
+   "No Fate! Only the Power of Will"
+  ],
+  "Xbox 360 Covers/むちむちポーク！＆ピンクスゥイーツ (435A07DE).jpg": [
+   "Muchi Muchi Pork! & Pink Sweets"
+  ],
+  "Xbox 360 Covers/アイドルマスター ライブフォーユー！ (4E4D07EA).jpg": [
+   "The Idolmaster: Live for You!"
+  ],
+  "Xbox 360 Covers/アーマード・コアⅤ (465307DF).jpg": [
+   "Armored Core V"
+  ],
+  "Xbox 360 Covers/アーマード・コアⅤ (465307E3).jpg": [
+   "Armored Core: Verdict Day"
+  ],
+  "Xbox 360 Covers/ウイニングポストワールド 2010 (4B4F07F7).jpg": [
+   "Winning Post World 2010"
+  ],
+  "Xbox 360 Covers/エブリパーティ (4D5307D4).jpg": [
+   "Every Party"
+  ],
+  "Xbox 360 Covers/オトメディウスG（ゴージャス！） (4B4E07EE).jpg": [
+   "Otomedius Gorgeous!"
+  ],
+  "Xbox 360 Covers/ガンダム無双２ (4E4D07FB).jpg": [
+   "Gundam Musou 2"
+  ],
+  "Xbox 360 Covers/キャサリン (415407D5).jpg": [
+   "Catherine"
+  ],
+  "Xbox 360 Covers/クロスエッジ ダッシュ (494607D7).jpg": [
+   "X Edge Dash"
+  ],
+  "Xbox 360 Covers/ケツイ ～絆地獄たち～ EXTRA (465607D1).jpg": [
+   "Ketsui: Kizuna Jigoku-tachi Extra"
+  ],
+  "Xbox 360 Covers/ゲーセンラブ。～プラス ペンゴ！～ (334807D1).jpg": [
+   "Geesen Love. Plus Pengo!"
+  ],
+  "Xbox 360 Covers/サイコブレイク (425307F7).jpg": [
+   "Psycho Break"
+  ],
+  "Xbox 360 Covers/シューティングラブ。１０周年 ～XIIZEAL & ΔZEAL～ (334807D2).jpg": [
+   "Shooting Love. 10-shuunen: XIIZeal & DeltaZeal"
+  ],
+  "Xbox 360 Covers/シンギュラリティ (41560896).jpg": [
+   "Singularity"
+  ],
+  "Xbox 360 Covers/ストライクウィッチーズ 白銀の翼 (434607D3).jpg": [
+   "Strike Witches: Hakugin no Tsubasa"
+  ],
+  "Xbox 360 Covers/スーパーロボット大戦ＸＯ (425007D1).jpg": [
+   "Super Robot Taisen XO"
+  ],
+  "Xbox 360 Covers/ゾイドインフィニティEX NEO (544F07D1).jpg": [
+   "Zoids Infinity EX Neo"
+  ],
+  "Xbox 360 Covers/タイムリープ (505407D2).jpg": [
+   "Time Leap"
+  ],
+  "Xbox 360 Covers/タユタマ-Kiss on my Deity- (465607D7).jpg": [
+   "Tayutama: Kiss on My Deity"
+  ],
+  "Xbox 360 Covers/トラスティベル (4E4D07D5).jpg": [
+   "Trusty Bell: Chopin no Yume"
+  ],
+  "Xbox 360 Covers/ドリームクラブ (445007F0).jpg": [
+   "Dream C Club"
+  ],
+  "Xbox 360 Covers/バトルステーション： ミッドウェイ (534407F4).jpg": [
+   "Battlestations: Midway"
+  ],
+  "Xbox 360 Covers/ファントム ファントム オブ インフェルノ (444707D3).jpg": [
+   "Phantom: Phantom of Inferno"
+  ],
+  "Xbox 360 Covers/プロ野球スピリッツ３ (4B4E07D4).jpg": [
+   "Pro Yakyuu Spirits 3"
+  ],
+  "Xbox 360 Covers/マグナカルタ2 (4E4D080A).jpg": [
+   "Magnacarta II"
+  ],
+  "Xbox 360 Covers/マジてん ～マジで天使を作ってみた～ (494607DB).jpg": [
+   "MajiTen: Maji de Tenshi o Tsukutte Mita"
+  ],
+  "Xbox 360 Covers/マブラヴ オルタネイティヴ (465607E7).jpg": [
+   "Muv-Luv Alternative"
+  ],
+  "Xbox 360 Covers/マージャン★ドリームクラブ (445007FF).jpg": [
+   "Mahjong Dream C Club"
+  ],
+  "Xbox 360 Covers/メモリーズオフ ゆびきりの記憶 (465607DD).jpg": [
+   "Memories Off: Yubikiri no Kioku"
+  ],
+  "Xbox 360 Covers/メモリーズオフ6 Next Relation (465607D6).jpg": [
+   "Memories Off 6: Next Relation"
+  ],
+  "Xbox 360 Covers/メモリーズオフ6 T-wave (465607D5).jpg": [
+   "Memories Off 6: T-Wave"
+  ],
+  "Xbox 360 Covers/モンスターハンター フロンティアＺ (434307FD).jpg": [
+   "Monster Hunter Frontier G1: Premium Package (Data Disc)",
+   "Monster Hunter Frontier Online"
+  ],
+  "Xbox 360 Covers/ユアシェイプ フィットネス・エボルブ (5553086D).jpg": [
+   "Your Shape: Fitness Evolved"
+  ],
+  "Xbox 360 Covers/ラブ☆トレ Bitter (324707D3).jpg": [
+   "Love Tore: Bitter"
+  ],
+  "Xbox 360 Covers/ラブ☆トレ Mint (324707D2).jpg": [
+   "Love Tore: Mint"
+  ],
+  "Xbox 360 Covers/ルートダブル - Before Crime After Days - (553107D1).jpg": [
+   "Root Double: Before Crime * After Days"
+  ],
+  "Xbox 360 Covers/信長の野望･天道 (4B4F07F9).jpg": [
+   "Nobunaga no Yabou: Tendou"
+  ],
+  "Xbox 360 Covers/円卓の生徒 (4B5807D1).jpg": [
+   "Entaku no Seito: Students of Round"
+  ],
+  "Xbox 360 Covers/地球防衛軍４ (445007FD).jpg": [
+   "Chikyuu Boueigun 4"
+  ],
+  "Xbox 360 Covers/天外魔境ＺＩＲＩＡ (485507D2).jpg": [
+   "Tengai Makyou: Ziria: Haruka naru Jipang"
+  ],
+  "Xbox 360 Covers/天誅千乱 (465307D1).jpg": [
+   "Tenchu Senran"
+  ],
+  "Xbox 360 Covers/怒首領蜂 大復活 Black Label (435A07DF).jpg": [
+   "DoDonPachi Daifukkatsu Black Label"
+  ],
+  "Xbox 360 Covers/怒首領蜂 大復活 ver 1.5 (435A07DC).jpg": [
+   "DoDonPachi Daifukkatsu Ver 1.5"
+  ],
+  "Xbox 360 Covers/怒首領蜂大往生ブラックレーベル EXTRA (465607D2).jpg": [
+   "DoDonPachi Dai-Ou-Jou Black Label Extra"
+  ],
+  "Xbox 360 Covers/戦極姫2～葉隠の乙女、風雲に乗ず～ (535907D2).jpg": [
+   "Sengoku-hime 2: Senran no Yo, Gunyuu Arashi no Gotoku"
+  ],
+  "Xbox 360 Covers/旋光の輪舞 DUO (475207F9).jpg": [
+   "Senkou no Ronde Duo"
+  ],
+  "Xbox 360 Covers/智代アフター (505407D5).jpg": [
+   "Tomoyo After: It's a Wonderful Life: CS Edition"
+  ],
+  "Xbox 360 Covers/暁のアマネカと蒼い巨神 (434607D2).jpg": [
+   "Akatsuki no Amaneka to Aoi Kyojin: Pashiate Bunmei Kenkyuukai Koubouki"
+  ],
+  "Xbox 360 Covers/桃太郎電鉄１６ ＧＯＬＤ (485507D3).jpg": [
+   "Momotarou Dentetsu 16 Gold"
+  ],
+  "Xbox 360 Covers/真・三國無双４ Special (4B4F07D1).jpg": [
+   "Shin Sangoku Musou 4 Special"
+  ],
+  "Xbox 360 Covers/萌え萌え２次大戦（略）２☆ウルトラデラックス (535907D1).jpg": [
+   "Moe Moe 2-Ji Daisenryaku Ultra Deluxe"
+  ],
+  "Xbox 360 Covers/虫姫さまふたり (435A07D7).jpg": [
+   "Mushihimesama Futari Ver 1.5"
+  ],
+  "Xbox 360 Covers/車輪の国、向日葵の少女 (465607E1).jpg": [
+   "Sharin no Kuni, Himawari no Shoujo"
+  ],
+  "Xbox 360 Covers/迷宮クロスブラッド リローデッド (565707D4).jpg": [
+   "Meikyuu Cross Blood: Reloaded"
+  ],
+  "Xbox 360 Covers/通信対戦麻雀 闘龍門 (434107D5).jpg": [
+   "Tsuushin Taisen Mahjong: Touryuumon"
+  ],
+  "Xbox 360 Covers/首都高バトルＸ (474507D1).jpg": [
+   "Shutokou Battle X"
+  ]
+ }
+}

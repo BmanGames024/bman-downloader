@@ -1,31 +1,21 @@
 """Bman Downloader - start the app from this file (and build the exe from it).
 
-bman_core.py and bman_ui.py must sit next to it."""
+bman_core.py, bman_ui.py and bman_switch.py must sit next to it, and the Retro
+Downloader's files in the retro\\ folder beside them. Start with --retro to open
+straight into the Retro Downloader.
+
+The window can switch between the two apps from the button at the bottom of the
+sidebar; bman_switch.py does the switching."""
 from __future__ import annotations
 
 import sys
 
-import threading
-
-from bman_core import Index, IndexLoadError, clean_pyinstaller_temp
-from bman_ui import ArchiveGUI
+import bman_switch
 
 
 def main() -> int:
-    # Clear old %TEMP%\_MEI* folders in the background so start-up isn't slowed.
-    threading.Thread(target=clean_pyinstaller_temp, daemon=True, name="mei-cleanup").start()
-
-    # The app always opens, even if archive.org is down: it uses the saved game
-    # list (or an empty one) and keeps retrying in the background.
-    try:
-        index = Index.load_combined()
-    except Exception as exc:
-        print(f"Could not load the game list: {exc}", file=sys.stderr)
-        index = Index.offline()
-
-    app = ArchiveGUI(index)
-    app.mainloop()
-    return 0
+    start = "retro" if "--retro" in sys.argv[1:] else "main"
+    return bman_switch.run(start)
 
 if __name__ == "__main__":
     if sys.platform == "win32" and not getattr(sys, 'frozen', False) and "__compiled__" not in globals():
