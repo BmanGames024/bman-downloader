@@ -6714,17 +6714,17 @@ class ArchiveGUI(ctk.CTk):
             wraplength=600,
             justify="left",
         ).pack(anchor="w", pady=(0, 5))
-        self.archive_status_lbl = ctk.CTkLabel(self.settings_view, text="", text_color="gray",
+        self.archive_support_lbl = ctk.CTkLabel(self.settings_view, text="", text_color="gray",
                                                wraplength=600, justify="left")
-        self.archive_status_lbl.pack(anchor="w", pady=(0, 15))
+        self.archive_support_lbl.pack(anchor="w", pady=(0, 15))
         try:
             problems = [f".{kind}: {problem}" for kind, problem in archive_support().items() if problem]
         except Exception as exc:
             problems = [str(exc)]
         if problems:
-            self.archive_status_lbl.configure(text="\n".join(problems), text_color="orange")
+            self.archive_support_lbl.configure(text="\n".join(problems), text_color="orange")
         else:
-            self.archive_status_lbl.configure(text="zip, 7z and rar support: ready", text_color="green")
+            self.archive_support_lbl.configure(text="zip, 7z and rar support: ready", text_color="green")
 
     def setup_archive_auth_section(self):
         creds = grab_archive_credentials()
