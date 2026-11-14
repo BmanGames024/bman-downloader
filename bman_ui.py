@@ -742,8 +742,6 @@ def ask_confirm_popup(master, title: str, message: str,
         return False
 
 
-
-
 class HddRenameDialog(ctk.CTkToplevel):
     """Asks for a shorter name for each game whose folder name is too long to upload.
 
@@ -1286,7 +1284,6 @@ class ApiKeysRequiredDialog(ctk.CTkToplevel):
             self.destroy()
         except Exception:
             pass
-
 
 
 class VirtualResultsList(ctk.CTkFrame):
@@ -2128,13 +2125,12 @@ def build_game_rows(parent, labels, button_text: str = "", on_button=None, scrol
                        on_button=handler, grid_row=start // step, scroll=scroll)
 
 
-DOWNLOAD_QUEUE_ROWS = 15     # queued downloads that get a row on the Downloads tab ahead of time
-DOWNLOAD_PAGE_SIZE = 15      # downloaded files listed per page once there are more than this
-DOWNLOAD_ROW_SLACK = 0      # just-finished rows allowed to linger before the page is tidied
-
 DOWNLOAD_AHEAD_KEY = "download_ahead"    # settings.json: download the next game while this one converts/uploads
-CATALOG_PAGE_SIZE = 1000       # themes / gamer picture packs listed per page on their tabs
-DOWNLOAD_AHEAD_LIMIT = 5    # finished downloads allowed to wait for their turn before downloading pauses
+
+
+from bman_settings import (  # noqa: E402 - Downloads tab sizes, see bman_settings.py
+    DOWNLOAD_AHEAD_LIMIT, DOWNLOAD_QUEUE_ROWS, DOWNLOAD_PAGE_SIZE, DOWNLOAD_ROW_SLACK, CATALOG_PAGE_SIZE,
+)
 
 
 class QueuedDownload:

@@ -54,6 +54,33 @@ except Exception as _fatx_exc:
 # Nuitka doesn't set sys.frozen; it defines __compiled__ instead. In a Nuitka
 # onefile build, __file__ and sys.executable point into the temporary unpack
 # folder, while sys.argv[0] is the actual BmanDownloader.exe the user ran.
+from bman_settings import (  # noqa: F401  - settings for the coder, see bman_settings.py
+    APP_VERSION, UPDATE_MANIFEST_URL, MIN_UPDATE_BYTES, UPDATE_DOWNLOAD_ATTEMPTS,
+    ARCHIVE_SOURCES, CONTENT_SOURCES, OG_XBOX_SOURCES, INDIE_SOURCE, INDIE_TITLE_ID,
+    INDIE_CONTENT_TYPE, WALLPAPER_SOURCE, EXCLUDED_EXTENSIONS, ARCHIVE_BASE_URL,
+    ARCHIVE_S3_BASE_URL, ARCHIVE_S3_KEYS_URL, ARCHIVE_METADATA_URL, SPOOF,
+    INDEX_CACHE_TTL_SECONDS, INDEX_CACHE_PARTIAL_TTL_SECONDS, INDEX_FETCH_TIMEOUT,
+    INDEX_FETCH_WORKERS, CATALOG_CACHE_TTL_SECONDS, DEFAULT_MAX_SEGMENTS,
+    DEFAULT_MIN_SEGMENT_MB, DEFAULT_SEGMENT_MIN_FILE_MB, DEFAULT_MAX_RETRIES,
+    DEFAULT_RETRY_BACKOFF, DEFAULT_FTP_PORT, DEFAULT_FTP_USER, DEFAULT_FTP_PASS,
+    DEFAULT_FTP_TIMEOUT, DEFAULT_FTP_PARALLEL, MAX_FTP_PARALLEL, FTP_BLOCK_SIZE,
+    FTP_SOCKET_BUFFER, FTP_PASSIVE_CONNECT_TIMEOUT, FTP_FALLBACK_DRIVE,
+    FORCE_TITLE_ID_TO_CONTENT, FORCED_CONTENT_SUBPATH, CONTENT_SCAN_DEPTH, DEFAULT_HDD_PARALLEL,
+    MAX_HDD_PARALLEL, HDD_BLOCK_SIZE, HDD_POLL_MS, HDD_MAX_NAME, HDD_RENAME_AT, NORMAL_MAX_NAME,
+    HDD_COMMON_PATHS, HDD_COMMON_PATHS_NORMAL, COVER_REPO, COVER_REPO_BRANCH,
+    COVER_REPO_OG_FOLDER, COVER_REPO_360_FOLDER, COVER_REPO_INDEX_TTL_SECONDS,
+    COVER_REPO_TIMEOUT, COVER_OFFLINE_PAUSE, COVER_MIN_MATCH_SCORE, COVER_NUMBER_MISMATCH,
+    COVER_PREFETCH_COUNT, COVER_PREFETCH_WORKERS, MOBCAT_BASE_URL, MOBCAT_INDEX_TTL_SECONDS,
+    MOBCAT_OFFLINE_PAUSE, MOBCAT_TIMEOUT, MOBCAT_MIN_MATCH_SCORE, MOBCAT_MAIN_TITLE_WEIGHT,
+    COMMUNITY_REPO_OWNER, COMMUNITY_REPO_NAME, COMMUNITY_BRANCH, COMMUNITY_CACHE_TTL_SECONDS,
+    COMMUNITY_TIMEOUT, COMMUNITY_MAX_GAMES, COMMUNITY_MAX_NAME, COMMUNITY_MAX_DESCRIPTION,
+    COMMUNITY_TOKEN_PARTS, GAMERPICS_SITE, GAMERPICS_ASSETS, GAMERPICS_SITE_TTL_SECONDS,
+    GAMERPICS_IMAGE_CACHE_MAX, WALLPAPER_TTL_SECONDS, WALLPAPER_THUMB_SIZE,
+    WALLPAPER_THUMB_DISK_MAX, WALLPAPER_THUMB_MEMORY_MAX, DEFAULT_ACCENT, ACCENT_PRESETS,
+    LOG_FILES_TO_KEEP, UI_PUMP_MS, UI_PUMP_BUDGET, UI_PENDING_CAP, THEME_SOURCE,
+    GAMERPIC_SOURCE, DOWNLOAD_SETTING_RANGES,
+)
+
 IS_NUITKA = "__compiled__" in globals()
 if IS_NUITKA:
     EXE_PATH = Path(sys.argv[0]).resolve()
@@ -68,35 +95,12 @@ RUN_DIR = EXE_PATH.parent
 CREDS_FILE = "archive_creds.json"
 
 INDEX_CACHE_FILE = "index_cache.json"
-INDEX_CACHE_TTL_SECONDS = 7 * 24 * 60 * 60     # archive.org game list: refreshed once a week
-INDEX_CACHE_PARTIAL_TTL_SECONDS = 15 * 60
 INDEX_CACHE_VERSION = 1
-INDEX_FETCH_TIMEOUT = 12        # seconds per archive.org source
-INDEX_FETCH_WORKERS = 6
 
 SETTINGS_FILE = "app_settings.json"
 
 FTP_SETTINGS_KEY = "ftp"
-DEFAULT_FTP_PORT = 21
-DEFAULT_FTP_USER = "xbox"
-DEFAULT_FTP_PASS = "xbox"
-DEFAULT_FTP_TIMEOUT = 15
 
-FTP_BLOCK_SIZE = 1024 * 1024
-
-DEFAULT_FTP_PARALLEL = 4
-MAX_FTP_PARALLEL = 4
-
-APP_VERSION = "1.83"
-UPDATE_MANIFEST_URL = "https://raw.githubusercontent.com/BmanGames024/bman-downloader/refs/heads/main/version.json"
-
-MIN_UPDATE_BYTES = 5 * 1024 * 1024
-
-DEFAULT_MAX_SEGMENTS = 128
-DEFAULT_MIN_SEGMENT_MB = 8
-DEFAULT_SEGMENT_MIN_FILE_MB = 16
-DEFAULT_MAX_RETRIES = 5
-DEFAULT_RETRY_BACKOFF = 1.5
 
 @dataclass(frozen=True)
 class DownloadSetting:
@@ -112,6 +116,11 @@ class DownloadSetting:
     unit: str = ""
     decimals: int = 0
 
+def _slider(key: str) -> dict:
+    minimum, maximum, step = DOWNLOAD_SETTING_RANGES[key]
+    return {"minimum": minimum, "maximum": maximum, "step": step}
+
+
 DOWNLOAD_SETTINGS = (
     DownloadSetting(
         key="max_segments", attr="max_segments",
@@ -120,7 +129,7 @@ DOWNLOAD_SETTINGS = (
                    "serves the item. archive.org throttles per connection AND per node, so with 2-3 "
                    "nodes in play 24-48 is usually where a gigabit line saturates. Past that you "
                    "start collecting 429s, which the retry backoff turns into slower downloads."),
-        minimum=1, maximum=128, step=1, default=DEFAULT_MAX_SEGMENTS,
+        **_slider("max_segments"), default=DEFAULT_MAX_SEGMENTS,
     ),
     DownloadSetting(
         key="min_segment_mb", attr="min_bytes_per_segment",
@@ -128,7 +137,7 @@ DOWNLOAD_SETTINGS = (
         help_text=("The file is cut into chunks of this size and connections pull from a shared "
                    "queue, so a slow node just takes fewer chunks instead of stalling the whole "
                    "file. Smaller = smoother balancing, more requests. 4-16 MB is the sweet spot."),
-        minimum=1, maximum=128, step=1, default=DEFAULT_MIN_SEGMENT_MB,
+        **_slider("min_segment_mb"), default=DEFAULT_MIN_SEGMENT_MB,
         scale=1024 * 1024, unit=" MB",
     ),
     DownloadSetting(
@@ -136,7 +145,7 @@ DOWNLOAD_SETTINGS = (
         label="Min file size to split",
         help_text=("Files smaller than this skip segmenting entirely and use one plain stream. "
                    "Splitting tiny files costs more in setup than it saves."),
-        minimum=1, maximum=256, step=1, default=DEFAULT_SEGMENT_MIN_FILE_MB,
+        **_slider("segment_min_file_mb"), default=DEFAULT_SEGMENT_MIN_FILE_MB,
         scale=1024 * 1024, unit=" MB",
     ),
     DownloadSetting(
@@ -144,57 +153,18 @@ DOWNLOAD_SETTINGS = (
         label="Retries per segment",
         help_text=("How many times a stalled or rate-limited segment is retried before the whole "
                    "download is failed. Raise it on a flaky connection."),
-        minimum=1, maximum=15, step=1, default=DEFAULT_MAX_RETRIES,
+        **_slider("max_retries"), default=DEFAULT_MAX_RETRIES,
     ),
     DownloadSetting(
         key="retry_backoff", attr="retry_backoff_base",
         label="Retry backoff",
         help_text=("Base seconds for the exponential wait between retries (attempt N waits "
                    "base x 2^N). Higher is gentler on archive.org and recovers better from 429s."),
-        minimum=0.5, maximum=5.0, step=0.5, default=DEFAULT_RETRY_BACKOFF,
+        **_slider("retry_backoff"), default=DEFAULT_RETRY_BACKOFF,
         unit="s", decimals=1,
     ),
 )
 
-ARCHIVE_SOURCES = {
-    "XBOX_360_XBLA": False,
-    "mxogcxpt2-xbox-ztm": False,
-    "mxogcxo": False,
-    "mxogcx-xbox-ztm": False,
-    "XBOX_360_1": True,
-    "XBOX_360_2": True,
-    "XBOX_360_3": True,
-    "XBOX_360_4": True,
-    "XBOX_360_5": True,
-    "XBOX_360_6": True,
-    "xbox_360_indie_games": False,
-    "XBOX_360_DLC_1": False,
-    "XBOX_360_DLC_2": False,
-    "XBOX_360_DLC_3": False,
-    "XBOX_360_DLC_4": False,
-    "XBOX_360_DLC_5": False,
-    "XBOX_360_DLC_6": False,
-    "XBOX_360_1_OTHER": True,
-    "total-miner-forge-v-2.5": False,
-    "castle-miner-z_202605": False,
-    "call-of-duty-black-ops-2-dlc-5": False,
-    "grand-theft-auto-v-god-format-with-dlc": False,
-    "Bman-Downloader-Extras": False,
-}
-
-CONTENT_SOURCES = frozenset({
-    "XBOX_360_XBLA",
-    "xbox_360_indie_games",
-    "XBOX_360_DLC_1",
-    "XBOX_360_DLC_2",
-    "XBOX_360_DLC_3",
-    "XBOX_360_DLC_4",
-    "XBOX_360_DLC_5",
-    "XBOX_360_DLC_6",
-    "castle-miner-z_202605",
-    "grand-theft-auto-v-god-format-with-dlc",
-    "total-miner-forge-v-2.5",
-})
 
 def is_content_source(identifier: str | None) -> bool:
     return bool(identifier) and identifier in CONTENT_SOURCES
@@ -251,7 +221,6 @@ def _prepare_core_dir() -> None:
 
 _prepare_core_dir()
 
-EXCLUDED_EXTENSIONS = (".xml", ".sqlite", ".torrent")
 
 def is_excluded_file(name: str) -> bool:
     return name.lower().endswith(EXCLUDED_EXTENSIONS)
@@ -420,9 +389,6 @@ def _force_dark_mode(mode_string: str = "Dark") -> None:
 
 ctk.set_appearance_mode = _force_dark_mode
 
-ARCHIVE_BASE_URL = "https://archive.org"
-ARCHIVE_S3_BASE_URL = "https://s3.us.archive.org"
-ARCHIVE_S3_KEYS_URL = "https://archive.org/account/s3.php"
 
 def is_archive_host(url: str) -> bool:
     try:
@@ -436,11 +402,6 @@ def is_archive_host(url: str) -> bool:
 # (github.com/BmanGames024/OG-Xbox-and-360-Cover-Art), see cover_repo_path.
 # MobCat's Original Xbox list is still used to know each OG game's other names.
 # ---------------------------------------------------------------------------
-OG_XBOX_SOURCES = frozenset({
-    "mxogcxpt2-xbox-ztm",
-    "mxogcxo",
-    "mxogcx-xbox-ztm",
-})
 
 _COVER_EXT_RE = re.compile(r"\.(rar|zip|7z|iso|god|tar|gz)$", re.IGNORECASE)
 _COVER_TAG_RE = re.compile(r"[\[\(][^\]\)]*[\]\)]")
@@ -521,7 +482,6 @@ def _cover_tokens(text: str) -> list[str]:
     return tokens
 
 
-
 def _cover_word_match(a: str, b: str) -> float:
     """1 for the same word, 0.9 for a near miss ("instinc"/"instinct", "strom"/"storm")."""
     if a == b:
@@ -580,20 +540,14 @@ def _save_cover_image(path: Path, data: bytes) -> None:
             pass
 
 
-
 # ----- OG Xbox names: MobCat's Original Xbox Title ID DB ----------------------
 # https://www.mobcat.zip/XboxIDs/ - its disc list (redump-xbox-info.json) knows every
 # OG disc's XMID and name, including the other names a game was sold under. File
 # names like "Elder.Scrolls.3.Morrowind.GOTY.Edition.USA.XBOX-ZTM.rar" are matched
 # to those names ("The Elder Scrolls III: Morrowind: Game of the Year Edition") by
 # their words; the XMID then finds the game's cover in the cover repo.
-MOBCAT_BASE_URL = "https://raw.githubusercontent.com/MobCat/MobCats-original-xbox-game-list/main"
 MOBCAT_INDEX_URL = f"{MOBCAT_BASE_URL}/redump-xbox-info.json"
 MOBCAT_INDEX_FILE = "mobcat_xbox_index.json"
-MOBCAT_INDEX_TTL_SECONDS = 7 * 24 * 60 * 60
-MOBCAT_OFFLINE_PAUSE = 2 * 60        # after a network failure, don't retry for a bit
-MOBCAT_TIMEOUT = 20
-MOBCAT_MIN_MATCH_SCORE = 0.75        # below this, no cover beats the wrong cover
 
 _MOBCAT_LOCK = threading.Lock()
 _MOBCAT_GAMES: list | None = None    # [(name, tokens, [xmid, ...] best disc first per category)]
@@ -666,9 +620,6 @@ def _mobcat_query(file_name: str) -> tuple[list[str], str]:
         else:
             break
     return _mobcat_tokens(" ".join(words)), regions
-
-
-MOBCAT_MAIN_TITLE_WEIGHT = 0.9     # "Blinx 2" for "Blinx 2: Masters of Time & Space"
 
 
 def _mobcat_alternatives(name: str) -> list[tuple[list[str], float, bool]]:
@@ -797,7 +748,6 @@ def mobcat_cover_xmids(file_name: str) -> list[str]:
     return [xmid for xmid, _ in sorted(game[2], key=rank)]
 
 
-
 # ----- Cover art: the BmanGames024 cover repo ----------------------------------
 # Every cover comes from one GitHub repo:
 #   Original Xbox Covers/<Name> (<TitleID>) (<XMID>).jpg   one per game
@@ -816,10 +766,6 @@ def mobcat_cover_xmids(file_name: str) -> list[str]:
 #     titles, translations, "Blinx 2: Battle of Time & Space"...) -> XMID ->
 #     title ID -> the repo's file. If that finds nothing, the same best-match
 #     word matching against the repo's OG names.
-COVER_REPO = "BmanGames024/OG-Xbox-and-360-Cover-Art"
-COVER_REPO_BRANCH = "main"
-COVER_REPO_OG_FOLDER = "Original Xbox Covers"
-COVER_REPO_360_FOLDER = "Xbox 360 Covers"
 COVER_REPO_TREE_URL = f"https://api.github.com/repos/{COVER_REPO}/git/trees/{COVER_REPO_BRANCH}?recursive=1"
 COVER_REPO_LIST_URL = f"https://data.jsdelivr.com/v1/packages/gh/{COVER_REPO}@{COVER_REPO_BRANCH}?structure=flat"
 COVER_REPO_IMAGE_URLS = (                    # tried in order
@@ -829,11 +775,6 @@ COVER_REPO_IMAGE_URLS = (                    # tried in order
 COVER_REPO_ALIASES = "aliases.json"         # other names for the covers (full titles, translations...)
 COVER_REPO_INDEX_FILE = "cover_repo_index.json"
 COVER_REPO_INDEX_VERSION = 2                 # bump when what's saved changes: older saved lists are re-downloaded
-COVER_REPO_INDEX_TTL_SECONDS = 24 * 60 * 60
-COVER_REPO_TIMEOUT = (5, 15)                 # (connect, read) seconds
-COVER_OFFLINE_PAUSE = 2 * 60                 # after a network failure, don't retry for a bit
-COVER_MIN_MATCH_SCORE = 0.01                 # as dbox: any title sharing a real word; the best wins
-COVER_NUMBER_MISMATCH = 0.85                 # "Halo 3" for "Halo 2" only if nothing better
 
 _COVER_LOCK = threading.Lock()
 _COVER_INDEX = None                          # _CoverRepoIndex, built on first use
@@ -1317,8 +1258,6 @@ def cover_warm_up() -> None:
 # ----- background prefetch -----------------------------------------------------
 # After a search, covers for the first results are fetched quietly so clicking
 # one shows its cover straight away. A new search cancels the old queue.
-COVER_PREFETCH_COUNT = 8
-COVER_PREFETCH_WORKERS = 2
 _PREFETCH_QUEUE: "queue.Queue" = queue.Queue()
 _PREFETCH_STARTED = False
 _PREFETCH_GEN = 0
@@ -1356,12 +1295,6 @@ def prefetch_covers(items: list[tuple[str, bool, bool]], replace: bool = True) -
         _PREFETCH_QUEUE.put((gen, name, og, dlc))
 
 
-SPOOF = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/124.0.0.0 Safari/537.36"
-)
-
 LOG_QUEUE: "queue.Queue" = queue.Queue()
 
 def log_event(message: str) -> None:
@@ -1372,7 +1305,6 @@ def log_event(message: str) -> None:
 # Everything printed (log_event, print, tracebacks) is also written to
 # logs/bman_<date>_<time>.log next to the app, one file per run.
 LOG_DIR = CORE_DIR / "logs"
-LOG_FILES_TO_KEEP = 30
 LOG_FILE_PATH: Path | None = None
 _LOG_FILE_LOCK = threading.Lock()
 _LOG_FILE_HANDLE = None
@@ -1458,9 +1390,6 @@ def start_file_logging() -> Path | None:
 
 start_file_logging()
 
-UI_PUMP_MS = 60
-UI_PUMP_BUDGET = 300
-UI_PENDING_CAP = 5000
 
 _UI_PENDING: "OrderedDict" = OrderedDict()
 _UI_LOCK = threading.Lock()
@@ -2078,11 +2007,6 @@ def refresh_games_against_index(collection: GameCollection, index) -> int:
     return matched
 
 
-
-COMMUNITY_REPO_OWNER = "BmanGames024"
-COMMUNITY_REPO_NAME = "bman-community"
-COMMUNITY_BRANCH = "main"
-
 COMMUNITY_INDEX_PATH = "/collections/index.json"
 COMMUNITY_ITEM_DIR = "collections"
 COMMUNITY_FORMAT = "bman-community-index"
@@ -2094,21 +2018,9 @@ COMMUNITY_RAW_BASE = (f"https://raw.githubusercontent.com/{COMMUNITY_REPO_OWNER}
 
 COMMUNITY_CACHE_FILE = "community_cache.json"
 COMMUNITY_LISTS_DIR = "community_lists"      # game lists already fetched, one file per shared collection
-COMMUNITY_CACHE_TTL_SECONDS = 5 * 60
 
-COMMUNITY_MAX_GAMES = 5000
-COMMUNITY_MAX_DESCRIPTION = 400
-COMMUNITY_MAX_NAME = 80
 
 COMMUNITY_SETTINGS_KEY = "community"
-COMMUNITY_TIMEOUT = 20
-
-
-COMMUNITY_TOKEN_PARTS = (
-    "github_pat_11AODNBHQ08ot3K0wdpd",
-    "Dt_bVRAxwrutgChJRlRdqbkxCxgSvPM",
-    "oturyTtn7yVi9yD6WCELRMWa06afIM5",
-)
 
 
 class CommunityError(Exception):
@@ -2740,9 +2652,7 @@ def ftp_parent(path: str) -> str:
 
 # Data-connection socket buffer. Python's default (64 KB on Windows) keeps too little
 # data in flight to the console; FileZilla uses large buffers too.
-FTP_SOCKET_BUFFER = 4 * 1024 * 1024
 # How long to wait for a passive data connection before falling back to active mode.
-FTP_PASSIVE_CONNECT_TIMEOUT = 5
 
 # Hosts where passive mode did not work this session; they use active mode instead.
 _FTP_ACTIVE_ONLY_HOSTS: set[str] = set()
@@ -3265,7 +3175,6 @@ def ftp_upload_tree(cfg: FtpConfig, local_root: Path, remote_root: str,
 
 TITLE_ID_DIR_RE = re.compile(r"^[0-9A-Fa-f]{8}$")
 
-CONTENT_SCAN_DEPTH = 6
 
 CONTENT_SCAN_DEPTH_HINTED = CONTENT_SCAN_DEPTH + 2
 
@@ -3402,13 +3311,10 @@ UPLOAD_KIND_LABELS = {
 
 NEEDS_CONVERT_MESSAGE = ("Convert to God or XEX first")
 
-FORCE_TITLE_ID_TO_CONTENT = True
 FORCED_CONTENT_KINDS = ("content", "god")
-FORCED_CONTENT_SUBPATH = ("Content", "0000000000000000")
 
 FTP_DRIVE_RE = re.compile(r"^(hdd\w*|usb\w*|mu\w*|intmu\w*|flash|memunit\w*|sfc\w*)$",
                           re.IGNORECASE)
-FTP_FALLBACK_DRIVE = "Hdd1"
 
 def _path_parts(path: str) -> list[str]:
     return [p for p in ftp_normalize_path(path).split("/") if p]
@@ -3504,15 +3410,12 @@ def upload_game_via_ftp(cfg: FtpConfig, game_dir: Path, remote_dir: str,
 HDD_SETTINGS_KEY = "hdd"
 HDD_STATE = {"online": False}
 
-HDD_POLL_MS = 20000
 
 HDD_LOCK = threading.Lock()
 
-HDD_MAX_NAME = 42
 
 # A game whose folder name is longer than this is given a shorter one before it is
 # uploaded (Xbox drive, ordinary drive or FTP). Kept a little under HDD_MAX_NAME on purpose.
-HDD_RENAME_AT = 40
 
 _HDD_NAME_BAD_CHARS_RE = re.compile(r"[^A-Za-z0-9 !#$%&'()\-.@\[\]^_`{}~+,;=]")
 _HDD_TRAILING_TAG_RE = re.compile(r"\s*[(\[][^()\[\]]*[)\]]\s*$")
@@ -3659,20 +3562,6 @@ def hdd_suggest_name(title: str, limit: int = HDD_RENAME_AT, taken=()) -> str:
     return candidate
 
 
-DEFAULT_HDD_PARALLEL = 4
-MAX_HDD_PARALLEL = 6
-
-HDD_BLOCK_SIZE = 1024 * 1024
-
-HDD_COMMON_PATHS = (
-    ("Root", "/"),
-    ("Content/0's", "/Content/0000000000000000")
-)
-HDD_COMMON_PATHS_NORMAL = (
-    ("Root", "/"),
-    ("Content/0's", "/Content/0000000000000000")
-)
-
 hdd_normalize_path = ftp_normalize_path
 hdd_join = ftp_join
 hdd_parent = ftp_parent
@@ -3681,8 +3570,6 @@ hdd_collect_files = ftp_collect_files
 
 HDD_MODE_FATX = "fatx"
 HDD_MODE_NORMAL = "normal"
-
-NORMAL_MAX_NAME = 255
 
 
 @dataclass
@@ -3754,7 +3641,6 @@ def save_hdd_config(cfg: HddConfig) -> None:
 
 def hdd_available() -> bool:
     return fatx360 is not None
-
 
 
 def _hdd_disk_number_from_device_id(device_id: str) -> int | None:
@@ -4345,7 +4231,6 @@ def upload_game_to_hdd(cfg: HddConfig, game_dir: Path, remote_dir: str,
 # which folder was picked: themes in 00030000, gamer pictures in 00020000.
 # ---------------------------------------------------------------------------
 
-CATALOG_CACHE_TTL_SECONDS = 7 * 24 * 60 * 60   # archive.org themes / gamer pictures: once a week
 CATALOG_CACHE_VERSION = 1
 CATALOG_ARCHIVE_SUFFIXES = (".zip", ".rar", ".7z")
 
@@ -4387,9 +4272,9 @@ class Catalog:
         return "Content\\0000000000000000\\" + THEME_TITLE_ID + "\\" + self.content_dir + "\\"
 
 
-THEME_CATALOG = Catalog("themes", "xbox_360_themes", "theme", "themes", "Themes",
+THEME_CATALOG = Catalog("themes", THEME_SOURCE, "theme", "themes", "Themes",
                         "themes_cache.json", THEME_CONTENT_TYPE_DIR)
-GAMERPIC_CATALOG = Catalog("gamerpics", "xbox_360_gamer_pictures", "gamer picture pack",
+GAMERPIC_CATALOG = Catalog("gamerpics", GAMERPIC_SOURCE, "gamer picture pack",
                            "gamer picture packs", "Gamer Pictures",
                            "gamerpics_cache.json", GAMERPIC_CONTENT_TYPE_DIR)
 CATALOGS = (THEME_CATALOG, GAMERPIC_CATALOG)
@@ -5119,13 +5004,9 @@ def upload_catalog_to_hdd(cfg: HddConfig, game_dir: Path, remote_dir: str = "",
 # go; a title's own page lists its picture IDs.
 # ---------------------------------------------------------------------------
 
-GAMERPICS_SITE = "https://xboxgamer.pics"
-GAMERPICS_ASSETS = "https://assets.xboxgamer.pics/titles"
 GAMERPICS_TITLES_API = f"{GAMERPICS_SITE}/api/titles.json"
 GAMERPICS_SITE_CACHE_FILE = "gamerpics_site_cache.json"
-GAMERPICS_SITE_TTL_SECONDS = 7 * 24 * 60 * 60
 GAMERPICS_TILE_ID = "8000"               # the title's tile, not a gamer picture
-GAMERPICS_IMAGE_CACHE_MAX = 800
 
 _GP_LOCK = threading.Lock()
 _GP_STATE: dict = {"titles": None, "titles_at": 0.0, "pics": {}, "loaded": False}
@@ -5352,14 +5233,9 @@ def fetch_gamerpic_image(url: str) -> bytes | None:
 # exactly as archive.org lists it is kept, because that is the one it serves.
 # ---------------------------------------------------------------------------
 
-WALLPAPER_SOURCE = "xbox360-theme-wallpapers-zip"
 WALLPAPER_CACHE_FILE = "theme_wallpapers_cache.json"
 WALLPAPER_CACHE_VERSION = 1
-WALLPAPER_TTL_SECONDS = 7 * 24 * 60 * 60
 WALLPAPER_THUMB_DIR = "theme_wallpaper_thumbs"
-WALLPAPER_THUMB_SIZE = (480, 270)        # kept on disk; the strip shows them smaller
-WALLPAPER_THUMB_DISK_MAX = 3000          # thumbnails kept on disk before the oldest go
-WALLPAPER_THUMB_MEMORY_MAX = 200
 
 # One row of archive.org's zip listing: <tr><td><a href="//archive.org/download/...">path</a><td>...
 _WALLPAPER_ROW_RE = re.compile(r'<tr><td><a href="([^"]+)">([^<]+)</a>', re.IGNORECASE)
@@ -5657,27 +5533,8 @@ def fetch_theme_wallpaper(url: str) -> bytes | None:
     return data
 
 
-DEFAULT_ACCENT = "#1F6AA5"
 ACCENT_SETTING_KEY = "accent_color"
 
-ACCENT_PRESETS = (
-    ("Default blue", "#1F6AA5"),
-    ("Sky", "#0284C7"),
-    ("Cyan", "#0891B2"),
-    ("Teal", "#0D9488"),
-    ("Emerald", "#15803D"),
-    ("Olive", "#4D7C0F"),
-    ("Amber", "#B45309"),
-    ("Orange", "#EA580C"),
-    ("Red", "#B91C1C"),
-    ("Rose", "#BE185D"),
-    ("Pink", "#DB2777"),
-    ("Purple", "#7C3AED"),
-    ("Violet", "#6D28D9"),
-    ("Indigo", "#4F46E5"),
-    ("Steel", "#475569"),
-    ("Graphite", "#52525B"),
-)
 
 def normalize_hex(value) -> str | None:
     if not isinstance(value, str):
@@ -5970,8 +5827,6 @@ def check_for_update(timeout: int = 10) -> dict | None:
                 session.close()
             except Exception:
                 pass
-
-UPDATE_DOWNLOAD_ATTEMPTS = 3
 
 
 class _UpdateRejected(Exception):
@@ -6506,7 +6361,6 @@ class Index:
             and search_text_matches(tokens, entry.name)
         ]
         
-ARCHIVE_METADATA_URL = "https://archive.org/metadata"
 
 _NODE_CACHE: dict = {}
 _NODE_CACHE_LOCK = threading.Lock()
@@ -6583,9 +6437,6 @@ PROCESSING_MARKER_NAME = ".bman_processing.json"
 # file. It is put in its title ID / content type folders as soon as it is extracted:
 #   extracted\<game>\584E07D2\00000002\<package>
 # Uploads then put the title ID folder in Content\0000000000000000\ on the console.
-INDIE_SOURCE = "xbox_360_indie_games"
-INDIE_TITLE_ID = "584E07D2"              # every XNA indie game; used when the zip name has none
-INDIE_CONTENT_TYPE = "00000002"
 _ZIP_TITLE_ID_RE = re.compile(r"_([0-9A-Fa-f]{8})_v\d+(?:\.\d+)*(?:_[0-9A-Fa-f]{40})?\.(?:zip|rar|7z)$",
                               re.IGNORECASE)
 
@@ -7713,6 +7564,5 @@ def reset_scrollable_frame(frame) -> None:
         frame.after_idle(_apply)
     except Exception:
         pass
-
 
 
